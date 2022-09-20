@@ -11,10 +11,10 @@ const Header = () => {
             <Link to='/'>
             <Container>
                 <Row id= 'banner'>
-                <Col className="col-7 col-md-4 float-start">
+                <Col className="col col-md-4 float-start">
                     <img id='classWithEitan' src={Banner} alt='Banner' />            
                 </Col>
-                <Col className="col-6 col-md-8 d-none d-lg-block">
+                <Col className="d-none d-lg-block">
                 <img id="logo" src={Logo} alt='September School logo'/>
                 </Col>
         

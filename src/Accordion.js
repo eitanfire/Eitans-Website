@@ -13,7 +13,7 @@ const Accordion = ({ icon, title, content, image }) => {
         }) */}
 {/* <CardImg>{icon}</CardImg> */}
       <CardTitle>{icon}{title}{image}
-      <span className='d-none d-lg-block d-xxl-none' id='openCloseSymbols' style={{ color: 'red' }}>{isActive ? ' 🪐' : ' 🚀'}</span>
+      <span className='d-none d-md-block d-xxl-none' id='openCloseSymbols' style={{ color: 'red' }}>{isActive ? ' 🪐' : ' 🚀'}</span>
       </CardTitle>
       </div>
       <Card>

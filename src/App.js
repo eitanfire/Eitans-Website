@@ -12,7 +12,7 @@ function App() {
   return (
 
     <div className="App">
-      <Header />
+      <Header className='col col-12'/>
       <Routes>
         <Route path='/' element={<HomePage />} />
         <Route path='read-more' element={<EitansIntro />} />
