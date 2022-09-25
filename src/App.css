@@ -62,7 +62,7 @@ img {
   /* margin-top: auto;
   margin-left: auto;
   margin-right: auto; */
-  margin-bottom: auto;
+  margin-bottom: 0rem;
   /* padding-left: 6px; */
   /* margin-right: 1px; */
   align-items: center;
@@ -426,7 +426,7 @@ a:active {
   /* align-items: stretch; */
   /* padding-left: 50px; */
   max-width: 180px;
-  height: flex;
+  height: 27rem;
 }
 
 #EitanInfoButtons {
