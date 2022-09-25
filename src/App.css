@@ -1,5 +1,5 @@
 body {
-   background-color: #d5dbdc;
+   /* background-color: white; */
    /* background-image: url("app/img/paper-wallpaper.png"); */
    
    font-family: "Times New Roman"
@@ -59,6 +59,10 @@ img {
   padding-top: 10px;
   /* padding-right: 6px; */
   padding-bottom: 5px;
+  /* margin-top: auto;
+  margin-left: auto;
+  margin-right: auto; */
+  margin-bottom: auto;
   /* padding-left: 6px; */
   /* margin-right: 1px; */
   align-items: center;
@@ -422,7 +426,7 @@ a:active {
   /* align-items: stretch; */
   /* padding-left: 50px; */
   max-width: 180px;
-  max-height: auto;
+  height: flex;
 }
 
 #EitanInfoButtons {
@@ -436,10 +440,10 @@ a:active {
   height: 200px; */
   /* padding-right: 500%; */
   /* padding-left: 50%; */
-  width: flex;
-  height: auto;
+  width: auto;
+  /* height: flex; */
   /* background-image: url('https://as2.ftcdn.net/v2/jpg/00/94/53/25/500_F_94532580_XwSK8I03t7oQY246gc6vdeU1wm6q2r8P.jpg'); */
-  margin-bottom: 2rem;
+  /* margin-bottom: 2rem; */
   margin-left: 2rem;
   /* border: 5px solid maroon; */
   /* height: 160px; */

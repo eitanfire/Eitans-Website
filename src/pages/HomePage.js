@@ -21,8 +21,6 @@ const HomePage = () => {
                         <Calendar />
                     </Col>
                 </Row>
-                <Col>
-                </Col>
             </Row>
         </Container>
     );
