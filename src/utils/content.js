@@ -8,7 +8,6 @@ export const accordionData = [
   {
     icon: <span className='icons'>📽</span>,
     title: <span ><span id='icon'>📽</span>  Film</span>,
-    // title:  ` Film`,
     image: <img className="classImage mx-auto d-none d-xxl-block" src={Film} alt='Film banner' />,
     content:
       < >
@@ -31,9 +30,7 @@ export const accordionData = [
             role='button'
             className='btn btn-light btn-link'
             href='https://classroom.google.com/c/NDk3NTAxMzY5NjMw/a/NDk3NTc1OTA5MDQx/details' target="_blank" rel="noopener noreferrer">
-            {/* <span style={{ color: 'white' }}> */}
               Honors & Extra Credit
-            {/* </span>           */}
             </a>
 
           <a
@@ -71,9 +68,7 @@ export const accordionData = [
             role='button'
             className='btn btn-light btn-link'
             href='https://classroom.google.com/c/NTM4NTIyMjY5MzUz/a/NDk4MDM2MTM2NDg5/details' target="_blank" rel="noopener noreferrer">
-            {/* <span style={{ color: 'white' }}> */}
               Honors & Extra Credit
-            {/* </span> */}
           </a>
 
           <a
@@ -112,9 +107,7 @@ export const accordionData = [
             role='button'
             className='btn btn-light btn-link'
             href='https://classroom.google.com/c/NDk3NTAxNDI0OTQz/a/NTQ0NDk3OTU4NDY4/details' target="_blank" rel="noopener noreferrer">
-            {/* <span style={{ color: 'white' }}> */}
               Honors & Extra Credit
-            {/* </span> */}
           </a>
 
           <a
@@ -127,13 +120,7 @@ export const accordionData = [
       </>
   },
   {
-    // title: `🧭`,
     title: <span ><span id='icon'>🧭</span>  Survive the World!</span>,
-    // title: <span><span style={{ color: 'red' }}>🧭</span>  Survive the World!</span>,
-    // icon: <span style={{ color: 'red' }}>🧭</span>,
-    // icon: <span style={{ color: 'red' }}>🧭</span>,
-    // Survive the World!,
-    // title: `Survive the World!`,
     image: <img className="classImage mx-auto d-none d-xxl-block" src={Survival} alt='Survive the World banner' />,
     content:
       < >
@@ -156,12 +143,7 @@ export const accordionData = [
             role='button'
             className='btn btn-light btn-link'
             href='https://classroom.google.com/c/NTI2MzY3MTY1NDY0/a/NDk4MDA2NTE2NDI2/details' target="_blank" rel="noopener noreferrer">
-            <span 
-            // id='plusPattern'
-            // style={{ color: 'white'}}
-            >
               Honors & Extra Credit
-            </span>
           </a>
 
           <a
