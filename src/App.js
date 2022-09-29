@@ -18,13 +18,12 @@ function App() {
         <Route path='read-more' element={<EitansIntro />} />
         <Route path='contact' element={<ContactForm />} />
       </Routes>
-      <div className='mt-4' >
+      <div className='mt-2' >
       <Footer />
       </div>
     </div>
 
   );
 }
-
 
 export default App;

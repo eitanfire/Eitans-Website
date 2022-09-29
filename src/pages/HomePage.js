@@ -17,7 +17,7 @@ const HomePage = () => {
                     ))}
                 </Col>
                 <Row >
-                    <Col className='col col-md-12 col-lg-11 col-xl-11 mt-4 '>
+                    <Col className='col col-md-12 col-lg-11 col-xl-11 mt-4'>
                         <Calendar />
                     </Col>
                 </Row>

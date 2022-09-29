@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.3bddc6ba.css",
-    "main.js": "/static/js/main.c9becc97.js",
+    "main.css": "/static/css/main.7d1e1ce1.css",
+    "main.js": "/static/js/main.ec6ef2d7.js",
     "static/js/787.24db1863.chunk.js": "/static/js/787.24db1863.chunk.js",
     "static/media/logo.jpg": "/static/media/logo.9916513064d897a34ed5.jpg",
     "static/media/Eitans-portfolio-page-picture.png": "/static/media/Eitans-portfolio-page-picture.c7b70a82fb20ae3dd39e.png",
@@ -11,12 +11,12 @@
     "static/media/film-banner.png": "/static/media/film-banner.300310f8805090954e42.png",
     "static/media/class-website-banner.png": "/static/media/class-website-banner.18ddd6400db9b1bafe5d.png",
     "index.html": "/index.html",
-    "main.3bddc6ba.css.map": "/static/css/main.3bddc6ba.css.map",
-    "main.c9becc97.js.map": "/static/js/main.c9becc97.js.map",
+    "main.7d1e1ce1.css.map": "/static/css/main.7d1e1ce1.css.map",
+    "main.ec6ef2d7.js.map": "/static/js/main.ec6ef2d7.js.map",
     "787.24db1863.chunk.js.map": "/static/js/787.24db1863.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3bddc6ba.css",
-    "static/js/main.c9becc97.js"
+    "static/css/main.7d1e1ce1.css",
+    "static/js/main.ec6ef2d7.js"
   ]
 }
