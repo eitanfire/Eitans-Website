@@ -104,6 +104,9 @@ img {
 #Footer {
   padding-top: 20px;
   text-align: center;  
+  background-image: linear-gradient(#cec8ff, white);
+  padding: 20px 0;
+  margin-top: 2rem;
 }
 
 #rainbowText {
