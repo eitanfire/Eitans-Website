@@ -202,16 +202,22 @@ img {
 
  #stwColor {
 
-  background: radial-gradient(circle,
+  background: 
+  /* radial-gradient(circle,
       #00FF7F	 25%,
-      rgb(255, 255, 255) 100%);
+      rgb(255, 255, 255) 100%); */
+
+      radial-gradient(ellipse at top, #ec008c, transparent),
+      radial-gradient(ellipse at bottom, #fc6767, transparent);
+
       background-size: 200px;
       background-image: url('https://image.shutterstock.com/image-vector/seamless-pattern-survival-people-surviving-600w-500423134.jpg');
      }
   
      #stwColor::before {    
       content: "";
-      background: radial-gradient(circle,
+      background: 
+      radial-gradient(circle,
       #00FF7F	 25%,
       rgb(255, 255, 255) 100%);
       background-size: cover;
@@ -292,5 +298,5 @@ a:active {
 	/* color: transparent; */
   color: black;
 	/* background-image: url('https://i.ebayimg.com/images/g/WvkAAOSwMDZjIDyF/s-l500.png'); */
-  -webkit-text-stroke: .006rem white;
+  -webkit-text-stroke: .009rem lightgreen;
 }
