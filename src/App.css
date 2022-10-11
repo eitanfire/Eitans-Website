@@ -106,22 +106,17 @@ img {
 .footer {
   border-top: 1px solid #000;
   border-bottom: 1px solid #000;
-  opacity: .65;
-  border-top: 1px solid #000;
-  border-bottom: 1px solid #000;
+  opacity: .85;
   background: url('https://image.shutterstock.com/image-vector/traditional-indian-paisley-pattern-on-600w-1726867504.jpg') no-repeat,
   linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.3)),
-  radial-gradient(#fc6767,#ec008c
-  /* #77A1D3,  */
-  );
-  /* padding-top: 200px; */
-  text-align: center;  
-  /* background-image:  */
-  padding: 20px 0;
+  radial-gradient(ellipse at top, #ec008c, transparent),
+  radial-gradient(ellipse at bottom, #fc6767, transparent);
+  /* padding: 20px 0; */
   margin-top: 2rem;
-  width: 105%;
-  /* margin-bottom: -10rem; */
-  /* margin-left:flex; */
+  margin-bottom: -2rem;
+  /* width: 115%; */
+  /* margin-bottom: -8rem; */
+  text-align: center;
 }
 
 #rainbowText {
@@ -289,4 +284,13 @@ a:active {
 #eitansProfilePic {
   width: auto;
   margin-left: 2rem;
+}
+
+#shine {font-weight: 700;
+	background-clip: text;
+	-webkit-background-clip: text;
+	/* color: transparent; */
+  color: black;
+	/* background-image: url('https://i.ebayimg.com/images/g/WvkAAOSwMDZjIDyF/s-l500.png'); */
+  -webkit-text-stroke: .006rem white;
 }
