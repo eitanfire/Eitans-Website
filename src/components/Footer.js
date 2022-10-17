@@ -8,8 +8,7 @@ const Footer = () => {
     <span id='nameAndYear'>©2022&nbsp;
     Eitan Fire</span>
         <span style={{color: '#00008B'}}> ⎸</span>
-        <span id='shine'>&nbsp;A<span> 🌍 </span> 
-        <span >Class Experience!</span>
+        <span id='shine'>&nbsp;A 🌍 Class Experience!
     </span>
 {/* </span> */}
 {/* <span style={{color: 'transparent'}}>Eitan Fire</span> */}

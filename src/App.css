@@ -104,7 +104,7 @@ img {
 }
 
 .footer {
-  text-indent: 6em;
+  text-indent: 7em;
   border-top: 1px solid #000;
   border-bottom: 1px solid #000;
   opacity: .85;
@@ -117,9 +117,11 @@ img {
   margin-bottom: -2rem;
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
+  margin-right: -11rem;
   /* width: 115%; */
   /* margin-bottom: -8rem; */
   text-align: center;
+  font-size: larger;
 }
 
 /* #nameAndYear {
@@ -144,19 +146,28 @@ screen and
   /* }
 } */
 
-/* @media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
   .footer {
-    color: olive;
-    -webkit-text-stroke: 1px black;
+    /* opacity: .5; */
+    font-size: large;
   }
-} */
+}
+
+@media screen and (max-width: 700px) {
+  .footer {
+    /* opacity: .5; */
+    /* background: url('https://image.shutterstock.com/image-vector/traditional-indian-paisley-pattern-on-600w-1726867504.jpg') repeat */
+  }
+}
 
 @media all and (max-width: 1260px) {
 .footer {
-  color: black;
-  font-size: larger;
-  -webkit-text-stroke: .01rem #ec008c;
-  ;
+  /* color: black; */
+  /* -webkit-text-stroke: .01rem #ec008c; */
+  background:
+  linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.3)),
+  radial-gradient(ellipse at top, #ec008c, transparent),
+  radial-gradient(ellipse at bottom, #fc6767, transparent);
   }
 }
 
