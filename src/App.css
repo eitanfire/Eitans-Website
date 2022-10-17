@@ -104,6 +104,7 @@ img {
 }
 
 .footer {
+  text-indent: 6em;
   border-top: 1px solid #000;
   border-bottom: 1px solid #000;
   opacity: .85;
@@ -112,11 +113,51 @@ img {
   radial-gradient(ellipse at top, #ec008c, transparent),
   radial-gradient(ellipse at bottom, #fc6767, transparent);
   /* padding: 20px 0; */
-  margin-top: 2rem;
+  margin-top: 1.25rem;
   margin-bottom: -2rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
   /* width: 115%; */
   /* margin-bottom: -8rem; */
   text-align: center;
+}
+
+/* #nameAndYear {
+  color: yellow;
+} */
+
+/* @media
+screen and 
+ (max-width: 300px) {
+  #nameAndYear {
+
+    font-weight: 700;
+    background-clip: text;
+    -webkit-background-clip: text;
+    /* color: transparent; */
+    /* color: black; */
+    /* background-image: url('https://i.ebayimg.com/images/g/WvkAAOSwMDZjIDyF/s-l500.png'); */
+    /* -webkit-text-stroke: .009rem lightgreen; */
+
+    /* color: 'black;';
+    background-color: 'green'; */
+  /* }
+} */
+
+/* @media screen and (max-width: 600px) {
+  .footer {
+    color: olive;
+    -webkit-text-stroke: 1px black;
+  }
+} */
+
+@media all and (max-width: 1260px) {
+.footer {
+  color: black;
+  font-size: larger;
+  -webkit-text-stroke: .01rem #ec008c;
+  ;
+  }
 }
 
 #rainbowText {
@@ -292,7 +333,8 @@ a:active {
   margin-left: 2rem;
 }
 
-#shine {font-weight: 700;
+#shine {
+  font-weight: 700;
 	background-clip: text;
 	-webkit-background-clip: text;
 	/* color: transparent; */

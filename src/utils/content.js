@@ -30,8 +30,8 @@ export const accordionData = [
             role='button'
             className='btn btn-light btn-link'
             href='https://classroom.google.com/c/NDk3NTAxMzY5NjMw/a/NDk3NTc1OTA5MDQx/details' target="_blank" rel="noopener noreferrer">
-              Honors & Extra Credit
-            </a>
+            Honors & Extra Credit
+          </a>
 
           <a
             role='button'
@@ -68,7 +68,7 @@ export const accordionData = [
             role='button'
             className='btn btn-light btn-link'
             href='https://classroom.google.com/c/NTM4NTIyMjY5MzUz/a/NDk4MDM2MTM2NDg5/details' target="_blank" rel="noopener noreferrer">
-              Honors & Extra Credit
+            Honors & Extra Credit
           </a>
 
           <a
@@ -107,7 +107,7 @@ export const accordionData = [
             role='button'
             className='btn btn-light btn-link'
             href='https://classroom.google.com/c/NDk3NTAxNDI0OTQz/a/NTQ0NDk3OTU4NDY4/details' target="_blank" rel="noopener noreferrer">
-              Honors & Extra Credit
+            Honors & Extra Credit
           </a>
 
           <a
@@ -143,7 +143,7 @@ export const accordionData = [
             role='button'
             className='btn btn-light btn-link'
             href='https://classroom.google.com/c/NTI2MzY3MTY1NDY0/a/NDk4MDA2NTE2NDI2/details' target="_blank" rel="noopener noreferrer">
-              Honors & Extra Credit
+            Honors & Extra Credit
           </a>
 
           <a
