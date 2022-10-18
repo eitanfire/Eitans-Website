@@ -6,15 +6,15 @@ const Accordion = ({ icon, title, content, image }) => {
   return (
     <div className="accordion-item">
       <div className="accordion-title" onClick={() => setIsActive(!isActive)}>
-      <CardTitle>{icon}{title}{image}
-      <span className='d-none d-md-block d-xxl-none' id='openCloseSymbols' style={{ color: 'red' }}>{isActive ? ' 🪐' : ' 🚀'}</span>
-      </CardTitle>
+        <CardTitle>{icon}{title}{image}
+          <span className='d-none d-md-block d-xxl-none' id='openCloseSymbols' style={{ color: 'red' }}>{isActive ? ' 🪐' : ' 🚀'}</span>
+        </CardTitle>
       </div>
       <Card>
-      <CardBody className="accordion-content-theme">
-      {isActive && <div className="accordion-content" >{content}
-      </div>}
-      </CardBody>
+        <CardBody className="accordion-content-theme">
+          {isActive && <div className="accordion-content" >{content}
+          </div>}
+        </CardBody>
       </Card>
     </div>
   );

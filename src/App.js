@@ -12,14 +12,14 @@ function App() {
   return (
 
     <div className="App">
-      <Header className='col col-12'/>
+      <Header className='col col-12' />
       <Routes>
         <Route path='/' element={<HomePage />} />
         <Route path='read-more' element={<EitansIntro />} />
         <Route path='contact' element={<ContactForm />} />
       </Routes>
       <div>
-      <Footer className='col col-9'/>
+        <Footer className='col col-9' />
       </div>
     </div>
 
