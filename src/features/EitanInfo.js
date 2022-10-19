@@ -21,14 +21,14 @@ const EitanInfo = () => {
                                  />
                             </Col>
                             <Col className='col-xl-2'>
-                            <Button className='btn border border-4 btn-light mb-10 mt-4 btn-link offset-1'>
+                            <Button className='EitanInfoButtons border btn-light'>
                                 <Link to='/contact'>
                                     <h3 id='rainbowText'>Contact</h3>
                                 </Link>
                             </Button>
                             </Col>
                             <Col>
-                            <Button id='EitanInfoButtons' className='btn border border-4 mb-4 mt-4 btn-link'>
+                            <Button id='' className='EitanInfoButtons btn border btn-light border-4 mb-4 mt-4 btn-link'>
                                 <Link to='/read-more'>
                                 <h3 id='rainbowText'>Read about Eitan</h3>
                                     {/* <img className="offset-md-2" src={readMore} alt='Read about Eitan' /> */}

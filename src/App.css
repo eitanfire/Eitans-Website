@@ -126,7 +126,7 @@ img {
   font-size: larger;
   /* https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Backgrounds_and_Borders/Resizing_background_images */
   /* background-size: contain;*/
-  width: 160px;
+  /* width: 160px; */
   /* height: 160px;
   border: 2px solid;
   color: pink;
@@ -136,6 +136,7 @@ img {
 
 @media screen and (max-width: 500px) {
   .footer {
+    text-indent: -5em;
     /* opacity: .5; */
     font-size: large;
   }
@@ -143,6 +144,7 @@ img {
 
 @media all and (max-width: 1260px) {
   .footer {
+    text-indent: -10em;
     background:
       linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)),
       radial-gradient(ellipse at top, #ec008c, transparent),
@@ -315,9 +317,10 @@ a:active {
   
 }
 
-#EitanInfoButtons {
+.EitanInfoButtons {
   position: relative;
-  max-width: 150px;
+  margin-top: 1rem;
+  margin-left: .5rem;
 }
 
 #eitansProfilePic {
