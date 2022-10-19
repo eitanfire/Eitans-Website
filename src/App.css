@@ -124,6 +124,14 @@ img {
   margin-right: -11rem;
   text-align: center;
   font-size: larger;
+  /* https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Backgrounds_and_Borders/Resizing_background_images */
+  /* background-size: contain;*/
+  width: 160px;
+  /* height: 160px;
+  border: 2px solid;
+  color: pink;
+  resize: both;
+  overflow: scroll; */
 }
 
 @media screen and (max-width: 500px) {
@@ -132,11 +140,6 @@ img {
     font-size: large;
   }
 }
-
-/* @media screen and (max-width: 700px) {
-  .footer {
-    }
-} */
 
 @media all and (max-width: 1260px) {
   .footer {
@@ -307,6 +310,9 @@ a:active {
 #EitanInfoBox {
   max-width: 180px;
   height: 27rem;
+  /* border-color: tansparent; */
+  /* border: 2px solid transparent; */
+  
 }
 
 #EitanInfoButtons {
@@ -315,8 +321,18 @@ a:active {
 }
 
 #eitansProfilePic {
-  width: auto;
+  /* width: auto; */
   margin-left: 2rem;
+
+  background-size: contain;
+  /* width: 160px; */
+  /* height: 160px; */
+  border: .2rem solid transparent;
+  background-image: url('https://as2.ftcdn.net/v2/jpg/00/94/53/25/500_F_94532580_XwSK8I03t7oQY246gc6vdeU1wm6q2r8P.jpg');
+  background-size: 100rem;
+  resize: both;
+  overflow: scroll;
+
 }
 
 #shine {
@@ -325,4 +341,9 @@ a:active {
   -webkit-background-clip: text;
   color: black;
   -webkit-text-stroke: .009rem lightgreen;
+}
+
+#nameAndYear {
+  color: #70c3a5;
+  
 }

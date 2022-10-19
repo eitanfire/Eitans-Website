@@ -28,7 +28,7 @@ const EitanInfo = () => {
                             </Button>
                             </Col>
                             <Col>
-                            <Button id='EitanInfoButtons' className='btn border border-4 mb-4 mt-4 btn-light btn-link'>
+                            <Button id='EitanInfoButtons' className='btn border border-4 mb-4 mt-4 btn-link'>
                                 <Link to='/read-more'>
                                 <h3 id='rainbowText'>Read about Eitan</h3>
                                     {/* <img className="offset-md-2" src={readMore} alt='Read about Eitan' /> */}
