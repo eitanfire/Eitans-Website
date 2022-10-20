@@ -41,6 +41,7 @@ width: flex;
 }
 
 .accordion {
+  /* margin: auto; */
   background-image: url('https://as2.ftcdn.net/v2/jpg/00/94/53/25/500_F_94532580_XwSK8I03t7oQY246gc6vdeU1wm6q2r8P.jpg');
   padding-top: 10px;
   padding-bottom: 5px;
@@ -105,6 +106,11 @@ width: flex;
   text-align: center;
   float: right;
   margin-top: .5%;
+  /* border: .2rem solid transparent;
+  background-image: url('https://as2.ftcdn.net/v2/jpg/00/94/53/25/500_F_94532580_XwSK8I03t7oQY246gc6vdeU1wm6q2r8P.jpg');
+  background-size: 100rem; */
+  /* padding-right: 1%; */
+  border: .2rem double maroon;
   /* height: auto; */
 }
 
@@ -132,7 +138,7 @@ width: flex;
   font-size: larger;
   /* https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Backgrounds_and_Borders/Resizing_background_images */
   /* background-size: contain;*/
-  width:100%;
+  width:auto;
   /* height: 160px;
   border: 2px solid;
   color: pink;
