@@ -9,7 +9,6 @@ const EitanInfo = () => {
     return (
         <Card>
             <CardBody 
-            // id='infoCard'
              className='responsive'>
                 <Container className='border border-4 border-danger' id='EitanInfoBox'>
                     <Row className='mx-flex'>
@@ -31,7 +30,6 @@ const EitanInfo = () => {
                             <Button id='' className='EitanInfoButtons btn border btn-light border-4 mb-4 mt-4 btn-link'>
                                 <Link to='/read-more'>
                                 <h3 id='rainbowText'>Read about Eitan</h3>
-                                    {/* <img className="offset-md-2" src={readMore} alt='Read about Eitan' /> */}
                                 </Link>
                             </Button>
                             </Col>
