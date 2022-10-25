@@ -53,7 +53,6 @@ img {
 } */
 
 .accordion-title {
-
   font-size: 50px;
   font-weight: 700;
   background-clip: text;
@@ -92,11 +91,18 @@ img {
   -webkit-text-stroke: 1px rgb(9, 3, 90);
   text-align: center;
   font-size: 200%;
+  /* transform: translateY(-200px); */
+
 }
+
+/* .accordion-content:after {
+  transition:  all 1s ease-out;
+} */
 
 .ContactForm {
   display: block;
-  width: 45%;
+  /* width: 45%; */
+  width:min-content;
   height: 100%;
   margin: auto;
   background-color: rgb(129, 59, 59);
@@ -135,7 +141,7 @@ img {
   margin-right: -11rem;
   text-align: center;
   font-size: larger;
-  width: auto;
+  width: 100%;
 }
 
 @media screen and (max-width: 500px) {
