@@ -7,6 +7,7 @@ import EitansIntro from './pages/EitansIntro';
 import ContactForm from './pages/ContactForm';
 import HomePage from './pages/HomePage';
 import Footer from './components/Footer';
+import Modal from './components/Modal';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
     <div className="App">
       <Header className='col col-12' />
       <Routes>
+        {/* <Route path='modal' element={<Modal />}/> */}
         <Route path='/' element={<HomePage />} />
         <Route path='read-more' element={<EitansIntro />} />
         <Route path='contact' element={<ContactForm />} />
