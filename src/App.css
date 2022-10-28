@@ -103,7 +103,7 @@ img {
 .ContactForm {
   display: block;
   /* width: 45%; */
-  width:min-content;
+  width: min-content;
   height: 100%;
   margin: auto;
   background-color: rgb(129, 59, 59);
@@ -362,12 +362,12 @@ a:active {
   justify-content: center;
   opacity: 0;
   transition: all 0.3s ease-in-out;
-  pointer-events:none;
+  pointer-events: none;
 }
 
 .modal.show {
-opacity: 1;
-pointer-events: visible;
+  opacity: 1;
+  pointer-events: visible;
 }
 
 .modal-content {
@@ -381,7 +381,8 @@ pointer-events: visible;
   transform: translateY(0);
 }
 
-.modal-header, .modal-footer {
+.modal-header,
+.modal-footer {
   padding: 10px;
 }
 
