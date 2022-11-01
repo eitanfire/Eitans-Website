@@ -4,7 +4,7 @@ import { Col, Row, Container } from 'reactstrap';
 import Eitan from '../app/img/Eitans-portfolio-page-picture.png';
 import { Link } from 'react-router-dom';
 import { Button, Card, CardBody } from 'reactstrap';
-import Modal from '../components/Modal';
+// import Modal from '../components/Modal';
 
 const EitanInfo = () => {
     const [show, setShow] = useState(false)
@@ -14,12 +14,12 @@ const EitanInfo = () => {
              className='responsive'>
                 <Container className='border border-4 border-danger' id='EitanInfoBox'>
                     <Row className='mx-flex'>
-                        <Col>
+                        {/* <Col>
                         <button onClick={() => setShow(true)}>Show Modal</button>
         <Modal title="My Modal" onClose={() => setShow(false)} show={show}>
           <p>This is modal body</p>
         </Modal>
-                        </Col>
+                        </Col> */}
                         <Col  >
                             <Col className='col col-lg-9 col-xl-7 col-xxl-6'>
                                 <img id='eitansProfilePic' className="d-flex
