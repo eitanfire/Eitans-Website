@@ -12,8 +12,8 @@ const HomePage = () => {
                     <EitanInfo />
                 </Col>
                 <Col className="accordion col-12 col-lg-9 ">
-                    {accordionData.map(({ title, content, image }) => (
-                        <Accordion title={title} content={content} image={image} />
+                    {accordionData.map(({ title, content, image, id }) => (
+                        <Accordion title={title} content={content} image={image} key={id} />
                     ))}
                 </Col>
                 <Row >
