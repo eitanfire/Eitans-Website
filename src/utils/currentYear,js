@@ -1,4 +1,0 @@
-const currentYear = new Date();
-let year = d.getFullYear();
-
-export default currentYear;
