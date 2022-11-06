@@ -7,7 +7,7 @@ import { Button, Card, CardBody } from 'reactstrap';
 // import Modal from '../components/Modal';
 
 const EitanInfo = () => {
-    const [show, setShow] = useState(false)
+    // const [show, setShow] = useState(false)
     return (
         <Card>
             <CardBody 

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Card, CardBody, CardTitle } from 'reactstrap';
 
-const Accordion = ({ icon, title, content, image, id, current }) => {
+const Accordion = ({ icon, title, content, image, id }) => {
   const [isActive, setIsActive] = useState(false);
   return (
      <div className="accordion-item">
