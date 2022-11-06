@@ -7,7 +7,7 @@ import '../App.css';
 export const accordionData = [
   {
     id: 0,
-    current: false,
+    current: true,
     icon: <span className='icons'>📽</span>,
     title: <span ><span id='icon'>📽</span>  Film</span>,
     image: <img className="classImage mx-auto d-none d-xxl-block" src={Film} alt='Film banner' />,
