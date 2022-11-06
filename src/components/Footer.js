@@ -1,5 +1,6 @@
 import React from 'react';
 import '../App.css';
+// import {year} from './src/utils/currentYear.js';
 
 const Footer = () => {
     const d = new Date();
