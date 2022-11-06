@@ -7,7 +7,7 @@ import EitansIntro from './pages/EitansIntro';
 import ContactForm from './pages/ContactForm';
 import HomePage from './pages/HomePage';
 import Footer from './components/Footer';
-import Modal from './components/Modal';
+// import Modal from './components/Modal';
 
 function App() {
   return (
