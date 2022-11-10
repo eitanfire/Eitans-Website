@@ -1,9 +1,8 @@
 import { Card, CardBody } from 'reactstrap';
 import { Col, Row, Container } from 'reactstrap';
+import year from "../utils/currentYear.js";
 
 const EitansIntro = () => {
-    const d = new Date();
-    let year = d.getFullYear();
     return (
         < Container id='infoCard'>
             <Card>

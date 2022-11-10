@@ -1,4 +1,4 @@
-// const d = new Date();
-// let year = d.getFullYear();
+const d = new Date();
+let year = d.getFullYear();
 
-// export default d;
+export default year;

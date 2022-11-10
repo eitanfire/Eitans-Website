@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.353100b1.css",
-    "main.js": "/static/js/main.c3f59b31.js",
+    "main.css": "/static/css/main.80e7a5b7.css",
+    "main.js": "/static/js/main.eb5485cd.js",
     "static/media/logo.jpg": "/static/media/logo.9916513064d897a34ed5.jpg",
     "static/media/Eitans-portfolio-page-picture.png": "/static/media/Eitans-portfolio-page-picture.c7b70a82fb20ae3dd39e.png",
     "static/media/survive-the-world-banner.png": "/static/media/survive-the-world-banner.354b7ac1843fe865442c.png",
@@ -10,11 +10,11 @@
     "static/media/film-banner.png": "/static/media/film-banner.300310f8805090954e42.png",
     "static/media/class-website-banner.png": "/static/media/class-website-banner.18ddd6400db9b1bafe5d.png",
     "index.html": "/index.html",
-    "main.353100b1.css.map": "/static/css/main.353100b1.css.map",
-    "main.c3f59b31.js.map": "/static/js/main.c3f59b31.js.map"
+    "main.80e7a5b7.css.map": "/static/css/main.80e7a5b7.css.map",
+    "main.eb5485cd.js.map": "/static/js/main.eb5485cd.js.map"
   },
   "entrypoints": [
-    "static/css/main.353100b1.css",
-    "static/js/main.c3f59b31.js"
+    "static/css/main.80e7a5b7.css",
+    "static/js/main.eb5485cd.js"
   ]
 }

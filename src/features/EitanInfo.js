@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+// import React, { useState } from 'react';
 import '../App.css';
 import { Col, Row, Container } from 'reactstrap';
 import Eitan from '../app/img/Eitans-portfolio-page-picture.png';
@@ -24,7 +24,7 @@ const EitanInfo = () => {
                             <Col className='col col-lg-9 col-xl-7 col-xxl-6'>
                                 <img id='eitansProfilePic' className="d-flex
                                  mt-3 responsive" 
-                                 src={Eitan} alt='Eitans profile picture' 
+                                 src={Eitan} alt='Eitans profile' 
                                  />
                             </Col>
                             <Col className='col-xl-2'>

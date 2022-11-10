@@ -162,5 +162,44 @@ export const accordionData = [
         </div>
       </>
 
+  },
+  {
+    id: 4,
+    current: false,
+    title: <span ><span id='icon'>🧭</span> Survive the World!</span>,
+    image: <img className="classImage mx-auto d-none d-xxl-block" src={Survival} alt='Survive the World banner' />,
+    content:
+      < >
+        <div id='stwColor'>
+          <a
+            role='button'
+            className='btn btn-light btn-link'
+            href='https://classroom.google.com/c/NTI2MzY3MTY1NDY0/a/NTAzNDQ1NTEwODQ2/details' target="_blank" rel="noopener noreferrer">
+            ✏️ Warm-Up Questions for Survive the World!
+          </a>
+
+          <a
+            role='button'
+            className='btn btn-light btn-link'
+            href='https://classroom.google.com/u/1/c/NTI2MzY3MTY1NDY0' target="_blank" rel="noopener noreferrer">
+            📚 Classroom Page
+          </a>
+
+          <a
+            role='button'
+            className='btn btn-light btn-link'
+            href='https://classroom.google.com/c/NTI2MzY3MTY1NDY0/a/NDk4MDA2NTE2NDI2/details' target="_blank" rel="noopener noreferrer">
+            Honors & Extra Credit
+          </a>
+
+          <a
+            role='button'
+            className='btn btn-light btn-link'
+            href='https://docs.google.com/document/d/1TdTq_k_Nu9NzwealS8cJjohWcGZoSXSDdl4LHLXUm5Y/edit?usp=sharing' target="_blank" rel="noopener noreferrer">
+            Course Description
+          </a>
+        </div>
+      </>
+
   }
 ];
