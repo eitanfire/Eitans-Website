@@ -4,6 +4,8 @@ import { Col, Row, Container } from 'reactstrap';
 import Eitan from '../app/img/Eitans-portfolio-page-picture.png';
 import { Link } from 'react-router-dom';
 import { Button, Card, CardBody } from 'reactstrap';
+import Time from "../components/Time";
+
 // import Modal from '../components/Modal';
 
 const EitanInfo = () => {
