@@ -22,7 +22,7 @@ const Time = () => {
           </Col> */}
           <Row>
           <Col>
-            <span>It's a{aDayBDay} day</span>
+          <span>It's a{aDayBDay} day</span>
           </Col>
           </Row>
           {/* <Col>
