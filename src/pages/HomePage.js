@@ -17,9 +17,8 @@ const HomePage = () => {
         <Time />
         </Col> */}
         <Col>
-        <Time className='time  d-xs-none d-sm-block col-lg-3 d-lg-block d-xxl-block'/>
-        <EitanInfo className='eitanInfo d-none col-6 d-none col-lg-1 d-lg-block d-xxl-block-2'/>
-
+        <Time className='time d-sm-block col-lg-3 d-lg-block d-xxl-block'/>
+        <EitanInfo className='eitanInfo col-6 d-none col-lg-1 d-lg-block d-xxl-block-2'/>
         </Col>
         <Col className="accordion col-8 col-lg-9 ">
           {accordionData.map(
