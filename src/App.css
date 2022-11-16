@@ -215,7 +215,8 @@ img {
   }
 }
 
-#rainbowText {
+ #rainbowText {
+  /* font-size:large ; */
   font-weight: 700;
   background-clip: text;
   -webkit-background-clip: text;
@@ -367,7 +368,7 @@ a:active {
   background-size: 100rem;
 }
 
-#shine {
+.time, #shine {
   font-weight: 700;
   background-clip: text;
   -webkit-background-clip: text;
