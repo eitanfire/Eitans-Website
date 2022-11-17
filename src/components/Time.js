@@ -8,7 +8,9 @@ import '../App.css';
 
 const Time = () => {
   return (
-  <Container className="time col col-lg-9 col-xl-7 col-xxl-2">
+  <Container 
+  className="time"
+  >
     <Card >
       <CardBody>
         {/* <Row>
@@ -16,13 +18,13 @@ const Time = () => {
             <span>Today is {weekday}</span>
           {/* </Col>
           </Row> */}
-          <br></br>
+          {/* <br></br> */}
           {/* <Col>
             <span className="time">The date is {date}</span>
           </Col> */}
           {/* <Row>
           <Col> */}
-          <span>It's a{aDayBDay} day</span>
+          <span> It's a{aDayBDay} day</span>
           {/* </Col>
           </Row> */}
           {/* <Col>
@@ -33,5 +35,4 @@ const Time = () => {
   </Container>
   );
 };
-
 export default Time;

@@ -13,8 +13,11 @@ const EitanInfo = () => {
     return (
         <Card>
             <CardBody 
-             className='responsive'>
-                <Container className='border border-4 border-danger' id='EitanInfoBox'>
+             className='d-none d-lg-block'
+             >
+                <Container 
+                // className='border border-1 border-danger d-block' 
+                id='EitanInfoBox'>
                     <Row className='mx-flex'>
                         {/* <Col>
                         <button onClick={() => setShow(true)}>Show Modal</button>
@@ -23,11 +26,13 @@ const EitanInfo = () => {
         </Modal>
                         </Col> */}
                         <Col  >
-                            <Col className='col col-lg-9 col-xl-7 col-xxl-6'>
-                                <img id='eitansProfilePic' className="d-flex
+                            <Col
+                            // col-none col-md-9 col-xl-7 col-xxl-6'
+                            >
+                                {/* <img id='eitansProfilePic' className="d-flex
                                  mt-3 responsive" 
                                  src={Eitan} alt='Eitans profile' 
-                                 />
+                                 /> */}
                             </Col>
                             <Col className='col-xl-2'>
                             <Button className='EitanInfoButtons border btn-light'>
@@ -37,7 +42,7 @@ const EitanInfo = () => {
                             </Button>
                             </Col>
                             <Col>
-                            <Button id='' className='EitanInfoButtons btn border btn-light border-4 mb-4 mt-4 btn-link'>
+                            <Button id='' className='EitanInfoButtons border btn-light'>
                                 <Link to='/read-more'>
                                 <h3 id='rainbowText'>Read about Eitan</h3>
                                 </Link>

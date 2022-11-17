@@ -17,10 +17,14 @@ const HomePage = () => {
         <Time />
         </Col> */}
         <Col>
-        <Time className='time d-sm-block col-lg-3 d-lg-block d-xxl-block'/>
-        <EitanInfo className='eitanInfo col-6 d-none col-lg-1 d-lg-block d-xxl-block-2'/>
+        <Time className='d-none d-md-block'
+        // className='time d-sm-block col-lg-3 d-lg-block d-xxl-block'
+        />
+        <EitanInfo 
+        // id='EitanInfoBox col d-none col-lg-1 d-lg-block d-xxl-block-2'
+        />
         </Col>
-        <Col className="accordion col-8 col-lg-9 ">
+        <Col className="accordion col-12 col-lg-9 col-xxl-9">
           {accordionData.map(
             ({ title, content, image, id, current }) =>
               current && (
@@ -38,7 +42,7 @@ const HomePage = () => {
         <Col>
 
         </Col>
-          <Col className="col col col-md-6 col-lg-11 col-xl-11 mt-4">
+          <Col className="col-12 mt-4">
             <Calendar />
           </Col>
         </Row>

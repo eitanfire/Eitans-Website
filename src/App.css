@@ -48,6 +48,7 @@ img {
   margin-bottom: 0rem;
   align-items: center;
   background-position: 25% 75%;
+  height: fit-content;
 }
 
 /* .accordion-item:hover {
@@ -352,12 +353,14 @@ a:active {
 
 #EitanInfoBox {
   max-width: 180px;
-  height: 27rem;
+  height: fit-content;
+  background: url("https://image.shutterstock.com/image-vector/traditional-indian-paisley-pattern-on-600w-1726867504.jpg");
 }
 
 .EitanInfoButtons {
   position: relative;
-  margin-top: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2.3rem;
   margin-left: 0.5rem;
 }
 
@@ -368,7 +371,7 @@ a:active {
   background-size: 100rem;
 }
 
-.time, #shine {
+.time,#shine {
   font-weight: 700;
   background-clip: text;
   -webkit-background-clip: text;
@@ -444,8 +447,8 @@ a:active {
 }
 
 .time {
-  height: auto;
-  width: 100%;
+  /* height: 4rem;
+  width: 4rem; */
   /* position: static; */
   /* display:inline-flex; */
   /* font-size: 25px;
@@ -454,6 +457,7 @@ a:active {
   height: auto; */
   /* padding: .5rem;
   margin: .5rem; */
+  margin-bottom: 1rem;
   border: 4px solid red;
   /* background-clip: text;
   -webkit-background-clip: text;
