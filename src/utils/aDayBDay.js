@@ -1,15 +1,13 @@
 const aDayBDay = [
-        false,
+        "n awesome",
         "n A",
         " B",
         "n A",
         " B",
-        false,
-        false,
+        "wonderful",
+        "fabulous",
       ];
         const d = new Date();
         let block = aDayBDay[d.getDay()];
-
-
 
 export default block;
