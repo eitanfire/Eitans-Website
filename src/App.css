@@ -58,6 +58,7 @@ img {
 .accordion-title {
   font-size: 50px;
   font-weight: 700;
+  height:5.3rem;
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
@@ -356,7 +357,7 @@ a:active {
   height: fit-content;
   background: url("https://image.shutterstock.com/image-vector/traditional-indian-paisley-pattern-on-600w-1726867504.jpg");
   background-position: 80% 80%;
-
+  border: 4px solid black;
 }
 
 .EitanInfoButtons {
@@ -378,7 +379,7 @@ a:active {
   background-clip: text;
   -webkit-background-clip: text;
   color: black;
-  -webkit-text-stroke: 0.009rem #70c3a5;
+  -webkit-text-stroke: .01rem #70c3a5;
 }
 
 #nameAndYear {
@@ -449,6 +450,10 @@ a:active {
 }
 
 .time {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)),
+    radial-gradient(ellipse at top, #ec008c, transparent),
+    radial-gradient(ellipse at bottom, #fc6767, transparent);
   /* height: 4rem;
   width: 4rem; */
   /* position: static; */
@@ -459,10 +464,33 @@ a:active {
   height: auto; */
   /* padding: .5rem;
   margin: .5rem; */
+  opacity: 75%;
   margin-bottom: 1rem;
-  border: 4px solid red;
-text-align: center;      /* background-clip: text;
+  border: 4px solid black;
+  text-align: left;  
+/* background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
-  background-image: url("https://s3.amazonaws.com/usefulangle/news/95-5f6cc1ad5575e.jpg"); */
+  background-
+  image: url("https://s3.amazonaws.com/usefulangle/news/95-5f6cc1ad5575e.jpg"); */
+}
+
+@media all and (max-width: 1000px) { 
+  .time {
+    text-align: center;
+  }
+ }
+
+#aBAB {
+  background: radial-gradient(ellipse at top, yellow, transparent),
+            radial-gradient(ellipse at bottom, rgb(3, 249, 110), transparent),
+            linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3));
+            
+background-position: 10rem;
+  background-size: 200px;
+  z-index: 15;
+  /* opacity: 40%; */
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }

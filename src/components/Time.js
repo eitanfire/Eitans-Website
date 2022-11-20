@@ -11,8 +11,6 @@ const Time = () => {
   <Container 
   className="time"
   >
-    <Card >
-      <CardBody>
         <Row>
           <Col>
             <span>Today is {weekday}.</span>
@@ -24,14 +22,12 @@ const Time = () => {
           </Col> */}
           <Row>
           <Col>
-          <span> It's a{aDayBDay} day.</span>
+          It's a <span id='aBAB'>{aDayBDay}</span> day.
           </Col>
           </Row>
           {/* <Col>
             <span className="time">The year is {currentYear}</span>
           </Col> */}
-      </CardBody>
-    </Card>
   </Container>
   );
 };

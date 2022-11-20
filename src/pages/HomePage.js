@@ -17,9 +17,9 @@ const HomePage = () => {
         <Time />
         </Col> */}
         <Col>
-        <Time className='d-none d-md-block'
+        <h2><Time className='d-none d-md-block'
         // className='time d-sm-block col-lg-3 d-lg-block d-xxl-block'
-        />
+        /></h2>
         <EitanInfo 
         // id='EitanInfoBox col d-none col-lg-1 d-lg-block d-xxl-block-2'
         />
