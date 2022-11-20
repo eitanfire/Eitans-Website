@@ -461,7 +461,7 @@ a:active {
   margin: .5rem; */
   margin-bottom: 1rem;
   border: 4px solid red;
-  /* background-clip: text;
+text-align: center;      /* background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
   background-image: url("https://s3.amazonaws.com/usefulangle/news/95-5f6cc1ad5575e.jpg"); */

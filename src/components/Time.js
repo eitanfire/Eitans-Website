@@ -13,20 +13,20 @@ const Time = () => {
   >
     <Card >
       <CardBody>
-        {/* <Row>
-          <Col> */}
-            <span>Today is {weekday}</span>
-          {/* </Col>
-          </Row> */}
+        <Row>
+          <Col>
+            <span>Today is {weekday}.</span>
+          </Col>
+          </Row>
           {/* <br></br> */}
           {/* <Col>
             <span className="time">The date is {date}</span>
           </Col> */}
-          {/* <Row>
-          <Col> */}
-          <span> It's a{aDayBDay} day</span>
-          {/* </Col>
-          </Row> */}
+          <Row>
+          <Col>
+          <span> It's a{aDayBDay} day.</span>
+          </Col>
+          </Row>
           {/* <Col>
             <span className="time">The year is {currentYear}</span>
           </Col> */}
