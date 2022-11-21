@@ -20,21 +20,21 @@ img {
   position: absolute;
   top: 0px;
   right: 3.75rem;
-  border: 4px solid maroon;
+  border: 4px solid black;
   height: auto;
 }
 
 #banner {
   background-image: url("https://as2.ftcdn.net/v2/jpg/00/94/53/25/500_F_94532580_XwSK8I03t7oQY246gc6vdeU1wm6q2r8P.jpg");
   margin-bottom: 2rem;
-  border: 5px solid maroon;
+  border: 5px solid black;
   height: 160px;
   width: 103%;
 }
 
 #classWithEitan {
   position: relative;
-  border: 4px solid maroon;
+  border: 4px solid black;
   top: -0.3rem;
   height: 159px;
 }
@@ -358,6 +358,7 @@ a:active {
   background: url("https://image.shutterstock.com/image-vector/traditional-indian-paisley-pattern-on-600w-1726867504.jpg");
   background-position: 80% 80%;
   border: 4px solid black;
+  opacity: 75%;
 }
 
 .EitanInfoButtons {
@@ -368,10 +369,13 @@ a:active {
 }
 
 #eitansProfilePic {
+  position: absolute;
+ right: -10rem;
   margin-left: 2.25rem;
   border: 0.2rem solid transparent;
   background-image: url("https://as2.ftcdn.net/v2/jpg/00/94/53/25/500_F_94532580_XwSK8I03t7oQY246gc6vdeU1wm6q2r8P.jpg");
   background-size: 100rem;
+  width: auto;
 }
 
 .time,#shine {
