@@ -3,13 +3,28 @@ import '../App.css';
 import { Col, Row, Container } from 'reactstrap';
 import { Link } from 'react-router-dom';
 import { Button, Card, CardBody } from 'reactstrap';
-import Time from "../components/Time";
+import { useState, useEffect } from 'react';
+import { useSpring, animated } from 'react-spring';
+// import Time from "../components/Time";
 
 // import Modal from '../components/Modal';
 
 const EitanInfo = () => {
+    const [toggle, setToggle] = useState(false)
     // const [show, setShow] = useState(false)
+
+    const animatedStyle = useSpring({
+        opacity: toggle ? 1 : 0,
+        transform: toggle ? 'scale(1,1)' : 'scale(1,0)',
+        config: { duration: 500 }
+    });
+
+    useEffect(() => {
+        setToggle(true);
+    }, []);
+
     return (
+        <animated.div style={animatedStyle}>
         <Card>
             <CardBody 
              className='d-none d-lg-block'
@@ -52,6 +67,7 @@ const EitanInfo = () => {
                 </Container>
             </CardBody>
         </Card>
+        </animated.div>
     );
 }
 

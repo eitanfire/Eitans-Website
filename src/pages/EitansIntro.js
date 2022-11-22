@@ -1,7 +1,7 @@
 import { Card, CardBody } from 'reactstrap';
 import { Col, Row, Container } from 'reactstrap';
 import year from "../utils/currentYear.js";
-import Eitan from '../app/img/Eitans-portfolio-page-picture.png';
+// import Eitan from '../app/img/Eitans-portfolio-page-picture.png';
 
 const EitansIntro = () => {
     return (
@@ -37,7 +37,6 @@ const EitansIntro = () => {
                 </CardBody>
             </Card>
         </Container>
-
     );
 };
 export default EitansIntro;

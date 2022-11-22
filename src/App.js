@@ -20,9 +20,7 @@ function App() {
         <Route path='read-more' element={<EitansIntro />} />
         <Route path='contact' element={<ContactForm />} />
       </Routes>
-      <div>
         <Footer className='col col-9' />
-      </div>
     </div>
 
   );

@@ -30,6 +30,8 @@ img {
   border: 5px solid black;
   height: 160px;
   width: 103%;
+  background-attachment: fixed;
+
 }
 
 #classWithEitan {
@@ -42,13 +44,17 @@ img {
 .accordion {
   /* position:relative; */
   display: block;
-  background-image: url("https://as2.ftcdn.net/v2/jpg/00/94/53/25/500_F_94532580_XwSK8I03t7oQY246gc6vdeU1wm6q2r8P.jpg");
   padding-top: 10px;
   padding-bottom: 5px;
   margin-bottom: 0rem;
   align-items: center;
-  background-position: 25% 75%;
   height: fit-content;
+}
+
+.accordion {
+  background-attachment: fixed;
+  background-image: url("https://as2.ftcdn.net/v2/jpg/00/94/53/25/500_F_94532580_XwSK8I03t7oQY246gc6vdeU1wm6q2r8P.jpg");
+  background-position: 25% 75%;
 }
 
 /* .accordion-item:hover {
@@ -192,13 +198,14 @@ img {
     radial-gradient(ellipse at top, #ec008c, transparent),
     radial-gradient(ellipse at bottom, #fc6767, transparent);
   margin-top: 1.25rem;
-  margin-bottom: -2rem;
+  /* margin-bottom: 1em; */
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
   margin-right: -11rem;
   text-align: center;
   font-size: larger;
   width: 100%;
+  /* height: 100%; */
 }
 
 @media screen and (max-width: 500px) {
@@ -327,7 +334,7 @@ a:active {
 .Calendar {
   display: block;
   width: 113%;
-
+  background-attachment: fixed;
   background-image: url("https://as2.ftcdn.net/v2/jpg/00/94/53/25/500_F_94532580_XwSK8I03t7oQY246gc6vdeU1wm6q2r8P.jpg");
   padding-top: 5px;
   padding-right: 6px;
