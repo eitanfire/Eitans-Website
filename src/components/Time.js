@@ -21,9 +21,8 @@ useEffect(() => {
     setToggle(true);
 }, []);
 
-const brightDay = 
-<span id='aBAB'>
-{aDayBDay.slice(1)} 
+const brightDay = <span id='aBAB'>
+{aDayBDay.slice(1)}
 </span>
 
   return (
@@ -42,7 +41,7 @@ const brightDay =
           </Col> */}
           <Row>
           <Col>
-          It's a{brightDay} day.
+          It's a{aDayBDay[0]} {brightDay} day.
           </Col>
           </Row>
           {/* <Col>

@@ -9,5 +9,4 @@ const aDayBDay = [
       ];
         const d = new Date();
         let block = aDayBDay[d.getDay()];
-
 export default block;
