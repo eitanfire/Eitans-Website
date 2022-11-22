@@ -4,31 +4,34 @@ import { accordionData } from "../utils/content";
 import Calendar from "../components/Calendar.js";
 import Accordion from "../Accordion";
 import Time from "../components/Time";
+import AnimatedAccordion from "../features/AnimatedAccordion"
 
 const HomePage = () => {
   return (
     <Container>
-          <Row>
+      <Row>
         <Row>
-        <Col>
-            </Col>
+          <Col></Col>
         </Row>
         {/* <Col Col className="col-6 d-none col-lg-3 d-lg-block d-xxl-block-2">
         <Time />
         </Col> */}
         <Col>
-        <h2><Time className='d-none d-md-block'
-        // className='time d-sm-block col-lg-3 d-lg-block d-xxl-block'
-        /></h2>
-        <EitanInfo 
-        // id='EitanInfoBox col d-none col-lg-1 d-lg-block d-xxl-block-2'
-        />
+          <h2>
+            <Time
+              className="d-none d-md-block"
+              // className='time d-sm-block col-lg-3 d-lg-block d-xxl-block'
+            />
+          </h2>
+          <EitanInfo
+          // id='EitanInfoBox col d-none col-lg-1 d-lg-block d-xxl-block-2'
+          />
         </Col>
         <Col className="accordion col-12 col-lg-9 col-xxl-9">
           {accordionData.map(
             ({ title, content, image, id, current }) =>
               current && (
-                <Accordion
+                <AnimatedAccordion
                   title={title}
                   content={content}
                   image={image}
@@ -39,9 +42,7 @@ const HomePage = () => {
           )}
         </Col>
         <Row>
-        <Col>
-
-        </Col>
+          <Col></Col>
           <Col className="col-12 mt-4">
             <Calendar />
           </Col>
