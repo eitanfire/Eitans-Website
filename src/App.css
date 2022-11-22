@@ -330,6 +330,9 @@ a:active {
   font-size: 0.75rem;
 }
 
+#infoCard {
+margin-trim: -2em;}
+
 #infoCard,
 .Calendar {
   display: block;

@@ -21,6 +21,11 @@ useEffect(() => {
     setToggle(true);
 }, []);
 
+const brightDay = 
+<span id='aBAB'>
+{aDayBDay.slice(1)} 
+</span>
+
   return (
     <animated.div style={animatedStyle}>
   <Container 
@@ -37,7 +42,7 @@ useEffect(() => {
           </Col> */}
           <Row>
           <Col>
-          It's a{aDayBDay} day.
+          It's a{brightDay} day.
           </Col>
           </Row>
           {/* <Col>
