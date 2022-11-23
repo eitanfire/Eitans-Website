@@ -331,7 +331,10 @@ a:active {
 }
 
 #infoCard {
-margin-trim: -2em;}
+display:block;
+position: inline;
+margin-bottom: 2.5rem;
+font-size:x-large;}
 
 #infoCard,
 .Calendar {
