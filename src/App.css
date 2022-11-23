@@ -2,6 +2,9 @@ body {
   font-family: "Times New Roman";
   margin-left: 0rem;
 }
+h1, h3 {
+  text-align: center;
+}
 
 img {
   margin-left: auto;
@@ -29,7 +32,7 @@ img {
   margin-bottom: 2rem;
   border: 5px solid black;
   height: 160px;
-  width: 103%;
+  width: 110%;
   background-attachment: fixed;
 
 }
@@ -382,13 +385,18 @@ font-size:x-large;}
 }
 
 #eitansProfilePic {
-  position: absolute;
- right: -10rem;
-  margin-left: 2.25rem;
+  float: right;
+ /* right: -52%; */
+  /* margin-left: 2.25rem; */
   border: 0.2rem solid transparent;
   background-image: url("https://as2.ftcdn.net/v2/jpg/00/94/53/25/500_F_94532580_XwSK8I03t7oQY246gc6vdeU1wm6q2r8P.jpg");
   background-size: 100rem;
   width: auto;
+  margin: .5rem;
+}
+
+p{
+  /* text-align: justify; */
 }
 
 .time,#shine {

@@ -40,9 +40,9 @@ const brightDay = <span id='aBAB'>
             <span className="time">The date is {date}</span>
           </Col> */}
           <Row>
-          <Col>
+          {(brightDay.filter==='B' || 'A') && <Col>
           It's a{aDayBDay[0]} {brightDay} day.
-          </Col>
+          </Col>}
           </Row>
           {/* <Col>
             <span className="time">The year is {currentYear}</span>
