@@ -9,7 +9,7 @@ const AnimatedAccordion = ({ icon, title, content, image, id }) => {
     
     const animatedStyle = useSpring({
         opacity: toggle ? 1 : 0,
-        transform: toggle ? 'scale(1,1)' : 'scale(1,0)',
+        // transform: toggle ? 'scale(1,1)' : 'scale(1,0)',
         config: { duration: 500 },
     });
 
