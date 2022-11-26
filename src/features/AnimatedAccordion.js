@@ -21,11 +21,11 @@ const AnimatedAccordion = ({ icon, title, content, image, id }) => {
     return (
         <animated.div style={animatedStyle}>
        <div className="accordion-item">
-        <div className="accordion-title" onClick={() => setIsActive(!isActive)}>
+       <CardText className="accordion-title" onClick={() => setIsActive(!isActive)}>
           <CardTitle>{icon}{title}{image}{id}
             <span className='d-none d-md-block d-xxl-none' id='openCloseSymbols' style={{ color: 'red' }}>{isActive ? ' 🪐' : ' 🚀'}</span>
           </CardTitle>
-        </div>
+        </CardText>
         <Card>
           <CardBody className="accordion-content-theme">
             {isActive && <div className="accordion-content" >{content}

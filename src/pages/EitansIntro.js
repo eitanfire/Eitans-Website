@@ -3,7 +3,14 @@ import { Col, Row, Container } from 'reactstrap';
 import year from "../utils/currentYear.js";
 import Eitan from '../app/img/Eitans-portfolio-page-picture.png';
 
+// const btn = document.getElementById("pie");
+// const emojis = [ 
+//     "😵‍💫"
+// ];
 
+// btn.addEventListener("mouseover", () => {
+//   btn.innerText = emojis[Math.floor(Math.random() * emojis.length)];
+// });
 
 const EitansIntro = () => {
     return (
