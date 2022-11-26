@@ -1,7 +1,7 @@
 
 import { useState, useEffect } from 'react';
 import { Card, CardImg, CardText, CardBody, CardTitle } from 'reactstrap';
-import { useSpring, animated, scale } from 'react-spring';
+import { useSpring, animated, scale, easings } from 'react-spring';
 
 const AnimatedAccordion = ({ icon, title, content, image, id }) => {
     const [isActive, setIsActive] = useState(false);
@@ -10,6 +10,7 @@ const AnimatedAccordion = ({ icon, title, content, image, id }) => {
     const animatedStyle = useSpring({
         opacity: toggle ? 1 : 0,
         // transform: toggle ? 'scale(1,1)' : 'scale(1,0)',
+        easing: easings.easeOutExpo,
         config: { duration: 500 },
     });
 

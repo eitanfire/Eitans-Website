@@ -2,6 +2,10 @@ import Film from '../app/img/film-banner.png';
 import Epics from '../app/img/epics-banner.png';
 import Programming from '../app/img/programming-banner.png';
 import Survival from '../app/img/survive-the-world-banner.png';
+import WorldWars from '../app/img/world-wars-banner.png';
+import Philosophy from '../app/img/flammarion-engraving.jpg';
+import Policing from '../app/img/Policing-in-America.png';
+import Finance from '../app/img/personal-finance.png';
 import '../App.css';
 
 export const accordionData = [
@@ -165,37 +169,154 @@ export const accordionData = [
   },
   {
     id: 4,
-    current: false,
-    title: <span ><span id='icon'>🧭</span> Survive the World!</span>,
-    image: <img className="classImage mx-auto d-none d-xxl-block" src={Survival} alt='Survive the World banner' />,
+    current: true,
+    title: <span ><span id='icon'>🪖</span> World Wars</span>,
+    image: <img className="wwClassImage mx-auto d-none d-xxl-block" src={WorldWars} alt='World Wars banner' />,
     content:
       < >
-        <div id='stwColor'>
+        <div id='wwColor'>
           <a
             role='button'
             className='btn btn-light btn-link'
             href='https://classroom.google.com/c/NTI2MzY3MTY1NDY0/a/NTAzNDQ1NTEwODQ2/details' target="_blank" rel="noopener noreferrer">
-            ✏️ Warm-Up Questions for Survive the World!
+            ✏️ Warm-Up Questions for World Wars
           </a>
 
           <a
             role='button'
             className='btn btn-light btn-link'
-            href='https://classroom.google.com/u/1/c/NTI2MzY3MTY1NDY0' target="_blank" rel="noopener noreferrer">
+            href='https://classroom.google.com/c/NTA3NjcyOTIwMzQx' target="_blank" rel="noopener noreferrer">
             📚 Classroom Page
           </a>
 
           <a
             role='button'
             className='btn btn-light btn-link'
-            href='https://classroom.google.com/c/NTI2MzY3MTY1NDY0/a/NDk4MDA2NTE2NDI2/details' target="_blank" rel="noopener noreferrer">
+            href='https://docs.google.com/document/d/1Y24ztS0Nq0CdnGA0GsknjeM9htEkPRdQRSZBOUqGjCU/edit?usp=sharing' target="_blank" rel="noopener noreferrer">
             Honors & Extra Credit
           </a>
 
           <a
             role='button'
             className='btn btn-light btn-link'
-            href='https://docs.google.com/document/d/1TdTq_k_Nu9NzwealS8cJjohWcGZoSXSDdl4LHLXUm5Y/edit?usp=sharing' target="_blank" rel="noopener noreferrer">
+            href='https://docs.google.com/document/d/1Y3mZ5Dw_IFe98il3b0MksRGwGa1lOuypOtqtY0MB5h4/edit?usp=sharing' target="_blank" rel="noopener noreferrer">
+            Course Description
+          </a>
+        </div>
+      </>
+
+  },
+  {
+    id: 5,
+    current: true,
+    title: <span ><span id='icon'>📜</span> Philosophy</span>,
+    image: <img className="philosophyClassImage mx-auto d-none d-xxl-block" src={Philosophy} alt='World Wars banner' />,
+    content:
+      < >
+        <div id='philosophyColor'>
+          <a
+            role='button'
+            className='btn btn-light btn-link'
+            href='https://classroom.google.com/c/NTI2MzY3MTY1NDY0/a/NTAzNDQ1NTEwODQ2/details' target="_blank" rel="noopener noreferrer">
+            ✏️ Warm-Up Questions for World Wars
+          </a>
+
+          <a
+            role='button'
+            className='btn btn-light btn-link'
+            href='https://classroom.google.com/c/NTA3NjcyOTIwMzQx' target="_blank" rel="noopener noreferrer">
+            📚 Classroom Page
+          </a>
+
+          <a
+            role='button'
+            className='btn btn-light btn-link'
+            href='https://docs.google.com/document/d/1Y24ztS0Nq0CdnGA0GsknjeM9htEkPRdQRSZBOUqGjCU/edit?usp=sharing' target="_blank" rel="noopener noreferrer">
+            Honors & Extra Credit
+          </a>
+
+          <a
+            role='button'
+            className='btn btn-light btn-link'
+            href='https://docs.google.com/document/d/1Y3mZ5Dw_IFe98il3b0MksRGwGa1lOuypOtqtY0MB5h4/edit?usp=sharing' target="_blank" rel="noopener noreferrer">
+            Course Description
+          </a>
+        </div>
+      </>
+
+  },
+  {
+    id: 6,
+    current: true,
+    title: <span ><span id='icon'>🚔</span> Policing in America</span>,
+    image: <img className="philosophyClassImage mx-auto d-none d-xxl-block" src={Policing} alt='World Wars banner' />,
+    content:
+      < >
+        <div id='policingColor'>
+          <a
+            role='button'
+            className='btn btn-light btn-link'
+            href='https://classroom.google.com/c/NTI2MzY3MTY1NDY0/a/NTAzNDQ1NTEwODQ2/details' target="_blank" rel="noopener noreferrer">
+            ✏️ Warm-Up Questions for World Wars
+          </a>
+
+          <a
+            role='button'
+            className='btn btn-light btn-link'
+            href='https://classroom.google.com/c/NTA3NjcyOTIwMzQx' target="_blank" rel="noopener noreferrer">
+            📚 Classroom Page
+          </a>
+
+          <a
+            role='button'
+            className='btn btn-light btn-link'
+            href='https://docs.google.com/document/d/1Y24ztS0Nq0CdnGA0GsknjeM9htEkPRdQRSZBOUqGjCU/edit?usp=sharing' target="_blank" rel="noopener noreferrer">
+            Honors & Extra Credit
+          </a>
+
+          <a
+            role='button'
+            className='btn btn-light btn-link'
+            href='https://docs.google.com/document/d/1Y3mZ5Dw_IFe98il3b0MksRGwGa1lOuypOtqtY0MB5h4/edit?usp=sharing' target="_blank" rel="noopener noreferrer">
+            Course Description
+          </a>
+        </div>
+      </>
+
+  },
+  {
+    id: 6,
+    current: true,
+    title: <span ><span id='icon'>💰</span> Personal Finance</span>,
+    image: <img className="philosophyClassImage mx-auto d-none d-xxl-block" src={Finance} alt='World Wars banner' />,
+    content:
+      < >
+        <div id='financeColor'>
+          <a
+            role='button'
+            className='btn btn-light btn-link'
+            href='https://classroom.google.com/c/NTI2MzY3MTY1NDY0/a/NTAzNDQ1NTEwODQ2/details' target="_blank" rel="noopener noreferrer">
+            ✏️ Warm-Up Questions for World Wars
+          </a>
+
+          <a
+            role='button'
+            className='btn btn-light btn-link'
+            href='https://classroom.google.com/c/NTA3NjcyOTIwMzQx' target="_blank" rel="noopener noreferrer">
+            📚 Classroom Page
+          </a>
+
+          <a
+            role='button'
+            className='btn btn-light btn-link'
+            href='https://docs.google.com/document/d/1Y24ztS0Nq0CdnGA0GsknjeM9htEkPRdQRSZBOUqGjCU/edit?usp=sharing' target="_blank" rel="noopener noreferrer">
+            Honors & Extra Credit
+          </a>
+
+          <a
+            role='button'
+            className='btn btn-light btn-link'
+            href='https://docs.google.com/document/d/1Y3mZ5Dw_IFe98il3b0MksRGwGa1lOuypOtqtY0MB5h4/edit?usp=sharing' target="_blank" rel="noopener noreferrer">
             Course Description
           </a>
         </div>

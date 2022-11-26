@@ -5,7 +5,7 @@ import aDayBDay from '../utils/aDayBDay';
 import { Card, CardBody } from "reactstrap";
 import { Col, Row, Container } from "reactstrap";
 import { useState, useEffect } from 'react';
-import { useSpring, animated } from 'react-spring';
+import { useSpring, animated, } from 'react-spring';
 import '../App.css';
 
 const Time = () => {
@@ -25,6 +25,8 @@ const brightDay = <span id='aBAB'>
 {aDayBDay.slice(1)}
 </span>
 
+// const onlyAB = aDayBDay.filter(AB => AB === 'B' || 'A');
+
   return (
     <animated.div style={animatedStyle}>
   <Container 
@@ -40,9 +42,11 @@ const brightDay = <span id='aBAB'>
             <span className="time">The date is {date}</span>
           </Col> */}
           <Row>
-          {(brightDay.filter==='B' || 'A') && <Col>
+          {/* {onlyAB &&  */}
+          <Col>
           It's a{aDayBDay[0]} {brightDay} day.
-          </Col>}
+          </Col>
+          {/* } */}
           </Row>
           {/* <Col>
             <span className="time">The year is {currentYear}</span>

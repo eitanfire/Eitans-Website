@@ -174,7 +174,7 @@ img {
   background-image: url("https://as2.ftcdn.net/v2/jpg/00/94/53/25/500_F_94532580_XwSK8I03t7oQY246gc6vdeU1wm6q2r8P.jpg");
 }
 
-.classImage {
+.wwClassImage, .philosophyClassImage, .classImage {
   block-size: 65px;
   writing-mode: horizontal-tb;
   position: relative;
@@ -182,6 +182,17 @@ img {
   float: right;
   margin-top: 0.5%;
   /* border: 100% double maroon; */
+}
+
+.wwClassImage {
+  /* block-size: 90px; */
+  height: 4.75rem;
+  width: 40%;
+}
+
+.philosophyClassImage {
+  height: 4.75rem;
+  width: 40%;
 }
 
 #openCloseSymbols {
@@ -309,6 +320,77 @@ img {
 #stwColor::before {
   content: "";
   background: radial-gradient(circle, #00ff7f 25%, rgb(255, 255, 255) 100%);
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.75;
+}
+
+#wwColor {
+  background: radial-gradient(ellipse at top, red, transparent),
+    radial-gradient(ellipse at bottom, #fc6767, transparent);
+
+  background-size: 170px;
+  background-image: url("https://thumbs.dreamstime.com/z/military-aircraft-pattern-seamless-black-military-aircraft-pattern-repeat-seamless-black-color-any-design-vector-geometric-102903104.jpg");
+}
+
+#wwColor::before {
+  content: "";
+  background: radial-gradient(circle, #f10202d1 25%, rgb(255, 255, 255) 100%);
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.75;
+}
+
+#philosophyColor {
+  background-size: 170px;
+  background-image: url("https://thumbs.dreamstime.com/z/military-aircraft-pattern-seamless-black-military-aircraft-pattern-repeat-seamless-black-color-any-design-vector-geometric-102903104.jpg");
+}
+
+#philosophyColor::before {
+  content: "";
+  background: radial-gradient(circle, #02b5f1d1 25%, rgb(255, 255, 255) 100%);
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.75;
+}
+
+#policingColor {
+  background-size: 170px;
+  background-image: url("https://thumbs.dreamstime.com/z/military-aircraft-pattern-seamless-black-military-aircraft-pattern-repeat-seamless-black-color-any-design-vector-geometric-102903104.jpg");
+}
+
+#policingColor::before {
+  content: "";
+  background: radial-gradient(circle, #ff7b00d1 25%, rgb(255, 255, 255) 100%);
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.75;
+}
+
+#financeColor {
+  background-size: 170px;
+  background-image: url("https://thumbs.dreamstime.com/z/military-aircraft-pattern-seamless-black-military-aircraft-pattern-repeat-seamless-black-color-any-design-vector-geometric-102903104.jpg");
+}
+
+#financeColor::before {
+  content: "";
+  background: radial-gradient(circle, #2efa05d1 25%, rgb(255, 255, 255) 100%);
   background-size: cover;
   position: absolute;
   top: 0px;
