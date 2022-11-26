@@ -60,7 +60,7 @@ img {
   background-position: 25% 75%;
 }
 
-/* .accordion-item:hover {
+/* .accordion-item {
   background-color: rgb(243, 237, 237);
 } */
 
@@ -72,6 +72,7 @@ img {
   -webkit-background-clip: text;
   color: transparent;
   background-image: url("https://s3.amazonaws.com/usefulangle/news/95-5f6cc1ad5575e.jpg");
+  /* border: .9px solid #555; */
 }
 
 #icon:before {
@@ -175,24 +176,28 @@ img {
 }
 
 .wwClassImage, .philosophyClassImage, .classImage {
-  block-size: 65px;
+   /* height: 110%; */
+  /* width: max-content; */
+  block-size: 70px;
   writing-mode: horizontal-tb;
   position: relative;
   text-align: center;
   float: right;
   margin-top: 0.5%;
-  /* border: 100% double maroon; */
+  border: 100% double maroon;
+  /* border: 5px solid #555; */
+
 }
 
 .wwClassImage {
   /* block-size: 90px; */
   height: 4.75rem;
-  width: 40%;
+  width: 43.75%;
 }
 
 .philosophyClassImage {
   height: 4.75rem;
-  width: 40%;
+  width: 43.75%;
 }
 
 #openCloseSymbols {
@@ -350,8 +355,8 @@ img {
 }
 
 #philosophyColor {
-  background-size: 170px;
-  background-image: url("https://thumbs.dreamstime.com/z/military-aircraft-pattern-seamless-black-military-aircraft-pattern-repeat-seamless-black-color-any-design-vector-geometric-102903104.jpg");
+  background-size: 370px;
+  background-image: url("https://www.shutterstock.com/image-vector/lamp-light-bulb-hand-drawn-600w-520326277.jpg");
 }
 
 #philosophyColor::before {
@@ -368,7 +373,7 @@ img {
 
 #policingColor {
   background-size: 170px;
-  background-image: url("https://thumbs.dreamstime.com/z/military-aircraft-pattern-seamless-black-military-aircraft-pattern-repeat-seamless-black-color-any-design-vector-geometric-102903104.jpg");
+  background-image: url("https://www.shutterstock.com/image-vector/police-related-icon-set-outline-600w-1042818226.jpg");
 }
 
 #policingColor::before {
@@ -385,7 +390,7 @@ img {
 
 #financeColor {
   background-size: 170px;
-  background-image: url("https://thumbs.dreamstime.com/z/military-aircraft-pattern-seamless-black-military-aircraft-pattern-repeat-seamless-black-color-any-design-vector-geometric-102903104.jpg");
+  background-image: url("https://www.shutterstock.com/image-illustration/leather-purse-pattern-repeat-seamless-600w-1106709062.jpg");
 }
 
 #financeColor::before {

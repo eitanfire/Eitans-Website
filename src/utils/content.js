@@ -169,7 +169,7 @@ export const accordionData = [
   },
   {
     id: 4,
-    current: true,
+    current: false,
     title: <span ><span id='icon'>🪖</span> World Wars</span>,
     image: <img className="wwClassImage mx-auto d-none d-xxl-block" src={WorldWars} alt='World Wars banner' />,
     content:
@@ -208,7 +208,7 @@ export const accordionData = [
   },
   {
     id: 5,
-    current: true,
+    current: false,
     title: <span ><span id='icon'>📜</span> Philosophy</span>,
     image: <img className="philosophyClassImage mx-auto d-none d-xxl-block" src={Philosophy} alt='World Wars banner' />,
     content:
@@ -247,7 +247,7 @@ export const accordionData = [
   },
   {
     id: 6,
-    current: true,
+    current: false,
     title: <span ><span id='icon'>🚔</span> Policing in America</span>,
     image: <img className="philosophyClassImage mx-auto d-none d-xxl-block" src={Policing} alt='World Wars banner' />,
     content:
@@ -285,8 +285,8 @@ export const accordionData = [
 
   },
   {
-    id: 6,
-    current: true,
+    id: 7,
+    current: false,
     title: <span ><span id='icon'>💰</span> Personal Finance</span>,
     image: <img className="philosophyClassImage mx-auto d-none d-xxl-block" src={Finance} alt='World Wars banner' />,
     content:
