@@ -10,6 +10,6 @@ const aDayBDay = [
         const d = new Date();
         let block = aDayBDay[d.getDay()];
 
-        const onlyAB = aDayBDay.find(AB => AB === 'B' || 'A');
+        // const onlyAB = aDayBDay.find(AB => AB === 'B' || 'A');
 
-export default onlyAB;
+export default block;
