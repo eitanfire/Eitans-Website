@@ -262,7 +262,7 @@ img {
     border: 0.2rem solid transparent;
   background-image: url("https://as2.ftcdn.net/v2/jpg/00/94/53/25/500_F_94532580_XwSK8I03t7oQY246gc6vdeU1wm6q2r8P.jpg");
   background-size: 100rem;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
 }
 
 #filmColor {
