@@ -6,7 +6,7 @@ import { Card, CardBody } from "reactstrap";
 import { Col, Row, Container } from "reactstrap";
 import { useState, useEffect } from 'react';
 import { useSpring, animated, } from 'react-spring';
-import  onlyAB  from '../utils/aDayBDay';
+// import  aDayBDay  from '../utils/aDayBDay';
 import '../App.css';
 
 const Time = () => {
@@ -43,11 +43,11 @@ const brightDay = <span id='aBAB'>
             <span className="time">The date is {date}</span>
           </Col> */}
           <Row>
-          {onlyAB && 
+          { 
           <Col>
           It's a{aDayBDay[0]} {brightDay} day.
           </Col>
-          }
+          || aDayBDay }
           </Row>
           {/* <Col>
             <span className="time">The year is {currentYear}</span>

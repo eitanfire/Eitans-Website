@@ -613,7 +613,6 @@ p{
 background-position: 10rem;
   background-size: 200px;
   z-index: 15;
-  /* opacity: 40%; */
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
