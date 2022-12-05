@@ -2,9 +2,9 @@ import { Col, Row, Container } from "reactstrap";
 import EitanInfo from "../features/EitanInfo.js";
 import { accordionData } from "../utils/content";
 import Calendar from "../components/Calendar.js";
-import Accordion from "../Accordion";
+// import Accordion from "../Accordion";
 import Time from "../components/Time";
-import AnimatedAccordion from "../features/AnimatedAccordion"
+import AnimatedAccordion from "../features/AnimatedAccordion";
 
 const HomePage = () => {
   return (
@@ -42,7 +42,6 @@ const HomePage = () => {
           )}
         </Col>
         <Row>
-          <Col></Col>
           <Col className="col-12 mt-4">
             <Calendar />
           </Col>
