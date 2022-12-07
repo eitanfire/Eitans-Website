@@ -2,7 +2,7 @@
 import weekday from "../utils/day";
 // import currentYear from "../utils/currentYear";
 import aDayBDay from '../utils/aDayBDay';
-import { Card, CardBody } from "reactstrap";
+// import { Card, CardBody } from "reactstrap";
 import { Col, Row, Container } from "reactstrap";
 import { useState, useEffect } from 'react';
 import { useSpring, animated, } from 'react-spring';
