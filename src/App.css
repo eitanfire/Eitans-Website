@@ -481,9 +481,7 @@ font-size:x-large;}
 #EitanInfoBox::before {
   content: "";
     background:
-    linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)),
-    radial-gradient(ellipse at top, #ec008c, transparent),
-    radial-gradient(ellipse at bottom, #fc6767, transparent);
+    linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3));
   background-size: cover;
   position: absolute;
   top: 0px;
