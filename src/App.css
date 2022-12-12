@@ -2,7 +2,8 @@ body {
   font-family: "Times New Roman";
   margin-left: 0rem;
 }
-h1, h3 {
+h1,
+h3 {
   text-align: center;
 }
 
@@ -63,7 +64,7 @@ img {
 .accordion-title {
   font-size: 50px;
   font-weight: 700;
-  height:5.3rem;
+  height: 5.3rem;
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
@@ -119,7 +120,7 @@ img {
 } */
 
 #pie {
-   filter: grayscale(1);
+  filter: grayscale(1);
 }
 #pie:hover {
   /* display:inline-flexbox; */
@@ -132,12 +133,12 @@ img {
   transform-origin: 100% 100%; */
   font-size: 3rem;
   /* filter: grayscale(1); */
-  transition: .1s;
+  transition: 0.1s;
   border: none;
   cursor: pointer;
   /* transform: scale(1.23, 0); */
   filter: grayscale(0);
-} 
+}
 
 /* @keyframes grow {
   50% { transform: scale(1.4) rotate(-3deg); }
@@ -182,8 +183,10 @@ img {
   background-image: url("https://as2.ftcdn.net/v2/jpg/00/94/53/25/500_F_94532580_XwSK8I03t7oQY246gc6vdeU1wm6q2r8P.jpg");
 }
 
-.wwClassImage, .philosophyClassImage, .classImage {
-   /* height: 110%; */
+.wwClassImage,
+.philosophyClassImage,
+.classImage {
+  /* height: 110%; */
   /* width: max-content; */
   block-size: 75px;
   writing-mode: horizontal-tb;
@@ -193,7 +196,6 @@ img {
   margin-top: 1%;
   border: 100% double maroon;
   /* border: 5px solid #555; */
-
 }
 
 .wwClassImage {
@@ -250,21 +252,19 @@ img {
   }
 }
 
- #rainbowText {
+#rainbowText {
   /* font-size:large ; */
   /* font-weight: 700; */
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
   background-image: url("https://as2.ftcdn.net/v2/jpg/00/94/53/25/500_F_94532580_XwSK8I03t7oQY246gc6vdeU1wm6q2r8P.jpg");
-  -webkit-text-stroke: .85px black;
+  -webkit-text-stroke: 0.85px black;
   border: 0.2rem solid transparent;
   /* background-size: 100rem; */
   background-attachment: fixed;
-    /* min-height: 85%; */
-    /* background-size: cover; */
-
-
+  /* min-height: 85%; */
+  /* background-size: cover; */
 }
 
 #filmColor {
@@ -435,10 +435,11 @@ a:active {
 }
 
 #infoCard {
-display:block;
-position: inline;
-margin-bottom: 2.5rem;
-font-size:x-large;}
+  display: block;
+  position: inline;
+  margin-bottom: 2.5rem;
+  font-size: x-large;
+}
 
 #infoCard,
 .Calendar {
@@ -480,8 +481,7 @@ font-size:x-large;}
 
 #EitanInfoBox::before {
   content: "";
-    background:
-    linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3));
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3));
   background-size: cover;
   position: absolute;
   top: 0px;
@@ -504,25 +504,27 @@ margin-bottom: 25%; */
 
 #eitansProfilePic {
   float: right;
- /* right: -52%; */
+  /* right: -52%; */
   /* margin-left: 2.25rem; */
   border: 0.2rem solid transparent;
   background-image: url("https://as2.ftcdn.net/v2/jpg/00/94/53/25/500_F_94532580_XwSK8I03t7oQY246gc6vdeU1wm6q2r8P.jpg");
   background-size: 100rem;
   background-attachment: fixed;
   width: auto;
-  margin: .5rem;}
+  margin: 0.5rem;
+}
 
-p{
+p {
   /* text-align: justify; */
 }
 
-.time,#shine {
+.time,
+#shine {
   font-weight: 700;
   background-clip: text;
   -webkit-background-clip: text;
   color: black;
-  -webkit-text-stroke: .01rem #70c3a5;
+  -webkit-text-stroke: 0.01rem #70c3a5;
 }
 
 #nameAndYear {
@@ -593,8 +595,7 @@ p{
 } */
 
 .time {
-  background:
-    linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)),
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)),
     radial-gradient(ellipse at top, #ec008c, transparent),
     radial-gradient(ellipse at bottom, #fc6767, transparent);
   /* height: 4rem;
@@ -610,21 +611,21 @@ p{
   opacity: 75%;
   margin-bottom: 1rem;
   border: 4px solid black;
-  text-align: left;  
+  text-align: left;
 }
 
-@media all and (max-width: 1000px) { 
+@media all and (max-width: 1000px) {
   .time {
     text-align: center;
   }
- }
+}
 
 #aBAB {
   background: radial-gradient(ellipse at top, yellow, transparent),
-            radial-gradient(ellipse at bottom, rgb(3, 249, 110), transparent),
-            linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3));
-            
-background-position: 10rem;
+    radial-gradient(ellipse at bottom, rgb(3, 249, 110), transparent),
+    linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3));
+
+  background-position: 10rem;
   background-size: 200px;
   z-index: 15;
   background-clip: text;
@@ -633,9 +634,7 @@ background-position: 10rem;
 }
 
 #globe {
-  /* color:🌏; */
-  /* filter: grayscale(1); */
-  transition: .1s;
+  transition: 0.1s;
   border: none;
   cursor: pointer;
   filter: grayscale(1);
@@ -644,6 +643,5 @@ background-position: 10rem;
 #globe:hover {
   font-size: 2rem;
   transform: scale(1.23);
-  /* filter: grayscale(0); */
   filter: grayscale(0);
 }
