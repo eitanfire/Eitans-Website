@@ -68,6 +68,18 @@ img {
   /* border: .9px solid #555; */
 }
 
+/* .accordion-title:hover{
+  content: "";
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3));
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 40%;
+} */
+
 #icon:before {
   font-size: 50px;
   font-weight: 700;
@@ -583,7 +595,7 @@ p {
     radial-gradient(ellipse at bottom, rgb(3, 249, 110), transparent),
     linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3));
 
-  background-position: 10rem;
+  background-position: 10.95rem;
   background-size: 200px;
   z-index: 15;
   background-clip: text;
