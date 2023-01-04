@@ -20,7 +20,6 @@ const HomePage = () => {
           <h2>
             <Time
               className="d-none d-md-block"
-              // className='time d-sm-block col-lg-3 d-lg-block d-xxl-block'
             />
           </h2>
           <EitanInfo
@@ -30,7 +29,7 @@ const HomePage = () => {
         <Col className="accordion col-12 col-lg-9 col-xxl-9">
           {accordionData.map(
             ({ title, content, image, id, current }) =>
-              !current && (
+              current && (
                 <AnimatedAccordion
                   title={title}
                   content={content}
