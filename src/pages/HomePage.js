@@ -13,9 +13,6 @@ const HomePage = () => {
         <Row>
           <Col></Col>
         </Row>
-        {/* <Col Col className="col-6 d-none col-lg-3 d-lg-block d-xxl-block-2">
-        <Time />
-        </Col> */}
         <Col>
           <h2>
             <Time
