@@ -1,15 +1,15 @@
 const aDayBDay = [
-        "n awesome",
+       false,
         "n A",
         " B",
         "n A",
         " B",
-        " wonderful",
-        " fabulous",
+        false,
+        false,
       ];
         const d = new Date();
         let block = aDayBDay[d.getDay()];
 
-        if (aDayBDay.find(AB => AB === 'B' || 'A'));
+        // if (aDayBDay.find(AB => AB === 'B' || 'A'));
 
 export default block;

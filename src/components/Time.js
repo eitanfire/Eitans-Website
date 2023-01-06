@@ -30,30 +30,28 @@ const brightDay = <span id='aBAB'>
 
   return (
     <animated.div style={animatedStyle}>
-  <Container 
-  className="time"
-  >
+      <Container className="time">
         <Row>
           <Col>
             <span>Today is {weekday}.</span>
           </Col>
-          </Row>
-          {/* <br></br> */}
-          {/* <Col>
+        </Row>
+        {/* <br></br> */}
+        {/* <Col>
             <span className="time">The date is {date}</span>
           </Col> */}
-          <Row>
-          { 
-          <Col>
-          It's a{aDayBDay[0]} {brightDay} day.
-          </Col>
-          || aDayBDay }
-          </Row>
-          {/* <Col>
+        <Row>
+          {aDayBDay && (
+            <Col>
+              It's a{aDayBDay[0]} {brightDay} day.
+            </Col>
+          )}
+        </Row>
+        {/* <Col>
             <span className="time">The year is {currentYear}</span>
           </Col> */}
-  </Container>
-  </animated.div>
+      </Container>
+    </animated.div>
   );
 };
 export default Time;

@@ -5,6 +5,7 @@ import Calendar from "../components/Calendar.js";
 // import Accordion from "../Accordion";
 import Time from "../components/Time";
 import AnimatedAccordion from "../features/AnimatedAccordion";
+import aDayBDay from "../utils/aDayBDay";
 
 const HomePage = () => {
   return (
@@ -15,9 +16,8 @@ const HomePage = () => {
         </Row>
         <Col>
           <h2>
-            <Time
-              className="d-none d-md-block"
-            />
+            {aDayBDay && (
+            <Time className="d-none d-md-block" />)}
           </h2>
           <EitanInfo
           // id='EitanInfoBox col d-none col-lg-1 d-lg-block d-xxl-block-2'
