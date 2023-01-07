@@ -442,7 +442,6 @@ a:active {
 
 #EitanInfoBox {
   max-width: 180px;
-  /* height: max-content; */
   background: url("https://image.shutterstock.com/image-vector/traditional-indian-paisley-pattern-on-600w-1726867504.jpg");
   background-position: 80% 80%;
   border: 4px solid black;

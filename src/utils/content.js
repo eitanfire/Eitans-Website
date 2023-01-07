@@ -307,11 +307,11 @@ export const accordionData = [
           <a
             role="button"
             className="btn btn-light btn-link"
-            href="https://docs.google.com/document/d/1Y3mZ5Dw_IFe98il3b0MksRGwGa1lOuypOtqtY0MB5h4/edit?usp=sharing"
+            href="https://docs.google.com/document/d/1pFXZZSM4JTPlYSubkZdx7pmhi6WH4iJn-4wv4QxK3ns/edit?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Course Description
+            World Wars 🪖 Syllabus
           </a>
         </div>
       </>
@@ -368,11 +368,11 @@ export const accordionData = [
           <a
             role="button"
             className="btn btn-light btn-link"
-            href="https://docs.google.com/document/d/1Y3mZ5Dw_IFe98il3b0MksRGwGa1lOuypOtqtY0MB5h4/edit?usp=sharing"
+            href="https://docs.google.com/document/d/1f50lrY9zCxiUIGwmdcVfJ5Gcf4JhdBwsTTJIbHI5yN8/edit?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Course Description
+            Philosophy 📜 Syllabus
           </a>
         </div>
       </>
@@ -429,11 +429,11 @@ export const accordionData = [
           <a
             role="button"
             className="btn btn-light btn-link"
-            href="https://docs.google.com/document/d/1Y3mZ5Dw_IFe98il3b0MksRGwGa1lOuypOtqtY0MB5h4/edit?usp=sharing"
+            href="https://docs.google.com/document/d/1LrmPa4sHF-5WnsfPI0ifDxzIn53MGaSzu9SfwYhDvnw/edit?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Course Description
+            Policing in America 🚔 Syllabus
           </a>
         </div>
       </>
@@ -490,11 +490,11 @@ export const accordionData = [
           <a
             role="button"
             className="btn btn-light btn-link"
-            href="https://docs.google.com/document/d/1Y3mZ5Dw_IFe98il3b0MksRGwGa1lOuypOtqtY0MB5h4/edit?usp=sharing"
+            href="https://docs.google.com/document/d/1V1xNswBmC4NU-OxA8Xii4aCyvo5vFkVeglKfBPCLzv8/edit?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Course Description
+            Personal Finance 💰 Syllabus
           </a>
         </div>
       </>
