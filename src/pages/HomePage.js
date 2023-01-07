@@ -26,7 +26,7 @@ const HomePage = () => {
         <Col className="accordion col-12 col-lg-9 col-xxl-9">
           {accordionData.map(
             ({ title, content, image, id, current }) =>
-              !current && (
+              current && (
                 <AnimatedAccordion
                   title={title}
                   content={content}
