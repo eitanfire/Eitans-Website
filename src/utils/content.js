@@ -277,7 +277,7 @@ export const accordionData = [
           <a
             role="button"
             className="btn btn-light btn-link"
-            href="https://classroom.google.com/c/NTI2MzY3MTY1NDY0/a/NTAzNDQ1NTEwODQ2/details"
+            href="https://docs.google.com/document/d/1aduRAWAIs3UNez2uYMAIZokIgf-Db-sHLtPIYHZWcLo/edit?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -297,7 +297,7 @@ export const accordionData = [
           <a
             role="button"
             className="btn btn-light btn-link"
-            href="https://docs.google.com/document/d/1Y24ztS0Nq0CdnGA0GsknjeM9htEkPRdQRSZBOUqGjCU/edit?usp=sharing"
+            href="https://docs.google.com/document/d/1qyaBJao8d0oCy4QQy3gE0ZU5gMrj8NFthYPGozGDLXo/edit?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -307,7 +307,7 @@ export const accordionData = [
           <a
             role="button"
             className="btn btn-light btn-link"
-            href="https://docs.google.com/document/d/1pFXZZSM4JTPlYSubkZdx7pmhi6WH4iJn-4wv4QxK3ns/edit?usp=sharing"
+            href="https://docs.google.com/document/u/0/d/1pFXZZSM4JTPlYSubkZdx7pmhi6WH4iJn-4wv4QxK3ns/edit"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -329,7 +329,7 @@ export const accordionData = [
       <img
         className="philosophyClassImage mx-auto d-none d-xxl-block"
         src={Philosophy}
-        alt="World Wars banner"
+        alt="Philosophy banner"
       />
     ),
     content: (
@@ -338,17 +338,17 @@ export const accordionData = [
           <a
             role="button"
             className="btn btn-light btn-link"
-            href="https://classroom.google.com/c/NTI2MzY3MTY1NDY0/a/NTAzNDQ1NTEwODQ2/details"
+            href="https://docs.google.com/document/d/10I7LpBpv2NQFEmr84Kd5S4vOdel0hha6eEgMy69fSoM/edit?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
-            ✏️ Warm-Up Questions for World Wars
+            ✏️ Warm-Up Questions for Philosophy
           </a>
 
           <a
             role="button"
             className="btn btn-light btn-link"
-            href="https://classroom.google.com/c/NTA3NjcyOTIwMzQx"
+            href="https://classroom.google.com/w/NTA5MjE0NDMwMTA0/t/all"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -358,7 +358,7 @@ export const accordionData = [
           <a
             role="button"
             className="btn btn-light btn-link"
-            href="https://docs.google.com/document/d/1Y24ztS0Nq0CdnGA0GsknjeM9htEkPRdQRSZBOUqGjCU/edit?usp=sharing"
+            href="https://docs.google.com/document/d/11uwCD9deuqqwRTq3koyCVn617a4iuIdZZGun7IAfypk/edit?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -368,7 +368,7 @@ export const accordionData = [
           <a
             role="button"
             className="btn btn-light btn-link"
-            href="https://docs.google.com/document/d/1f50lrY9zCxiUIGwmdcVfJ5Gcf4JhdBwsTTJIbHI5yN8/edit?usp=sharing"
+            href="https://docs.google.com/document/u/0/d/1f50lrY9zCxiUIGwmdcVfJ5Gcf4JhdBwsTTJIbHI5yN8/edit"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -390,7 +390,7 @@ export const accordionData = [
       <img
         className="philosophyClassImage mx-auto d-none d-xxl-block"
         src={Policing}
-        alt="World Wars banner"
+        alt="Policing in America banner"
       />
     ),
     content: (
@@ -399,17 +399,17 @@ export const accordionData = [
           <a
             role="button"
             className="btn btn-light btn-link"
-            href="https://classroom.google.com/c/NTI2MzY3MTY1NDY0/a/NTAzNDQ1NTEwODQ2/details"
+            href="https://docs.google.com/document/d/192s8n1GHmTQB9OSLKdc4hO_JsdvdsgxZFT41WgdtB2I/edit?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
-            ✏️ Warm-Up Questions for World Wars
+            ✏️ Warm-Up Questions for Policing in America
           </a>
 
           <a
             role="button"
             className="btn btn-light btn-link"
-            href="https://classroom.google.com/c/NTA3NjcyOTIwMzQx"
+            href="https://classroom.google.com/c/NTA5MjE0NTAzMzkw"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -419,7 +419,7 @@ export const accordionData = [
           <a
             role="button"
             className="btn btn-light btn-link"
-            href="https://docs.google.com/document/d/1qyaBJao8d0oCy4QQy3gE0ZU5gMrj8NFthYPGozGDLXo/edit?usp=sharing"
+            href="https://docs.google.com/document/u/0/d/1mhwSCIjBwzfaKKMl-H7ecx9wZOsvXxOQ_Mj6GOlOOfM/edit"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -451,7 +451,7 @@ export const accordionData = [
       <img
         className="philosophyClassImage mx-auto d-none d-xxl-block"
         src={Finance}
-        alt="World Wars banner"
+        alt="Personal Finance banner"
       />
     ),
     content: (
@@ -460,17 +460,17 @@ export const accordionData = [
           <a
             role="button"
             className="btn btn-light btn-link"
-            href="https://classroom.google.com/c/NTI2MzY3MTY1NDY0/a/NTAzNDQ1NTEwODQ2/details"
+            href="https://docs.google.com/document/d/1OFQJpZ7O67ml0oybKAh2GPXM3AF-bh8rOFWtNdamB18/edit?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
-            ✏️ Warm-Up Questions for World Wars
+            ✏️ Warm-Up Questions for Personal Finance
           </a>
 
           <a
             role="button"
             className="btn btn-light btn-link"
-            href="https://classroom.google.com/c/NTA3NjcyOTIwMzQx"
+            href="https://classroom.google.com/w/NTA5MjE0NDg2OTYw/t/all"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -480,7 +480,7 @@ export const accordionData = [
           <a
             role="button"
             className="btn btn-light btn-link"
-            href="https://docs.google.com/document/d/1Y24ztS0Nq0CdnGA0GsknjeM9htEkPRdQRSZBOUqGjCU/edit?usp=sharing"
+            href="https://docs.google.com/document/u/0/d/1bkEJ6qf1NTSnN5maJxNwx_I8-fZLWNJ6ahemsFS5oWY/edit"
             target="_blank"
             rel="noopener noreferrer"
           >
