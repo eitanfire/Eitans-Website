@@ -397,11 +397,12 @@ a {
 }
 
 a:hover {
-  font-size: 1.15rem;
+  /* font-size: 1.15rem; */
 }
 
 a:active {
   font-size: 0.75rem;
+  
 }
 
 #infoCard {
