@@ -396,14 +396,13 @@ a {
   text-align: center;
 }
 
-a:hover {
-  /* font-size: 1.15rem; */
-}
+/* a:hover {
+  font-size: 1.15rem;
+} */
 
-a:active {
+/* a:active {
   font-size: 0.75rem;
-  
-}
+} */
 
 #infoCard {
   display: block;

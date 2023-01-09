@@ -40,10 +40,6 @@ const brightDay = (
             <span>Today is {weekday}.</span>
           </Col>
         </Row>
-        {/* <br></br> */}
-        {/* <Col>
-            <span className="time">The date is {date}</span>
-          </Col> */}
         <Row>
           {aDayBDay && (
             <Col>
