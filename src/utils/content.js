@@ -55,7 +55,7 @@ export const accordionData = [
             target="_blank"
             rel="noopener noreferrer"
           >
-            Honors & Extra Credit
+            🌈 Honors & Extra Credit
           </a>
 
           <a
@@ -117,7 +117,7 @@ export const accordionData = [
             target="_blank"
             rel="noopener noreferrer"
           >
-            Honors & Extra Credit
+            🌈 Honors & Extra Credit
           </a>
 
           <a
@@ -179,7 +179,7 @@ export const accordionData = [
             target="_blank"
             rel="noopener noreferrer"
           >
-            Honors & Extra Credit
+            🌈 Honors & Extra Credit
           </a>
 
           <a
@@ -240,7 +240,7 @@ export const accordionData = [
             target="_blank"
             rel="noopener noreferrer"
           >
-            Honors & Extra Credit
+            🌈 Honors & Extra Credit
           </a>
 
           <a
@@ -301,7 +301,7 @@ export const accordionData = [
             target="_blank"
             rel="noopener noreferrer"
           >
-            Honors & Extra Credit
+          🌈 Honors & Extra Credit
           </a>
 
           <a
@@ -362,7 +362,7 @@ export const accordionData = [
             target="_blank"
             rel="noopener noreferrer"
           >
-            Honors & Extra Credit
+            🌈 Honors & Extra Credit
           </a>
 
           <a
@@ -423,7 +423,7 @@ export const accordionData = [
             target="_blank"
             rel="noopener noreferrer"
           >
-            Honors & Extra Credit
+            🌈 Honors & Extra Credit
           </a>
 
           <a
@@ -484,7 +484,7 @@ export const accordionData = [
             target="_blank"
             rel="noopener noreferrer"
           >
-            Honors & Extra Credit
+            🌈 Honors & Extra Credit
           </a>
 
           <a
@@ -496,8 +496,6 @@ export const accordionData = [
           >
             Personal Finance 💰 Syllabus
           </a>
-
-          
         </div>
       </>
     ),
