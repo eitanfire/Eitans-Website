@@ -277,7 +277,7 @@ export const accordionData = [
           <a
             role="button"
             className="btn btn-light btn-link"
-            href="https://docs.google.com/document/d/1aduRAWAIs3UNez2uYMAIZokIgf-Db-sHLtPIYHZWcLo/edit?usp=sharing"
+            href="https://classroom.google.com/w/NTA3NjcyOTIwMzQx/tc/NTgxODQwOTE1OTE4"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -301,7 +301,7 @@ export const accordionData = [
             target="_blank"
             rel="noopener noreferrer"
           >
-          🌈 Honors & Extra Credit
+            🌈 Honors & Extra Credit
           </a>
 
           <a
@@ -338,7 +338,7 @@ export const accordionData = [
           <a
             role="button"
             className="btn btn-light btn-link"
-            href="https://docs.google.com/document/d/10I7LpBpv2NQFEmr84Kd5S4vOdel0hha6eEgMy69fSoM/edit?usp=sharing"
+            href="https://classroom.google.com/c/NTA5MjE0NDMwMTA0/a/NTA5MjE0NDMwMTYy/details"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -399,7 +399,7 @@ export const accordionData = [
           <a
             role="button"
             className="btn btn-light btn-link"
-            href="https://docs.google.com/document/d/192s8n1GHmTQB9OSLKdc4hO_JsdvdsgxZFT41WgdtB2I/edit?usp=sharing"
+            href="https://classroom.google.com/w/NTA5MjE0NTAzMzkw/tc/NTgxODM4ODk3MTIx"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -460,7 +460,7 @@ export const accordionData = [
           <a
             role="button"
             className="btn btn-light btn-link"
-            href="https://docs.google.com/document/d/1OFQJpZ7O67ml0oybKAh2GPXM3AF-bh8rOFWtNdamB18/edit?usp=sharing"
+            href="https://classroom.google.com/c/NTA5MjE0NDg2OTYw/a/NTgxODM4MDk0MzY2/details"
             target="_blank"
             rel="noopener noreferrer"
           >
