@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a4627a00.css",
-    "main.js": "/static/js/main.72e50f96.js",
+    "main.css": "/static/css/main.d639800f.css",
+    "main.js": "/static/js/main.14ed3914.js",
     "static/media/logo.jpg": "/static/media/logo.9916513064d897a34ed5.jpg",
     "static/media/world-wars-banner.png": "/static/media/world-wars-banner.530ebb33252118cc30a4.png",
     "static/media/personal-finance.png": "/static/media/personal-finance.53b3b46735ff7bce7020.png",
@@ -14,11 +14,11 @@
     "static/media/film-banner.png": "/static/media/film-banner.b3e34a72e2f631387925.png",
     "static/media/class-website-banner.png": "/static/media/class-website-banner.18ddd6400db9b1bafe5d.png",
     "index.html": "/index.html",
-    "main.a4627a00.css.map": "/static/css/main.a4627a00.css.map",
-    "main.72e50f96.js.map": "/static/js/main.72e50f96.js.map"
+    "main.d639800f.css.map": "/static/css/main.d639800f.css.map",
+    "main.14ed3914.js.map": "/static/js/main.14ed3914.js.map"
   },
   "entrypoints": [
-    "static/css/main.a4627a00.css",
-    "static/js/main.72e50f96.js"
+    "static/css/main.d639800f.css",
+    "static/js/main.14ed3914.js"
   ]
 }

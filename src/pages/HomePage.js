@@ -1,6 +1,7 @@
 import { Col, Row, Container } from "reactstrap";
 import EitanInfo from "../features/EitanInfo.js";
-import { accordionData } from "../utils/content";
+import { secondSemesterAccordionData } from "../utils/secondSemesterClasses";
+import { firstSemesterAccordionData } from "../utils/firstSemesterClasses";
 import Calendar from "../components/Calendar.js";
 // import Accordion from "../Accordion";
 import Time from "../components/Time";
@@ -15,16 +16,13 @@ const HomePage = () => {
           <Col></Col>
         </Row>
         <Col>
-          <h2>
-            {aDayBDay && (
-            <Time className="d-none d-md-block" />)}
-          </h2>
+          <h2>{aDayBDay && <Time className="d-none d-md-block" />}</h2>
           <EitanInfo
           // id='EitanInfoBox col d-none col-lg-1 d-lg-block d-xxl-block-2'
           />
         </Col>
         <Col className="accordion col-12 col-lg-9 col-xxl-9">
-          {accordionData.map(
+          {secondSemesterAccordionData.map(
             ({ title, content, image, id, current }) =>
               !current && (
                 <AnimatedAccordion
