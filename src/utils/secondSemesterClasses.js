@@ -148,7 +148,7 @@ export const secondSemesterAccordionData = [
           <a
             role="button"
             className="btn btn-light btn-link"
-            href="https://classroom.google.com/w/NTA5MjE0NTAzMzkw/tc/NTgxODM4ODk3MTIx"
+            href="https://classroom.google.com/c/NTA5MjE0NTAzMzkw/a/NTA5NTI0NTczMDA4/details"
             target="_blank"
             rel="noopener noreferrer"
           >

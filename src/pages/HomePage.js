@@ -1,7 +1,7 @@
 import { Col, Row, Container } from "reactstrap";
 import EitanInfo from "../features/EitanInfo.js";
 import { secondSemesterAccordionData } from "../utils/secondSemesterClasses";
-import { firstSemesterAccordionData } from "../utils/firstSemesterClasses";
+// import { firstSemesterAccordionData } from "../utils/firstSemesterClasses";
 import Calendar from "../components/Calendar.js";
 // import Accordion from "../Accordion";
 import Time from "../components/Time";

@@ -3,14 +3,14 @@ import "../App.css";
 import year from "../utils/currentYear.js";
 
 
-const btn = document.getElementById("globe");
-const emojis = [ 
-    "🌎",  "🌏",  "🌍"
-];
+// const btn = document.getElementById("globe");
+// const emojis = [ 
+//     "🌎",  "🌏",  "🌍"
+// ];
 
-btn.addEventListener("mouseover", () => {
-  btn.innerText = emojis[Math.floor(Math.random() * emojis.length)];
-});
+// btn.addEventListener("mouseover", () => {
+//   btn.innerText = emojis[Math.floor(Math.random() * emojis.length)];
+// });
 
 const Footer = () => {
   return (
