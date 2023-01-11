@@ -36,7 +36,6 @@ const brightDay = (
       <Container className="time">
         <Row>
           <Col>
-            {/* <span>{getCurrentDate}</span> */}
             <span>Today is {weekday}.</span>
           </Col>
         </Row>
@@ -47,9 +46,6 @@ const brightDay = (
             </Col>
           )}
         </Row>
-        {/* <Col>
-            <span className="time">The year is {currentYear}</span>
-          </Col> */}
       </Container>
     </animated.div>
   );
