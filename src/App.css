@@ -81,20 +81,10 @@ img {
   filter: grayscale(1);
 }
 #pie:hover {
-  /* display:inline-flexbox; */
-  /* position:inherit; */
-  /* right: -50rem; */
-  /* font-size: 25px;
-  font-weight: 700;   */
-  /* fill: #FFC657; */
-  /* animation: grow 15s ease-in-out;
-  transform-origin: 100% 100%; */
   font-size: 3rem;
-  /* filter: grayscale(1); */
   transition: 0.1s;
   border: none;
   cursor: pointer;
-  /* transform: scale(1.23, 0); */
   filter: grayscale(0);
 }
 
