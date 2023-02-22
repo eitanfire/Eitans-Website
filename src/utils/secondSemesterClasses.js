@@ -26,7 +26,7 @@ export const secondSemesterAccordionData = [
           <a
             role="button"
             className="btn btn-light btn-link"
-            href="https://classroom.google.com/w/NTA3NjcyOTIwMzQx/tc/NTgxODQwOTE1OTE4"
+            href="https://classroom.google.com/c/NTA3NjcyOTIwMzQx/a/NTEzNzE2OTAxMzEy/details"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -148,7 +148,7 @@ export const secondSemesterAccordionData = [
           <a
             role="button"
             className="btn btn-light btn-link"
-            href="https://classroom.google.com/c/NTA5MjE0NTAzMzkw/a/NTA5NTI0NTczMDA4/details"
+            href="https://classroom.google.com/c/NTA5MjE0NTAzMzkw/a/NTE2MDYyNDg3MzIy/details"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -209,7 +209,7 @@ export const secondSemesterAccordionData = [
           <a
             role="button"
             className="btn btn-light btn-link"
-            href="https://classroom.google.com/c/NTA5MjE0NDg2OTYw/a/NTgxODM4MDk0MzY2/details"
+            href="https://classroom.google.com/c/NTA5MjE0NDg2OTYw/a/NTEzNzE3MjM2NjQ4/details"
             target="_blank"
             rel="noopener noreferrer"
           >
