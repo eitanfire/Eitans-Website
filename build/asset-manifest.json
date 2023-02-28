@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.90c686eb.css",
-    "main.js": "/static/js/main.fc647855.js",
+    "main.js": "/static/js/main.4fa57375.js",
     "static/media/logo.jpg": "/static/media/logo.9916513064d897a34ed5.jpg",
     "static/media/world-wars-banner.png": "/static/media/world-wars-banner.530ebb33252118cc30a4.png",
     "static/media/personal-finance.png": "/static/media/personal-finance.53b3b46735ff7bce7020.png",
@@ -11,10 +11,10 @@
     "static/media/class-website-banner.png": "/static/media/class-website-banner.18ddd6400db9b1bafe5d.png",
     "index.html": "/index.html",
     "main.90c686eb.css.map": "/static/css/main.90c686eb.css.map",
-    "main.fc647855.js.map": "/static/js/main.fc647855.js.map"
+    "main.4fa57375.js.map": "/static/js/main.4fa57375.js.map"
   },
   "entrypoints": [
     "static/css/main.90c686eb.css",
-    "static/js/main.fc647855.js"
+    "static/js/main.4fa57375.js"
   ]
 }
