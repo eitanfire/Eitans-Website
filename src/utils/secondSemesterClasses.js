@@ -3,6 +3,7 @@ import Philosophy from '../app/img/flammarion-engraving.jpg';
 import Policing from '../app/img/Policing-in-America.png';
 import Finance from '../app/img/personal-finance.png';
 import '../App.css';
+// import '../courseTheme.css'
 
 export const secondSemesterAccordionData = [
   {
