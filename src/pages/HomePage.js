@@ -7,6 +7,7 @@ import Calendar from "../components/Calendar.js";
 import Time from "../components/Time";
 import AnimatedAccordion from "../features/AnimatedAccordion";
 import aDayBDay from "../utils/aDayBDay";
+import getCurrentDate from "../utils/getCurrentDate.js";
 
 const HomePage = () => {
   return (

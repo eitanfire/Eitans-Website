@@ -108,8 +108,9 @@ img {
   -webkit-text-stroke: 1px rgb(9, 3, 90);
   text-align: center;
   font-size: 200%;
+  }
   /* transform: translateY(-200px); */
-}
+
 
 /* .accordion-content:after {
   transition: transform 500ms ease-in-out;
@@ -129,6 +130,8 @@ img {
 .wwClassImage,
 .philosophyClassImage,
 .classImage {
+  /* height: 110%; */
+  /* width: max-content; */
   block-size: 75px;
   writing-mode: horizontal-tb;
   position: relative;
