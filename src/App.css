@@ -129,8 +129,6 @@ img {
 .wwClassImage,
 .philosophyClassImage,
 .classImage {
-  /* height: 110%; */
-  /* width: max-content; */
   block-size: 75px;
   writing-mode: horizontal-tb;
   position: relative;
