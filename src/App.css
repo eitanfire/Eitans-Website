@@ -108,13 +108,6 @@ img {
   text-align: center;
   font-size: 200%;
   }
-  /* transform: translateY(-200px); */
-
-
-/* .accordion-content:after {
-  transition: transform 500ms ease-in-out;
-  transition:  all 1s ease-out;
-} */
 
 .ContactForm {
   display: block;
