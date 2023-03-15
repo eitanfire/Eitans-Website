@@ -111,7 +111,6 @@ img {
 
 .ContactForm {
   display: block;
-  /* width: 45%; */
   width: min-content;
   height: 100%;
   margin: auto;
