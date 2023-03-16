@@ -18,7 +18,6 @@
 
 //     return ReactDom.createPortal(
 //         <CSSTransition
-//         in={props.show}
 //         unmountOnExit
 //         timeout={{ enter: 0, exit: 300 }}
 //         >
