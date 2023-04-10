@@ -26,8 +26,6 @@ const brightDay = (
   </span>
 );
 
-// const onlyAB = aDayBDay.filter(AB => AB === 'B' || 'A');
-
   return (
     <animated.div style={animatedStyle}>
       <Container className="time">
