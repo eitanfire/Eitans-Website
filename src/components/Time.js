@@ -1,11 +1,9 @@
-// import date from "../utils/date.js";
 import weekday from "../utils/day";
 import aDayBDay from '../utils/aDayBDay';
 import { Col, Row, Container } from "reactstrap";
 import { useState, useEffect } from 'react';
 import { useSpring, animated, } from 'react-spring';
 import '../App.css';
-import {getCurrentDate} from "../utils/getCurrentDate";
 
 const Time = () => {
   const [toggle, setToggle] = useState(false)
