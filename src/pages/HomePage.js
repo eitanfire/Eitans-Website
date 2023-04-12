@@ -1,9 +1,8 @@
 import { Col, Row, Container } from "reactstrap";
 import EitanInfo from "../features/EitanInfo.js";
 import { secondSemesterAccordionData } from "../utils/secondSemesterClasses";
-// import { firstSemesterAccordionData } from "../utils/firstSemesterClasses";
+import { firstSemesterAccordionData } from "../utils/firstSemesterClasses";
 import Calendar from "../components/Calendar.js";
-// import Accordion from "../Accordion";
 import Time from "../components/Time";
 import AnimatedAccordion from "../features/AnimatedAccordion";
 import aDayBDay from "../utils/aDayBDay";
@@ -23,9 +22,10 @@ const HomePage = () => {
           />
         </Col>
         <Col className="accordion col-12 col-lg-9 col-xxl-9">
-          {secondSemesterAccordionData.map(
+          {firstSemesterAccordionData && secondSemesterAccordionData.map(
             ({ title, content, image, id, current }) =>
-              !current && (
+              !current && 
+              (
                 <AnimatedAccordion
                   title={title}
                   content={content}
