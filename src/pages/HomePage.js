@@ -7,8 +7,10 @@ import Time from "../components/Time";
 import AnimatedAccordion from "../features/AnimatedAccordion";
 import aDayBDay from "../utils/aDayBDay";
 import getCurrentDate from "../utils/getCurrentDate.js";
+import { useState } from "react";
 
 const HomePage = () => {
+  const [semester, setSemester] = useState(false)
   return (
     <Container>
       <Row>
@@ -22,18 +24,16 @@ const HomePage = () => {
           />
         </Col>
         <Col className="accordion col-12 col-lg-9 col-xxl-9">
-          {firstSemesterAccordionData && secondSemesterAccordionData.map(
-            ({ title, content, image, id, current }) =>
-              !current && 
-              (
-                <AnimatedAccordion
-                  title={title}
-                  content={content}
-                  image={image}
-                  key={id}
-                  current={current}
-                />
-              )
+          {(secondSemesterAccordionData && firstSemesterAccordionData).map(
+            ({ title, content, image, id, current }) => (
+              <AnimatedAccordion
+                title={title}
+                content={content}
+                image={image}
+                key={id}
+                current={current}
+              />
+            )
           )}
         </Col>
         <Row>

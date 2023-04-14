@@ -249,6 +249,7 @@ export const firstSemesterAccordionData = [
             Course Description
           </a>
         </div>
+        
       </>
     ),
   },
