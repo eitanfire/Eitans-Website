@@ -7,9 +7,7 @@ const Tabs = () => {
         <li>1st Semester</li>
         <li>2nd Semester</li>
       </ul>
-      <div className="outlet">
-        {/* content will be shown here */}
-      </div>
+      <div className="outlet">{/* content will be shown here */}</div>
     </div>
   );
 };

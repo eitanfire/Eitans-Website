@@ -2,7 +2,6 @@
 import { useState, useEffect } from 'react';
 import { Card, CardImg, CardText, CardBody, CardTitle } from 'reactstrap';
 import { useSpring, animated, scale, easings } from 'react-spring';
-import Tabs from '../components/TabComponent/Tabs';
 
 const AnimatedAccordion = ({ icon, title, content, image, id }) => {
     const [isActive, setIsActive] = useState(false);
@@ -20,34 +19,33 @@ const AnimatedAccordion = ({ icon, title, content, image, id }) => {
     }, []);
 
     return (
-      <animated.div style={animatedStyle}>
-        <Tabs />
-        <div className="accordion-item">
-          <CardText
-            className="accordion-title"
-            onClick={() => setIsActive(!isActive)}
-          >
-            <CardTitle>
-              {icon}
-              {title}
-              {image}
-              {id}
-              <span
-                className="d-none d-md-block d-xxl-none"
-                id="openCloseSymbols"
-                style={{ color: "red" }}
-              >
-                {isActive ? " 🪐" : " 🚀"}
-              </span>
-            </CardTitle>
-          </CardText>
-          <Card>
-            <CardBody className="accordion-content-theme">
-              {isActive && <div className="accordion-content">{content}</div>}
-            </CardBody>
-          </Card>
-        </div>
-      </animated.div>
+        <animated.div style={animatedStyle}>
+          <div className="accordion-item">
+            <CardText
+              className="accordion-title"
+              onClick={() => setIsActive(!isActive)}
+            >
+              <CardTitle>
+                {icon}
+                {title}
+                {image}
+                {id}
+                <span
+                  className="d-none d-md-block d-xxl-none"
+                  id="openCloseSymbols"
+                  style={{ color: "red" }}
+                >
+                  {isActive ? " 🪐" : " 🚀"}
+                </span>
+              </CardTitle>
+            </CardText>
+            <Card>
+              <CardBody className="accordion-content-theme">
+                {isActive && <div className="accordion-content">{content}</div>}
+              </CardBody>
+            </Card>
+          </div>
+        </animated.div>
     );
   };
 
