@@ -487,12 +487,12 @@ a {
 }
 
 .Tabs {
- width: 80%;
+ /* width: 80%; */
  height: auto;
  /* min-height: 400px; */
-  background:     linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)),
+  /* background:     linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)),
     radial-gradient(ellipse at top, #ec008c, transparent),
-    radial-gradient(ellipse at bottom, #fc6767, transparent);
+    radial-gradient(ellipse at bottom, #fc6767, transparent); */
  margin: 1rem auto 1rem;
  padding: 2rem 1rem;
  color: black;
@@ -511,6 +511,9 @@ ul.nav li {
   transition: all 0.7s;
   border-bottom-left-radius: 2rem;
   border-top-left-radius: 2rem;
+    background:     linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)),
+    radial-gradient(ellipse at top, #ec008c, transparent),
+    radial-gradient(ellipse at bottom, #fc6767, transparent);
 }
 ul.nav li:nth-child(2) {
   border-radius: 0;

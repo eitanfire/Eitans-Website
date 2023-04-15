@@ -1,11 +1,27 @@
 import React from "react";
+import { Col, Row, Container } from "reactstrap";
+import { firstSemesterAccordionData } from "../../utils/firstSemesterClasses";
+import AnimatedAccordion from "../../features/AnimatedAccordion";
+import { useState } from "react";
 
-const FirstSemesterAccordion = () => {
+const SecondSemesterAccordion = () => {
   return (
-    <div className="FirstSemesterAccordion">
-      <p>First Semester!! Hurray!!</p>
-      {/* First semester content will go here */}
+    <div className="SecondSemesterAccordion">
+      <Container>
+        {firstSemesterAccordionData.map(
+          ({ title, content, image, id, current }) => (
+            <AnimatedAccordion
+              title={title}
+              content={content}
+              image={image}
+              key={id}
+              current={current}
+            />
+          )
+        )}
+      </Container>
     </div>
   );
 };
-export default FirstSemesterAccordion;
+
+export default SecondSemesterAccordion;

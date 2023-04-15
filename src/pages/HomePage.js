@@ -26,7 +26,7 @@ const HomePage = () => {
         </Col>
         <Col className="accordion col-12 col-lg-9 col-xxl-9">
           <Tabs />
-          {(secondSemesterAccordionData && firstSemesterAccordionData).map(
+          {/* {(secondSemesterAccordionData && firstSemesterAccordionData).map(
             ({ title, content, image, id, current }) => (
               <AnimatedAccordion
                 title={title}
@@ -36,7 +36,7 @@ const HomePage = () => {
                 current={current}
               />
             )
-          )}
+          )} */}
         </Col>
         <Row>
           <Col className="col-12 mt-4">
