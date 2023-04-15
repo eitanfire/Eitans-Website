@@ -2,7 +2,7 @@ import Film from '../app/img/film-banner.png';
 import Epics from '../app/img/epics-banner.png';
 import Programming from '../app/img/programming-banner.png';
 import Survival from '../app/img/survive-the-world-banner.png';
-import '../App.css';
+import "../tabs.css";
 
 export const firstSemesterAccordionData = [
   {
