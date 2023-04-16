@@ -29,7 +29,6 @@ img {
 }
 
 #banner {
-  background-image: url("https://as2.ftcdn.net/v2/jpg/00/94/53/25/500_F_94532580_XwSK8I03t7oQY246gc6vdeU1wm6q2r8P.jpg");
   margin-bottom: 2rem;
   border: 5px solid black;
   height: 160px;
@@ -47,13 +46,16 @@ img {
 .accordion {
   /* position:relative; */
   display: block;
+  position: relative;
+  margin-right: -12rem;
+  margin-inline-start: 12rem;
   padding-top: 10px;
   padding-bottom: 5px;
   margin-bottom: 0rem;
   align-items: center;
   height: fit-content;
+  /* min-width:82%; */
   background-attachment: fixed;
-  background-image: url("https://as2.ftcdn.net/v2/jpg/00/94/53/25/500_F_94532580_XwSK8I03t7oQY246gc6vdeU1wm6q2r8P.jpg");
   background-position: 25% 75%;
 }
 
@@ -128,8 +130,8 @@ img {
   position: relative;
   text-align: center;
   float: right;
-  margin-top: 1%;
-  border: 100% double maroon;
+  margin: 1.25%;
+  /* border: 100% double maroon; */
   /* border: 5px solid #555; */
 }
 
@@ -187,13 +189,24 @@ img {
   }
 }
 
+.rainbow-paisley-bg, 
+#rainbowText,
+#eitansProfilePic,
+#infoCard,
+.Calendar,
+#banner,
+.accordion {
+  background-image: url("https://as2.ftcdn.net/v2/jpg/00/94/53/25/500_F_94532580_XwSK8I03t7oQY246gc6vdeU1wm6q2r8P.jpg");
+}
+
+.black-and-white-paisley-bg {
+
+}
+
 #rainbowText {
-  /* font-size:large ; */
-  /* font-weight: 700; */
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
-  background-image: url("https://as2.ftcdn.net/v2/jpg/00/94/53/25/500_F_94532580_XwSK8I03t7oQY246gc6vdeU1wm6q2r8P.jpg");
   -webkit-text-stroke: 0.85px black;
   border: 0.2rem solid transparent;
   background-attachment: fixed;
@@ -370,7 +383,6 @@ a {
   display: block;
   width: 113%;
   background-attachment: fixed;
-  background-image: url("https://as2.ftcdn.net/v2/jpg/00/94/53/25/500_F_94532580_XwSK8I03t7oQY246gc6vdeU1wm6q2r8P.jpg");
   padding-top: 5px;
   padding-right: 6px;
   padding-bottom: 5px;
@@ -418,13 +430,11 @@ a {
   position: inline;
   margin: 3rem;
   margin-left: 15%;
-
 }
 
 #eitansProfilePic {
   float: right;
   border: 0.2rem solid transparent;
-  background-image: url("https://as2.ftcdn.net/v2/jpg/00/94/53/25/500_F_94532580_XwSK8I03t7oQY246gc6vdeU1wm6q2r8P.jpg");
   background-size: 100rem;
   background-attachment: fixed;
   width: auto;

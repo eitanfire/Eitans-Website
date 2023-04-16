@@ -1,22 +1,27 @@
 .Tabs {
  /* width: 80%; */
- height: auto;
+ /* height: auto; */
  /* min-height: 400px; */
   /* background:     linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)),
     radial-gradient(ellipse at top, #ec008c, transparent),
     radial-gradient(ellipse at bottom, #fc6767, transparent); */
- margin: 1rem auto 1rem;
- padding: 2rem 1rem;
+ /* margin: 1rem auto 1rem; */
+ /* padding:-1rem auto; */
  color: black;
  border-radius: 2rem;
- @media (max-width: 769px) {
+ /* @media (max-width: 769px) {
   padding: 2rem 0;
- }
+ } */
+}
+
+.outlet {
+    /* width: 110% */
 }
 
 ul.nav li {
   width: 50%;
   padding: 1rem;
+  margin-bottom: 1rem;
   list-style: none;
   text-align: center;
   cursor: pointer;

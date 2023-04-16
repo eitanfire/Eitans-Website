@@ -13,7 +13,6 @@ function App() {
     <div className="App">
       <Header className="col col-12" />
       <Routes>
-        {/* <Route path='modal' element={<Modal />}/> */}
         <Route path="/" element={<HomePage />} />
         <Route path="read-more" element={<EitansIntro />} />
         <Route path="contact" element={<ContactForm />} />
