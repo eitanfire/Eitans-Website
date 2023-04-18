@@ -62,6 +62,7 @@ img {
 .accordion-title {
   font-size: 50px;
   font-weight: 700;
+  -webkit-text-stroke: 0.85px black;
   height: 5.3rem;
   background-clip: text;
   -webkit-background-clip: text;
@@ -196,8 +197,8 @@ img {
 .accordion-title,
 .accordion-title:hover,
 .ContactForm {
-  /* background-image: url("https://as2.ftcdn.net/v2/jpg/00/94/53/25/500_F_94532580_XwSK8I03t7oQY246gc6vdeU1wm6q2r8P.jpg"); */
-    background-image: url("https://t4.ftcdn.net/jpg/05/81/59/61/240_F_581596141_Ktqv4M1O8OCLEgMWe3XpNyxHdX9w5onX.jpg");
+  background-image: url("https://as2.ftcdn.net/v2/jpg/00/94/53/25/500_F_94532580_XwSK8I03t7oQY246gc6vdeU1wm6q2r8P.jpg");
+    /* background-image: url("https://t4.ftcdn.net/jpg/05/81/59/61/240_F_581596141_Ktqv4M1O8OCLEgMWe3XpNyxHdX9w5onX.jpg"); */
 
 }
 

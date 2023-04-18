@@ -2,6 +2,8 @@ import React from "react";
 import { useState } from "react";
 import FirstSemesterAccordion from "./FirstSemesterAccordion"
 import SecondSemesterAccordion from "./SecondSemesterAccordion";
+import '../../tabs.css';
+// import '../../tabs_Chinedu.css'
 
 const Tabs = () => {
   const [activeTab, setActiveTab] = useState("tab2");
