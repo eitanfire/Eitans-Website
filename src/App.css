@@ -154,6 +154,8 @@ img {
   border-top: 1px solid #000;
   border-bottom: 1px solid #000;
   opacity: 0.85;
+    -webkit-text-stroke: 0.15px black;
+
   background: 
   url("https://image.shutterstock.com/image-vector/traditional-indian-paisley-pattern-on-600w-1726867504.jpg")
       no-repeat,
@@ -164,7 +166,7 @@ img {
   /* margin-bottom: 1em; */
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
-  margin-right: -11rem;
+  /* margin-right: -11rem; */
   text-align: center;
   font-size: larger;
   width: 100%;

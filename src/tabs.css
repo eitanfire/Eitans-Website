@@ -18,10 +18,10 @@ ul.nav {
   border: 2px solid black;
   border-radius: 2rem;
   padding-left: 0px;
-  background: 
-    linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)),
+  background: gray;
+    /* linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)),
     radial-gradient(ellipse at top, #82f089, transparent, #82f089),
-    radial-gradient(ellipse at bottom, #c7e407, transparent,  #c7e407); 
+    radial-gradient(ellipse at bottom, #c7e407, transparent,  #c7e407);  */
     opacity: .97; 
     @media (max-width: 768px) {
     width: 90%;
@@ -29,7 +29,7 @@ ul.nav {
 }
 
 ul.nav li {
-    width: 50%;
+    /* width: 50%; */
   padding: 1rem;
   list-style: none;
   text-align: center;
@@ -51,7 +51,7 @@ ul.nav li:hover {
 
   background: 
   
-  lightcoral;
+  rgb(15, 233, 127);
   color: rgb(22, 19, 19);
 }
 ul.nav li.active {

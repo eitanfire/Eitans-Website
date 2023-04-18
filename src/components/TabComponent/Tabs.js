@@ -3,44 +3,50 @@ import { useState } from "react";
 import FirstSemesterAccordion from "./FirstSemesterAccordion"
 import SecondSemesterAccordion from "./SecondSemesterAccordion";
 import '../../tabs.css';
-// import '../../tabs_Chinedu.css'
+import TabNavItem from "../TabComponent/V2/TabNavItem";
+import TabContent from "../TabComponent/V2/TabContent";
 
 const Tabs = () => {
   const [activeTab, setActiveTab] = useState("tab2");
 
-  //  Functions to handle Tab Switching
-  const handleTab1 = () => {
-    // update the state to tab1
-    setActiveTab("tab1");
-  };
-  const handleTab2 = () => {
-    // update the state to tab2
-    setActiveTab("tab2");
-  };
-
   return (
     <div className="Tabs">
-      {/* Tab nav */}
       <ul className="nav">
-        <li
-          className={activeTab === "tab1" ? "active" : ""}
-          onClick={handleTab1}
-        >
-          1st Semester
-        </li>
-        <li
-          className={activeTab === "tab2" ? "active" : ""}
-          onClick={handleTab2}
-        >
-          2nd Semester
-        </li>
+        <TabNavItem
+          title="1st Semester
+"
+          id="tab1"
+          activeTab={activeTab}
+          setActiveTab={setActiveTab}
+        />
+        <TabNavItem
+          title="2nd Semester"
+          id="tab2"
+          activeTab={activeTab}
+          setActiveTab={setActiveTab}
+        />
+        <TabNavItem
+          title="Next Year"
+          id="tab3"
+          activeTab={activeTab}
+          setActiveTab={setActiveTab}
+        />
       </ul>
       <div className="outlet">
-        {activeTab === "tab1" ? (
+        {/* {activeTab === "tab1" ? (
           <FirstSemesterAccordion />
         ) : (
           <SecondSemesterAccordion />
-        )}
+        )} */}
+        <TabContent id="tab1" activeTab={activeTab}>
+          <FirstSemesterAccordion />
+        </TabContent>
+        <TabContent id="tab2" activeTab={activeTab}>
+          <SecondSemesterAccordion />
+        </TabContent>
+        <TabContent id="tab3" activeTab={activeTab}>
+          <p>Class Preferences for Next Year</p>
+        </TabContent>
       </div>
     </div>
   );
