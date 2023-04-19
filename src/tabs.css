@@ -19,17 +19,13 @@ ul.nav {
   border-radius: 2rem;
   padding-left: 0px;
   background: gray;
-    /* linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)),
-    radial-gradient(ellipse at top, #82f089, transparent, #82f089),
-    radial-gradient(ellipse at bottom, #c7e407, transparent,  #c7e407);  */
-    opacity: .97; 
+    opacity: .9; 
     @media (max-width: 768px) {
-    width: 90%;
+    width: 92%;
   }
 }
 
 ul.nav li {
-    /* width: 50%; */
   padding: 1rem;
   list-style: none;
   text-align: center;
