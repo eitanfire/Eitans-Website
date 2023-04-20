@@ -62,7 +62,7 @@ img {
 .accordion-title {
   font-size: 50px;
   font-weight: 700;
-  -webkit-text-stroke: 0.85px black;
+  -webkit-text-stroke: 0.5px black;
   height: 5.3rem;
   background-clip: text;
   -webkit-background-clip: text;
@@ -74,7 +74,6 @@ img {
   font-weight: 700;
   background-clip: text;
   -webkit-background-clip: text;
-  color: transparent;
 }
 
 #pie {
@@ -91,9 +90,8 @@ img {
 #icon:after,
 #icon:active,
 #icon:hover {
-  color: red;
+  color:red;
 }
-
 .accordion-title:hover {
   font-size: 50px;
   font-weight: 700;

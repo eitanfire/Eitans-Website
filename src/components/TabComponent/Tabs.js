@@ -33,11 +33,6 @@ const Tabs = () => {
         />
       </ul>
       <div className="outlet">
-        {/* {activeTab === "tab1" ? (
-          <FirstSemesterAccordion />
-        ) : (
-          <SecondSemesterAccordion />
-        )} */}
         <TabContent id="tab1" activeTab={activeTab}>
           <FirstSemesterAccordion />
         </TabContent>
