@@ -46,9 +46,7 @@ img {
 .accordion {
   /* position:relative; */
   display: block;
-  position: relative;
-  margin-right: -12rem;
-  margin-inline-start: 12rem;
+  /* position: relative; */
   padding-top: 10px;
   padding-bottom: 5px;
   margin-bottom: 0rem;

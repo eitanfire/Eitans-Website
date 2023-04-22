@@ -11,7 +11,7 @@ const HomePage = () => {
       <Row>
         <Col>
           <h2>{aDayBDay && <Time className="d-none d-md-block" />}</h2>
-          <EitanInfo Id="EitanInfoBox"/>
+          <EitanInfo Id="EitanInfoBox" />
         </Col>
         <Col className="accordion col-12 col-lg-9 col-xxl-9">
           <Tabs />
