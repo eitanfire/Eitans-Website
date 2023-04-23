@@ -31,7 +31,8 @@ const EitanInfo = () => {
              >
                 <Container 
                 // className='border border-1 border-danger d-block' 
-                id='EitanInfoBox'>
+                id='EitanInfoBox'
+                >
                     <Row className='mx-flex'>
                         {/* <Col>
                         <button onClick={() => setShow(true)}>Show Modal</button>

@@ -1,6 +1,8 @@
 body {
   font-family: "Times New Roman";
   margin-left: 0rem;
+  background-color: transparent;
+
 }
 h1,
 h3 {
@@ -55,16 +57,19 @@ img {
   /* min-width:82%; */
   background-attachment: fixed;
   background-position: 25% 75%;
+  width:118%;
 }
 
 .accordion-title {
-  font-size: 50px;
+  font-size: 60px;
   font-weight: 700;
   -webkit-text-stroke: 0.5px black;
   height: 5.3rem;
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
+    text-align: left;
+    margin-left: 2rem;
 }
 
 #icon:before {
@@ -72,6 +77,7 @@ img {
   font-weight: 700;
   background-clip: text;
   -webkit-background-clip: text;
+
 }
 
 #pie {
@@ -89,15 +95,19 @@ img {
 #icon:active,
 #icon:hover {
   color:red;
+    /* align-content: left; */
+
 }
 
 .accordion-title:hover {
-  font-size: 50px;
+  font-size: 59px;
   font-weight: 700;
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
   background-attachment: fixed;
+    -webkit-text-stroke: 1px rgb(9, 3, 90);
+
 }
 
 .accordion-content {
@@ -192,15 +202,14 @@ img {
 #rainbowText,
 #eitansProfilePic,
 #infoCard,
-.Calendar,
+/* .Calendar, */
 #banner,
 .accordion,
 .accordion-title,
 .accordion-title:hover,
 .ContactForm {
   background-image: url("https://as2.ftcdn.net/v2/jpg/00/94/53/25/500_F_94532580_XwSK8I03t7oQY246gc6vdeU1wm6q2r8P.jpg");
-    /* background-image: url("https://t4.ftcdn.net/jpg/05/81/59/61/240_F_581596141_Ktqv4M1O8OCLEgMWe3XpNyxHdX9w5onX.jpg"); */
-
+  background-attachment:fixed;  
 }
 
 .black-and-white-paisley-bg,
@@ -209,13 +218,14 @@ footer {
   background: url("https://image.shutterstock.com/image-vector/traditional-indian-paisley-pattern-on-600w-1726867504.jpg"), no-repeat;
 }
 
+#rainbowText::before,
 #rainbowText {
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
   -webkit-text-stroke: 0.85px black;
   border: 0.2rem solid transparent;
-  background-attachment: fixed;
+  /* background-attachment:scroll; */
 }
 
 #filmColor {
@@ -387,7 +397,7 @@ a {
 #infoCard,
 .Calendar {
   display: block;
-  width: 113%;
+  /* width: 113%; */
   background-attachment: fixed;
   padding-top: 5px;
   padding-right: 6px;
@@ -423,12 +433,12 @@ a {
   content: "";
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3));
   background-size: cover;
-  position: absolute;
+  /* position: absolute; */
   top: 0px;
   right: 0px;
   bottom: 0px;
   left: 0px;
-  opacity: 40%;
+  opacity: .75;
 }
 
 .EitanInfoButtons {
