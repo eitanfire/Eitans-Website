@@ -8,12 +8,12 @@ import Tabs from "../components/TabComponent/Tabs";
 const HomePage = () => {
   return (
     <Container>
-      <Row>
+      <Row className="accordion">
         <Col>
           <h2>{aDayBDay && <Time className="d-none d-md-block" />}</h2>
           <EitanInfo Id="EitanInfoBox" />
         </Col>
-        <Col className="accordion col-12 col-lg-9 col-xxl-9">
+        <Col className="accordion col-12 col-lg-9 col-xxl-">
           <Tabs />
         </Col>
         <Row>

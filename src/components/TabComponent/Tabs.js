@@ -5,6 +5,8 @@ import SecondSemesterAccordion from "./SecondSemesterAccordion";
 import '../../tabs.css';
 import TabNavItem from "../TabComponent/V2/TabNavItem";
 import TabContent from "../TabComponent/V2/TabContent";
+import CourseInterestForm from "../../features/CourseInterestForm";
+import { Link } from "react-router-dom";
 
 const Tabs = () => {
   const [activeTab, setActiveTab] = useState("tab2");
@@ -40,7 +42,10 @@ const Tabs = () => {
           <SecondSemesterAccordion />
         </TabContent>
         <TabContent id="tab3" activeTab={activeTab}>
-          <p>Class Preferences for Next Year</p>
+          {/* <p>Class Preferences for Next Year</p> */}
+          <Link className="CourseInterestForm" to="/course-interest-form">
+            <CourseInterestForm />
+          </Link>
         </TabContent>
       </div>
     </div>

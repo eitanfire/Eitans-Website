@@ -158,7 +158,9 @@ img {
       no-repeat,
     linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)),
     radial-gradient(ellipse at top, #ec008c, transparent),
-    radial-gradient(ellipse at bottom, #fc6767, transparent);
+    radial-gradient(ellipse at bottom, #fc6767, transparent);  
+    background-color: #af7fdd;
+
   margin-top: 1.25rem;
   /* margin-bottom: 1em; */
   padding-top: 1.5rem;
@@ -462,14 +464,24 @@ a {
     radial-gradient(ellipse at top, #ec008c, transparent),
     radial-gradient(ellipse at bottom, #fc6767, transparent);
   opacity: 75%;
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
+  padding: 2.33rem;
   border: 4px solid black;
-  text-align: left;
+  text-align: left;background-color: #af7fdd;
+
+}
+
+@media all and (max-width: 895px) {
+  .time {    
+  padding: 15rem;
+ }
 }
 
 @media all and (max-width: 1000px) {
   .time {
     text-align: center;
+    padding: 0rem;
+    margin-bottom: 1rem;
   }
 }
 
@@ -499,3 +511,12 @@ a {
   filter: grayscale(0);
 }
 
+.CourseInterestForm {
+  color: #00ff7f;
+margin-left: -20rem;
+}
+
+#tab3 {
+  color: black;
+  background-color: #ec008c;
+}
