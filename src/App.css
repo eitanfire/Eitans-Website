@@ -61,7 +61,7 @@ img {
 }
 
 .accordion-title {
-  font-size: 60px;
+  font-size: 175%;;
   font-weight: 700;
   -webkit-text-stroke: 0.5px black;
   height: 5.3rem;
@@ -71,6 +71,12 @@ img {
     text-align: left;
     margin-left: 2rem;
 }
+
+/* @media all and (max-width: 768px) { 
+  .accordion-title {
+      font-size: 50px;
+  }
+} */
 
 #icon:before {
   font-size: 50px;
