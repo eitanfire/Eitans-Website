@@ -10,10 +10,10 @@ const HomePage = () => {
     <Container>
       <Row className="accordion">
         <Col>
-          <h2>{aDayBDay && <Time className="d-none d-md-block" />}</h2>
+          <h2>{aDayBDay && <Time className="d-none d-md-block xxl-2" />}</h2>
           <EitanInfo id="EitanInfoBox col col-3=xxl-3" />
         </Col>
-        <Col className="accordion col-12 col-lg-9 col-xxl-12">
+        <Col className="accordion col-12 col-lg-9 col-xxl-10">
           <Tabs />
         </Col>
         <Row>

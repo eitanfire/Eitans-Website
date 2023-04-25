@@ -51,6 +51,7 @@ img {
   /* position: relative; */
   padding-top: 10px;
   padding-bottom: 5px;
+  padding-left: .5rem;
   margin-bottom: 0rem;
   align-items: center;
   height: fit-content;
@@ -120,6 +121,7 @@ img {
   -webkit-text-stroke: 1px rgb(9, 3, 90);
   text-align: center;
   font-size: 200%;
+  width: 180%;
   }
 
 .ContactForm {
@@ -483,8 +485,8 @@ a {
   margin-bottom: 3rem;
   padding: 2.33rem;
   border: 4px solid black;
-  text-align: left;background-color: #af7fdd;
-
+  text-align: center;
+  background-color: #af7fdd;
 }
 
 @media all and (max-width: 895px) {

@@ -41,7 +41,7 @@ const AnimatedAccordion = ({ icon, title, content, image, id }) => {
             </CardText>
             <Card>
               <CardBody className="accordion-content-theme">
-                {isActive && <div className="accordion-content">{content}</div>}
+                {isActive && <div className="accordion-content card-xxl-12">{content}</div>}
               </CardBody>
             </Card>
           </div>
