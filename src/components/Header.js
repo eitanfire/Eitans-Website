@@ -29,22 +29,22 @@ const Header = () => {
     }, []);
 
     return (
-        <animated.div style={animatedStyle}>
-        <div className='App' id='Header'>
-            <Link to='/'>
-                <Container>
-                    <Row id='banner'>
-                        <Col className="col col-md-4 float-start">
-                            <img id='classWithEitan' src={Banner} alt='Banner' />
-                        </Col>
-                        <Col className="d-none d-lg-block">
-                            <img id="logo" src={Logo} alt='September School logo' />
-                        </Col>
-                    </Row>
-                </Container>
-            </Link>
+      <animated.div style={animatedStyle}>
+        <div className="App" id="Header">
+          <Link to="/">
+            <Container>
+              <Row id="banner">
+                <Col className="col col-md-4">
+                  <img id="classWithEitan" src={Banner} alt="Banner" />
+                </Col>
+                <Col className="d-none d-lg-block">
+                  <img id="logo" src={Logo} alt="September School logo" />
+                </Col>
+              </Row>
+            </Container>
+          </Link>
         </div>
-        </animated.div>
+      </animated.div>
     );
 }
 
