@@ -2,7 +2,6 @@ body {
   /* font-family: "Times New Roman"; */
   /* margin-left: 0rem; */
   /* background-color: transparent; */
-
 }
 h1,
 h3 {
@@ -139,20 +138,15 @@ img {
 .wwClassImage,
 .philosophyClassImage,
 .classImage {
-  /* height: 110%; */
-  /* width: max-content; */
   block-size: 75px;
   writing-mode: horizontal-tb;
   position: relative;
   text-align: center;
   float: right;
   margin: 1.25%;
-  /* border: 100% double maroon; */
-  /* border: 5px solid #555; */
 }
 
 .wwClassImage {
-  /* block-size: 90px; */
   height: 4.75rem;
   width: 43.75%;
 }
@@ -184,14 +178,10 @@ img {
     background-color: #af7fdd;
 
   margin-top: 1.25rem;
-  /* margin-bottom: 1em; */
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
-  /* margin-right: -11rem; */
   text-align: center;
   font-size: larger;
-  /* width: 100%; */
-  /* height: 100%; */
 }
 
 @media screen and (max-width: 500px) {
@@ -409,7 +399,6 @@ a {
 #infoCard,
 .Calendar {
   display: block;
-  /* width: 113%; */
   background-attachment: fixed;
   padding-top: 5px;
   padding-right: 6px;
@@ -442,13 +431,10 @@ a {
   /* padding: 4rem; */
   /* padding-top: 2rem; */
   padding-bottom: 2rem;
-  /* padding:2rem; */
 }
 
 .EitanInfoButtons {
   position:relative;
-  
-  /* margin:10rem; */
   margin-top: 2rem;
 }
 
