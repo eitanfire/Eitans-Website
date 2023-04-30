@@ -83,7 +83,7 @@ export const secondSemesterAccordionData = [
     ),
     content: (
       <>
-        <div id="philosophyColor">
+        <div className="col-12"  id="philosophyColor">
           <a
             role="button"
             className="btn btn-light btn-link"

@@ -64,6 +64,10 @@ img {
   /* width:118%; */
 }
 
+.accordion-item {
+padding-bottom: -15rem;
+}
+
 .accordion-title {
   font-size: 175%;;
   font-weight: 700;
@@ -147,12 +151,12 @@ img {
 }
 
 .wwClassImage {
-  height: 4.75rem;
+  /* height: 4.75rem; */
   width: 43.75%;
 }
 
 .philosophyClassImage {
-  height: 4.75rem;
+  /* height: 4.75rem; */
   width: 43.75%;
 }
 
