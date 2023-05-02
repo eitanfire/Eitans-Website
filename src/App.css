@@ -51,7 +51,6 @@ img {
 .accordion {
   /* position:relative; */
   display: block;
-  /* position: relative; */
   padding-top: 10px;
   padding-bottom: 5px;
   padding-left: .5rem;
@@ -69,7 +68,7 @@ padding-bottom: -15rem;
 }
 
 .accordion-title {
-  font-size: 175%;;
+  font-size:2.75rem;
   font-weight: 700;
   -webkit-text-stroke: 0.5px black;
   height: 5.3rem;
@@ -82,7 +81,7 @@ padding-bottom: -15rem;
 
 /* @media all and (max-width: 768px) { 
   .accordion-title {
-      font-size: 50px;
+      font-size: 300%;
   }
 } */
 
@@ -516,12 +515,13 @@ a {
   filter: grayscale(0);
 }
 
-.CourseInterestForm {
-  color: #00ff7f;
-margin-left: -20rem;
-}
+/* .CourseInterestForm {
+  position: absolute;
+  left: 10rem;
+  padding-bottom: 5rem;
+} */
 
-#tab3 {
+/* #tab3 {
   color: black;
   background-color: #ec008c;
-}
+} */

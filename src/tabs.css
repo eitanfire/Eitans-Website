@@ -9,7 +9,8 @@
 
 /* Tab Navigation */
 ul.nav {
-  width: 60%;
+  /* width: 60%; */
+  max-width: max-content;
   margin: 0 auto .75rem;
   /* padding: .5rem; */
   display: flex;
@@ -28,7 +29,7 @@ ul.nav {
 ul.nav li {
   padding: 1rem;
   list-style: none;
-  text-align: center;
+  /* text-align: center; */
   cursor: pointer;
   transition: all 0.7s;
 }
@@ -56,7 +57,7 @@ ul.nav li.active {
 
 
 /* Tab Content Styles */
-.TabContent {
+/* .TabContent {
   font-size: 2rem;
   text-align: center;
-}
+} */
