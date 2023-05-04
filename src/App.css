@@ -63,9 +63,9 @@ img {
   /* width:118%; */
 }
 
-.accordion-item {
+/* .accordion-item {
 padding-bottom: -15rem;
-}
+} */
 
 .accordion-title {
   font-size:2.75rem;
@@ -86,10 +86,10 @@ padding-bottom: -15rem;
 } */
 
 #icon:before {
-  font-size: 50px;
   font-weight: 700;
   background-clip: text;
   -webkit-background-clip: text;
+  background-color: #39b9d2;
 
 }
 
@@ -203,6 +203,7 @@ padding-bottom: -15rem;
   }
 }
 
+#icon:before,
 .rainbow-paisley-bg, 
 #rainbowText,
 #eitansProfilePic,
@@ -516,9 +517,9 @@ a {
 }
 
 /* .CourseInterestForm {
-  position: absolute;
-  left: 10rem;
-  padding-bottom: 5rem;
+  position:relative;
+  width: 200%;
+
 } */
 
 /* #tab3 {
