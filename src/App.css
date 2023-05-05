@@ -49,7 +49,7 @@ img {
 }
 
 .accordion {
-  /* position:relative; */
+  position:relative;
   display: block;
   padding-top: 10px;
   padding-bottom: 5px;
@@ -60,7 +60,7 @@ img {
   /* min-width:82%; */
   background-attachment: fixed;
   background-position: 25% 75%;
-  /* width:118%; */
+  width:118%;
 }
 
 /* .accordion-item {
@@ -516,11 +516,12 @@ a {
   filter: grayscale(0);
 }
 
-/* .CourseInterestForm {
-  position:relative;
-  width: 200%;
-
-} */
+.CourseInterestForm {
+  position:inline;
+  /* width: 200%; */
+  right: 5rem;
+  margin-bottom: -12rem;
+}
 
 /* #tab3 {
   color: black;
