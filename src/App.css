@@ -141,7 +141,7 @@ padding-bottom: -15rem;
 .wwClassImage,
 .philosophyClassImage,
 .classImage {
-  block-size: 75px;
+  block-size: 71px;
   writing-mode: horizontal-tb;
   position: relative;
   text-align: center;
@@ -150,7 +150,9 @@ padding-bottom: -15rem;
 }
 
 .wwClassImage {
-  /* height: 4.75rem; */
+  /* position: relative;
+  height: auto; */
+  /* z-index: -10rem; */
   width: 43.75%;
 }
 
