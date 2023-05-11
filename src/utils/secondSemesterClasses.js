@@ -15,7 +15,7 @@ export const secondSemesterAccordionData = [
     ),
     image: (
       <img
-        className="wwClassImage mx-auto d-none d-xxl-block"
+        className="classImage mx-auto d-none d-xxl-block"
         src={WorldWars}
         alt="World Wars banner"
       />
@@ -76,14 +76,14 @@ export const secondSemesterAccordionData = [
     ),
     image: (
       <img
-        className="philosophyClassImage mx-auto d-none d-xxl-block"
+        className="classImage mx-auto d-none d-xxl-block"
         src={Philosophy}
         alt="Philosophy banner"
       />
     ),
     content: (
       <>
-        <div className="col-12"  id="philosophyColor">
+        <div className="col-12" id="philosophyColor">
           <a
             role="button"
             className="btn btn-light btn-link"
@@ -137,7 +137,7 @@ export const secondSemesterAccordionData = [
     ),
     image: (
       <img
-        className="philosophyClassImage mx-auto d-none d-xxl-block"
+        className="classImage mx-auto d-none d-xxl-block"
         src={Policing}
         alt="Policing in America banner"
       />

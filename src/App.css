@@ -79,12 +79,6 @@ padding-bottom: -15rem;
     margin-left: 2rem;
 }
 
-/* @media all and (max-width: 768px) { 
-  .accordion-title {
-      font-size: 300%;
-  }
-} */
-
 #icon:before {
   font-weight: 700;
   background-clip: text;
@@ -108,12 +102,9 @@ padding-bottom: -15rem;
 #icon:active,
 #icon:hover {
   color:red;
-    /* align-content: left; */
-
 }
 
 .accordion-title:hover {
-  /* font-size: 59px; */
   font-weight: 700;
   background-clip: text;
   -webkit-background-clip: text;
@@ -141,24 +132,14 @@ padding-bottom: -15rem;
 .wwClassImage,
 .philosophyClassImage,
 .classImage {
-  block-size: 71px;
+  block-size: 71.1px;
   writing-mode: horizontal-tb;
   position: relative;
   text-align: center;
   float: right;
   margin: 1.25%;
-}
+    width: 43.75%;
 
-.wwClassImage {
-  /* position: relative;
-  height: auto; */
-  /* z-index: -10rem; */
-  width: 43.75%;
-}
-
-.philosophyClassImage {
-  /* height: 4.75rem; */
-  width: 43.75%;
 }
 
 #openCloseSymbols {
