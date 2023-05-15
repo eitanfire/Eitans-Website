@@ -56,8 +56,6 @@ img {
   padding-left: .5rem;
   margin-bottom: 0rem;
   align-items: center;
-  /* height: fit-content; */
-  /* min-width:82%; */
   background-attachment: fixed;
   background-position: 25% 75%;
   width:118%;
@@ -129,8 +127,6 @@ padding-bottom: -15rem;
   background-color: rgb(129, 59, 59);
 }
 
-.wwClassImage,
-.philosophyClassImage,
 .classImage {
   block-size: 71.1px;
   writing-mode: horizontal-tb;
@@ -202,8 +198,7 @@ padding-bottom: -15rem;
 }
 
 .black-and-white-paisley-bg,
-#EitanInfoBox,
-footer {
+#EitanInfoBox {
   background: url("https://image.shutterstock.com/image-vector/traditional-indian-paisley-pattern-on-600w-1726867504.jpg"), no-repeat;
 }
 
@@ -501,7 +496,6 @@ a {
 
 .CourseInterestForm {
   position:inline;
-  /* width: 200%; */
   right: 5rem;
   margin-bottom: -12rem;
 }

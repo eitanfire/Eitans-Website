@@ -9,10 +9,8 @@
 
 /* Tab Navigation */
 ul.nav {
-  /* width: 60%; */
   max-width: max-content;
   margin: 0 auto .75rem;
-  /* padding: .5rem; */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -29,7 +27,6 @@ ul.nav {
 ul.nav li {
   padding: 1rem;
   list-style: none;
-  /* text-align: center; */
   cursor: pointer;
   transition: all 0.7s;
 }
