@@ -42,7 +42,6 @@ const Tabs = () => {
           <SecondSemesterAccordion />
         </TabContent>
         <TabContent id="tab3" activeTab={activeTab}>
-          {/* <p>Class Preferences for Next Year</p> */}
           <Link className="CourseInterestForm" to="/course-interest-form">
             <CourseInterestForm />
           </Link>
