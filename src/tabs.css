@@ -1,16 +1,17 @@
 .Tabs {
- color: white;
+  color: white;
   font-weight: 700;
-  -webkit-text-stroke: 0.01rem #70c3a5; border-radius: 2rem;
- @media (max-width: 769px) {
-  padding: 2rem 0;
- }
+  -webkit-text-stroke: 0.01rem #70c3a5;
+  border-radius: 2rem;
+  @media (max-width: 769px) {
+    padding: 2rem 0;
+  }
 }
 
 /* Tab Navigation */
 ul.nav {
   max-width: max-content;
-  margin: 0 auto .75rem;
+  margin: 0 auto 0.75rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -18,8 +19,8 @@ ul.nav {
   border-radius: 2rem;
   padding-left: 0px;
   background: gray;
-    opacity: .9; 
-    @media (max-width: 768px) {
+  opacity: 0.9;
+  @media (max-width: 768px) {
     width: 92%;
   }
 }
@@ -42,12 +43,9 @@ ul.nav li:last-child {
 }
 
 ul.nav li:hover {
-
-  background: 
-  
-  rgb(15, 233, 127);
+  background: rgb(15, 233, 127);
   color: rgb(22, 19, 19);
 }
 ul.nav li.active {
-  background: #39A2DB;
+  background: #39a2db;
 }
