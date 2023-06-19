@@ -198,7 +198,7 @@ export const secondSemesterAccordionData = [
     ),
     image: (
       <img
-        className="philosophyClassImage mx-auto d-none d-xxl-block"
+        className="mx-auto d-none d-xxl-block"
         src={Finance}
         alt="Personal Finance banner"
       />
