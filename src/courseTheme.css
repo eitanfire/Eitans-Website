@@ -1,8 +1,7 @@
 #filmColor {
   content: "";
-  background: 
-    url("https://thumbs.dreamstime.com/z/cinema-seamless-pattern-icons-movie-background-tv-show-television-online-entertainment-concept-film-elements-repeating-251720735.jpg"),
-  radial-gradient(circle, Magenta 25%, rgb(255, 255, 255) 100%);
+  background: url("https://thumbs.dreamstime.com/z/cinema-seamless-pattern-icons-movie-background-tv-show-television-online-entertainment-concept-film-elements-repeating-251720735.jpg"),
+    radial-gradient(circle, Magenta 25%, rgb(255, 255, 255) 100%);
   background-size: 500px;
   position: absolute;
   top: 0px;
@@ -15,9 +14,8 @@
 
 #programmingColor {
   content: "";
-  background: 
-  radial-gradient(circle, #af7fdd 25%, rgb(255, 255, 255) 100%),
-  url("https://as1.ftcdn.net/v2/jpg/02/38/22/66/1000_F_238226669_2e3HdJV5zB9LKE2RWaWoDN692MLSnv4g.jpg");
+  background: radial-gradient(circle, #af7fdd 25%, rgb(255, 255, 255) 100%),
+    url("https://as1.ftcdn.net/v2/jpg/02/38/22/66/1000_F_238226669_2e3HdJV5zB9LKE2RWaWoDN692MLSnv4g.jpg");
   background-size: 500px;
   position: absolute;
   top: 0px;
@@ -30,9 +28,8 @@
 
 #epicsColor {
   content: "";
-  background: 
-  radial-gradient(circle, Yellow 25%, rgb(255, 255, 255) 100%),
-  url("https://c8.alamy.com/comp/2GNBWB5/ancient-greece-mythology-history-vector-seamless-pattern-2GNBWB5.jpg");
+  background: radial-gradient(circle, Yellow 25%, rgb(255, 255, 255) 100%),
+    url("https://c8.alamy.com/comp/2GNBWB5/ancient-greece-mythology-history-vector-seamless-pattern-2GNBWB5.jpg");
   background-size: 200px;
   position: absolute;
   top: 0px;
@@ -46,8 +43,7 @@
 #stwColor {
   content: "";
   background-image: 
-  /* radial-gradient(circle, #00ff7f 25%, rgb(255, 255, 255) 100%), */
-  url("https://image.shutterstock.com/image-vector/seamless-pattern-survival-people-surviving-600w-500423134.jpg");
+  /* radial-gradient(circle, #00ff7f 25%, rgb(255, 255, 255) 100%), */ url("https://image.shutterstock.com/image-vector/seamless-pattern-survival-people-surviving-600w-500423134.jpg");
   background-size: 200px;
   position: absolute;
   top: 0px;
@@ -82,22 +78,22 @@
 
 #wwColor {
   content: "";
-  background: 
-  radial-gradient(circle, #f10202d1 25%, rgb(255, 255, 255) 100%),
-  url("https://thumbs.dreamstime.com/z/military-aircraft-pattern-seamless-black-military-aircraft-pattern-repeat-seamless-black-color-any-design-vector-geometric-102903104.jpg");background-size: 200px;
+  background: radial-gradient(circle, #f10202d1 25%, rgb(255, 255, 255) 100%),
+    url("https://thumbs.dreamstime.com/z/military-aircraft-pattern-seamless-black-military-aircraft-pattern-repeat-seamless-black-color-any-design-vector-geometric-102903104.jpg");
+  background-size: 200px;
   position: absolute;
   top: 0px;
   right: 0px;
   bottom: 0px;
   left: 0px;
   opacity: 0.75;
-  z-index:-10;
+  z-index: -10;
 }
 
 #philosophyColor {
   content: "";
   background: radial-gradient(circle, #02b5f1d1 25%, rgb(255, 255, 255) 100%),
-  url("https://www.shutterstock.com/image-vector/lamp-light-bulb-hand-drawn-600w-520326277.jpg");
+    url("https://www.shutterstock.com/image-vector/lamp-light-bulb-hand-drawn-600w-520326277.jpg");
   background-size: cover;
   position: absolute;
   top: 0px;
@@ -105,13 +101,13 @@
   bottom: 0px;
   left: 0px;
   opacity: 0.75;
-  z-index:-10;
+  z-index: -10;
 }
 
 #policingColor {
   content: "";
   background: radial-gradient(circle, #ff7b00d1 25%, rgb(255, 255, 255) 100%),
-  url("https://www.shutterstock.com/image-vector/police-related-icon-set-outline-600w-1042818226.jpg");
+    url("https://www.shutterstock.com/image-vector/police-related-icon-set-outline-600w-1042818226.jpg");
   background-size: 500px;
   position: absolute;
   top: 0px;
@@ -119,13 +115,13 @@
   bottom: 0px;
   left: 0px;
   opacity: 0.75;
-  z-index:-10;
+  z-index: -10;
 }
 
 #financeColor {
   content: "";
   background: radial-gradient(circle, #2efa05d1 25%, rgb(255, 255, 255) 100%),
-  url("https://www.shutterstock.com/image-illustration/leather-purse-pattern-repeat-seamless-600w-1106709062.jpg");
+    url("https://www.shutterstock.com/image-illustration/leather-purse-pattern-repeat-seamless-600w-1106709062.jpg");
   background-size: 170px;
   position: absolute;
   top: 0px;
@@ -133,5 +129,5 @@
   bottom: 0px;
   left: 0px;
   opacity: 0.75;
-  z-index:-10;
+  z-index: -10;
 }
