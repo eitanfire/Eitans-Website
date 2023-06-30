@@ -1,8 +1,8 @@
-import WorldWars from '../app/img/world-wars-banner.png';
-import Philosophy from '../app/img/flammarion-engraving.jpg';
-import Policing from '../app/img/Policing-in-America.png';
-import Finance from '../app/img/personal-finance.png';
-import '../App.css';
+import WorldWars from "../app/img/world-wars-banner.png";
+import Philosophy from "../app/img/flammarion-engraving.jpg";
+import Policing from "../app/img/Policing-in-America.png";
+import Finance from "../app/img/personal-finance.png";
+import "../App.css";
 
 export const secondSemesterAccordionData = [
   {
