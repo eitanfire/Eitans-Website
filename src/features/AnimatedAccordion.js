@@ -32,7 +32,7 @@ const AnimatedAccordion = ({ icon, title, content, image, id }) => {
               {id}
               <span
                 className="d-none d-md-block d-xxl-none"
-                // id="openCloseSymbols"
+                id="openCloseSymbols"
                 // style={{ color: "red" }}
               >
                 {isActive ? " 🪐" : " 🚀"}
