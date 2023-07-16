@@ -1,28 +1,24 @@
 import weekday from "../utils/day";
-import aDayBDay from '../utils/aDayBDay';
+import aDayBDay from "../utils/aDayBDay";
 import { Col, Row, Container } from "reactstrap";
-import { useState, useEffect } from 'react';
-import { useSpring, animated, } from 'react-spring';
-import '../App.css';
+import { useState, useEffect } from "react";
+import { useSpring, animated } from "react-spring";
+import "../App.css";
 
 const Time = () => {
-  const [toggle, setToggle] = useState(false)
- 
+  const [toggle, setToggle] = useState(false);
+
   const animatedStyle = useSpring({
     opacity: toggle ? 1 : 0,
-    transform: toggle ? 'scale(1,1)' : 'scale(1,0)',
-    config: { duration: 500 }
-});
+    transform: toggle ? "scale(1,1)" : "scale(1,0)",
+    config: { duration: 500 },
+  });
 
-useEffect(() => {
+  useEffect(() => {
     setToggle(true);
-}, []);
+  }, []);
 
-const brightDay = (
-  <span id="aBAB">
-    {aDayBDay.slice(1)}
-  </span>
-);
+  const brightDay = <span id="aBAB">{aDayBDay.slice(1)}</span>;
 
   return (
     <animated.div style={animatedStyle}>

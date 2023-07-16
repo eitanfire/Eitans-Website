@@ -11,4 +11,3 @@ function CourseInterestForm(props) {
 }
 
 export default CourseInterestForm;
-
