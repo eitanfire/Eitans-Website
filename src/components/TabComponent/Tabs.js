@@ -1,8 +1,8 @@
 import React from "react";
 import { useState } from "react";
-import FirstSemesterAccordion from "./FirstSemesterAccordion"
+import FirstSemesterAccordion from "./FirstSemesterAccordion";
 import SecondSemesterAccordion from "./SecondSemesterAccordion";
-import '../../tabs.css';
+import "../../tabs.css";
 import TabNavItem from "../TabComponent/V2/TabNavItem";
 import TabContent from "../TabComponent/V2/TabContent";
 import CourseInterestForm from "../../features/CourseInterestForm";
