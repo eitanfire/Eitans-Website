@@ -1,13 +1,13 @@
-import './App.css';
-import Header from './components/Header';
-import React from 'react'
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import { Routes, Route } from 'react-router-dom';
-import EitansIntro from './pages/EitansIntro';
-import ContactForm from './pages/ContactForm';
+import "./App.css";
+import Header from "./components/Header";
+import React from "react";
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import { Routes, Route } from "react-router-dom";
+import EitansIntro from "./pages/EitansIntro";
+import ContactForm from "./pages/ContactForm";
 import CourseInterestForm from "./features/CourseInterestForm";
-import HomePage from './pages/HomePage';
-import Footer from './components/Footer';
+import HomePage from "./pages/HomePage";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="read-more" element={<EitansIntro />} />
         <Route path="contact" element={<ContactForm />} />
-        <Route path="course-interest-form" element={<CourseInterestForm/>} />
+        <Route path="course-interest-form" element={<CourseInterestForm />} />
       </Routes>
       <Footer className="col col-9" />
     </div>
