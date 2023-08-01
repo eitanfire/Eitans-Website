@@ -17,14 +17,13 @@ img {
 }
 
 #Header {
-    background: 
-  url("https://image.shutterstock.com/image-vector/traditional-indian-paisley-pattern-on-600w-1726867504.jpg")
+  background: url("https://image.shutterstock.com/image-vector/traditional-indian-paisley-pattern-on-600w-1726867504.jpg")
       no-repeat,
     linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3));
-    background-color: #af7fdd;
-      border-top: 1px solid #000;
-      border-bottom: 1px solid #000;
-      margin-bottom: 2rem;    
+  background-color: #af7fdd;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  margin-bottom: 2rem;
 }
 
 #logo {
@@ -45,20 +44,20 @@ img {
 #classWithEitan {
   position: relative;
   border: 4px solid black;
-  bottom: .15rem;
+  bottom: 0.15rem;
 }
 
 .accordion {
-  position:relative;
+  position: relative;
   display: block;
   padding-top: 10px;
   padding-bottom: 5px;
-  padding-left: .5rem;
+  padding-left: 0.5rem;
   margin-bottom: 0rem;
   align-items: center;
   background-attachment: fixed;
   background-position: 25% 75%;
-  width:118%;
+  width: 118%;
 }
 
 /* .accordion-item {
@@ -66,15 +65,15 @@ padding-bottom: -15rem;
 } */
 
 .accordion-title {
-  font-size:2.75rem;
+  font-size: 2.75rem;
   font-weight: 700;
   -webkit-text-stroke: 0.5px black;
   height: 5.3rem;
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
-    text-align: left;
-    margin-left: 2rem;
+  text-align: left;
+  margin-left: 2rem;
 }
 
 #icon:before {
@@ -82,7 +81,6 @@ padding-bottom: -15rem;
   background-clip: text;
   -webkit-background-clip: text;
   background-color: #39b9d2;
-
 }
 
 #pie {
@@ -99,7 +97,7 @@ padding-bottom: -15rem;
 #icon:after,
 #icon:active,
 #icon:hover {
-  color:red;
+  color: red;
 }
 
 .accordion-title:hover {
@@ -108,8 +106,7 @@ padding-bottom: -15rem;
   -webkit-background-clip: text;
   color: transparent;
   background-attachment: fixed;
-    -webkit-text-stroke: 1px rgb(9, 3, 90);
-
+  -webkit-text-stroke: 1px rgb(9, 3, 90);
 }
 
 .accordion-content {
@@ -117,7 +114,7 @@ padding-bottom: -15rem;
   text-align: center;
   font-size: 200%;
   /* width: clamp(1em); */
-  }
+}
 
 .ContactForm {
   display: block;
@@ -134,8 +131,7 @@ padding-bottom: -15rem;
   text-align: center;
   float: right;
   margin: 1.25%;
-    width: 43.75%;
-
+  width: 43.75%;
 }
 
 #openCloseSymbols {
@@ -149,15 +145,14 @@ padding-bottom: -15rem;
   border-top: 1px solid #000;
   border-bottom: 1px solid #000;
   opacity: 0.85;
-    -webkit-text-stroke: 0.15px black;
+  -webkit-text-stroke: 0.15px black;
 
-  background: 
-  url("https://image.shutterstock.com/image-vector/traditional-indian-paisley-pattern-on-600w-1726867504.jpg")
+  background: url("https://image.shutterstock.com/image-vector/traditional-indian-paisley-pattern-on-600w-1726867504.jpg")
       no-repeat,
     linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)),
     radial-gradient(ellipse at top, #ec008c, transparent),
-    radial-gradient(ellipse at bottom, #fc6767, transparent);  
-    background-color: #af7fdd;
+    radial-gradient(ellipse at bottom, #fc6767, transparent);
+  background-color: #af7fdd;
 
   margin-top: 1.25rem;
   padding-top: 1.5rem;
@@ -194,12 +189,13 @@ padding-bottom: -15rem;
 .accordion-title:hover,
 .ContactForm {
   background-image: url("https://as2.ftcdn.net/v2/jpg/00/94/53/25/500_F_94532580_XwSK8I03t7oQY246gc6vdeU1wm6q2r8P.jpg");
-  background-attachment:fixed;  
+  background-attachment: fixed;
 }
 
 .black-and-white-paisley-bg,
 #EitanInfoBox {
-  background: url("https://image.shutterstock.com/image-vector/traditional-indian-paisley-pattern-on-600w-1726867504.jpg"), no-repeat;
+  background: url("https://image.shutterstock.com/image-vector/traditional-indian-paisley-pattern-on-600w-1726867504.jpg"),
+    no-repeat;
 }
 
 #rainbowText::before,
@@ -415,7 +411,7 @@ a {
 }
 
 .EitanInfoButtons {
-  position:relative;
+  position: relative;
   margin-top: 2rem;
 }
 
@@ -454,9 +450,9 @@ a {
 }
 
 @media all and (max-width: 895px) {
-  .time {    
-  padding: 15rem;
- }
+  .time {
+    padding: 15rem;
+  }
 }
 
 @media all and (max-width: 1000px) {
@@ -494,7 +490,7 @@ a {
 }
 
 .CourseInterestForm {
-  position:inline;
+  position: inline;
   right: 5rem;
   margin-bottom: -12rem;
 }
