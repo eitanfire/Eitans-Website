@@ -1,8 +1,7 @@
 import React from "react";
-import { Col, Row, Container } from "reactstrap";
+import { Container } from "reactstrap";
 import { firstSemesterAccordionData } from "../../utils/firstSemesterClasses";
 import AnimatedAccordion from "../../features/AnimatedAccordion";
-import { useState } from "react";
 
 const SecondSemesterAccordion = () => {
   return (
