@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Card, CardImg, CardText, CardBody, CardTitle } from "reactstrap";
+import { Card, CardBody, CardTitle } from "reactstrap";
 import { useSpring, animated, scale, easings } from "react-spring";
 
 const AnimatedAccordion = ({ icon, title, content, image, id }) => {
