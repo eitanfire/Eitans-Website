@@ -1,7 +1,7 @@
 import React from "react";
 import { Container } from "reactstrap";
-import AnimatedAccordion from "../../features/AnimatedAccordion";
-import { } from "../../../utils/fall2023Classes";
+import AnimatedAccordion from "../../../features/AnimatedAccordion";
+import { fall2023Classes } from "../../../utils/fall2023Classes";
 
 const Fall2023ClassesAccordion = () => {
   return (

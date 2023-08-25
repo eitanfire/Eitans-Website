@@ -16,6 +16,7 @@ const HomePage = () => {
         </Col>
         <Col className="accordion col-12 col-lg-9 col-xxl-10">
           {/* <Tabs /> */}
+          <Fall2023ClassesAccordion />
         </Col>
         <Row>
           <Col className="col-12 mt-4">
