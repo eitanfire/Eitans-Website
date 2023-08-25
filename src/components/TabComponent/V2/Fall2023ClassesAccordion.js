@@ -1,23 +1,23 @@
 import React from "react";
 import { Container } from "reactstrap";
-import { Fall2023ClassesAccordion } from "../../utils/Fall2023ClassesAccordion";
 import AnimatedAccordion from "../../features/AnimatedAccordion";
+import { } from "../../../utils/fall2023Classes";
 
 const Fall2023ClassesAccordion = () => {
   return (
-    <div className="SecondSemesterAccordion">
+    <div 
+    // className="SecondSemesterAccordion"
+    >
       <Container>
-        {firstSemesterAccordionData.map(
-          ({ title, content, image, id, current }) => (
-            <AnimatedAccordion
-              title={title}
-              content={content}
-              image={image}
-              key={id}
-              current={current}
-            />
-          )
-        )}
+        {fall2023Classes.map(({ title, content, image, id, current }) => (
+          <AnimatedAccordion
+            title={title}
+            content={content}
+            image={image}
+            key={id}
+            current={current}
+          />
+        ))}
       </Container>
     </div>
   );

@@ -3,7 +3,8 @@ import EitanInfo from "../features/EitanInfo.js";
 import Calendar from "../components/Calendar.js";
 import Time from "../components/Time";
 import aDayBDay from "../utils/aDayBDay";
-import Tabs from "../components/TabComponent/Tabs";
+// import Tabs from "../components/TabComponent/Tabs";
+import Fall2023ClassesAccordion from "../components/TabComponent/V2/Fall2023ClassesAccordion.js";
 
 const HomePage = () => {
   return (
@@ -14,7 +15,7 @@ const HomePage = () => {
           <EitanInfo id="EitanInfoBox" />
         </Col>
         <Col className="accordion col-12 col-lg-9 col-xxl-10">
-          <Tabs />
+          {/* <Tabs /> */}
         </Col>
         <Row>
           <Col className="col-12 mt-4">

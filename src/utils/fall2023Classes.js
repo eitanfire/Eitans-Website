@@ -4,7 +4,7 @@ import Policing from "../app/img/Policing-in-America.png";
 import Finance from "../app/img/personal-finance.png";
 import "../App.css";
 
-export const secondSemesterAccordionData = [
+export const fall2023Classes = [
   {
     id: 4,
     current: false,
