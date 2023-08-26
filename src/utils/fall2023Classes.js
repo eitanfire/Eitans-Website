@@ -2,6 +2,7 @@ import WorldWars from "../app/img/world-wars-banner.png";
 import Philosophy from "../app/img/flammarion-engraving.jpg";
 import Policing from "../app/img/Policing-in-America.png";
 import Finance from "../app/img/personal-finance.png";
+import ColdWar from "../app/img/ColdWar.jpg"; 
 import "../App.css";
 
 export const fall2023Classes = [
@@ -10,19 +11,19 @@ export const fall2023Classes = [
     current: false,
     title: (
       <span>
-        <span id="icon">🪖</span> World Wars
+        <span id="icon">☭</span> The Cold War
       </span>
     ),
     image: (
       <img
         className="classImage mx-auto d-none d-xxl-block"
-        src={WorldWars}
+        src={ColdWar}
         alt="World Wars banner"
       />
     ),
     content: (
       <>
-        <div id="wwColor">
+        <div id="coldWarColor">
           <a
             role="button"
             className="btn btn-light btn-link"
