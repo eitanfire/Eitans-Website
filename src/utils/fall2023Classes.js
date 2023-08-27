@@ -1,7 +1,7 @@
-import WorldWars from "../app/img/world-wars-banner.png";
-import Philosophy from "../app/img/flammarion-engraving.jpg";
-import Policing from "../app/img/Policing-in-America.png";
-import Finance from "../app/img/personal-finance.png";
+import Government from "../app/img/Government.jpeg";
+import Fugitives from "../app/img/Come_and_Join_Us_Brothers.jpg";
+import Programming from "../app/img/programming-banner.png";
+import Survival from "../app/img/survive-the-world-banner.png";
 import ColdWar from "../app/img/ColdWar.jpg"; 
 import "../App.css";
 
@@ -31,13 +31,13 @@ export const fall2023Classes = [
             target="_blank"
             rel="noopener noreferrer"
           >
-            ✏️ Warm-Up Questions for World Wars
+            ✏️ Warm-Up Questions for Cold War
           </a>
 
           <a
             role="button"
             className="btn btn-light btn-link"
-            href="https://classroom.google.com/c/NTA3NjcyOTIwMzQx"
+            href="https://classroom.google.com/w/NTIzNTQ0MzM4NTI4/t/all"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -47,7 +47,7 @@ export const fall2023Classes = [
           <a
             role="button"
             className="btn btn-light btn-link"
-            href="https://docs.google.com/document/d/1qyaBJao8d0oCy4QQy3gE0ZU5gMrj8NFthYPGozGDLXo/edit?usp=sharing"
+            href="https://docs.google.com/document/d/1iXyCNXjkfTFJy5DpO2tUF3MuDKHf9dFkl9pTCKcmpJQ/edit?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -57,11 +57,11 @@ export const fall2023Classes = [
           <a
             role="button"
             className="btn btn-light btn-link"
-            href="https://docs.google.com/document/u/0/d/1pFXZZSM4JTPlYSubkZdx7pmhi6WH4iJn-4wv4QxK3ns/edit"
+            href="https://docs.google.com/document/d/1o7sDNjC6nyFCqWwQ-P4NhdoaasZe9GojpOpb-nxuPX0/edit?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
-            World Wars 🪖 Syllabus
+            Cold War 🪖 Syllabus
           </a>
         </div>
       </>
@@ -72,33 +72,33 @@ export const fall2023Classes = [
     current: false,
     title: (
       <span>
-        <span id="icon">📜</span> Philosophy
+        <span id="icon">🇺🇸</span> US History of the 1800s
       </span>
     ),
     image: (
       <img
         className="classImage mx-auto d-none d-xxl-block"
-        src={Philosophy}
-        alt="Philosophy banner"
+        src={Fugitives}
+        alt="US History of the 1800s banner"
       />
     ),
     content: (
       <>
-        <div className="col-12" id="philosophyColor">
+        <div className="col-12" id="uSHistColor">
           <a
             role="button"
             className="btn btn-light btn-link"
-            href="https://classroom.google.com/c/NTA5MjE0NDMwMTA0/a/NTA5MjE0NDMwMTYy/details"
+            href="https://docs.google.com/document/d/1giqaVH1dcFvnIQvTB2tsu5dsIxUI65a-tWpHnl0EeIo/edit?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
-            ✏️ Warm-Up Questions for Philosophy
+            ✏️ Warm-Up Questions for US History of the 1800s
           </a>
 
           <a
             role="button"
             className="btn btn-light btn-link"
-            href="https://classroom.google.com/w/NTA5MjE0NDMwMTA0/t/all"
+            href="https://classroom.google.com/w/NTIzNTQyMzk3Mjg2/t/all"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -108,7 +108,7 @@ export const fall2023Classes = [
           <a
             role="button"
             className="btn btn-light btn-link"
-            href="https://docs.google.com/document/d/11uwCD9deuqqwRTq3koyCVn617a4iuIdZZGun7IAfypk/edit?usp=sharing"
+            href="https://docs.google.com/document/d/1Z39uXtE1NEC3MVlQwPt-WjK1fJDBj0YzF0aQjssoYOA/edit?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -118,11 +118,11 @@ export const fall2023Classes = [
           <a
             role="button"
             className="btn btn-light btn-link"
-            href="https://docs.google.com/document/u/0/d/1f50lrY9zCxiUIGwmdcVfJ5Gcf4JhdBwsTTJIbHI5yN8/edit"
+            href="https://docs.google.com/document/u/0/d/1qWOf9x49jP8lp0h4ov1ShzeTX5FrUtgCkW0sXjOEGek/edit"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Philosophy 📜 Syllabus
+            US History of the 1800s 🇺🇸 Syllabus
           </a>
         </div>
       </>
@@ -133,33 +133,33 @@ export const fall2023Classes = [
     current: false,
     title: (
       <span>
-        <span id="icon">🚔</span> Policing in America
+        <span id="icon"> 👩🏿‍💻 </span> Programming
       </span>
     ),
     image: (
       <img
         className="classImage mx-auto d-none d-xxl-block"
-        src={Policing}
-        alt="Policing in America banner"
+        src={Programming}
+        alt="Programming and Web Development  banner"
       />
     ),
     content: (
       <>
         <div id="policingColor">
-          <a
+          {/* <a
             role="button"
             className="btn btn-light btn-link"
             href="https://classroom.google.com/c/NTA5MjE0NTAzMzkw/a/NTE2MDYyNDg3MzIy/details"
             target="_blank"
             rel="noopener noreferrer"
           >
-            ✏️ Warm-Up Questions for Policing in America
-          </a>
+            ✏️ Warm-Up Questions for Programming and Web Development 
+          </a> */}
 
           <a
             role="button"
             className="btn btn-light btn-link"
-            href="https://classroom.google.com/c/NTA5MjE0NTAzMzkw"
+            href="https://classroom.google.com/w/NTIzNTQ0NDk5OTU4/t/all"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -169,7 +169,7 @@ export const fall2023Classes = [
           <a
             role="button"
             className="btn btn-light btn-link"
-            href="https://docs.google.com/document/u/0/d/1mhwSCIjBwzfaKKMl-H7ecx9wZOsvXxOQ_Mj6GOlOOfM/edit"
+            href="https://docs.google.com/document/u/0/d/1WjDPLyE6bn7bbq1AWPDyLj3vLUvgBibL_16e2_TViUM/edit"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -179,11 +179,11 @@ export const fall2023Classes = [
           <a
             role="button"
             className="btn btn-light btn-link"
-            href="https://docs.google.com/document/d/1LrmPa4sHF-5WnsfPI0ifDxzIn53MGaSzu9SfwYhDvnw/edit?usp=sharing"
+            href="https://docs.google.com/document/d/1KWyrsDH9Jsuqh8LoqS6EzOx1yjPSyyK_Ut7PGm2PdFI/edit?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Policing in America 🚔 Syllabus
+            Programming and Web Development 👩🏿‍💻 Syllabus
           </a>
         </div>
       </>
@@ -194,33 +194,33 @@ export const fall2023Classes = [
     current: false,
     title: (
       <span>
-        <span id="icon">💰</span> Personal Finance
+        <span id="icon">🗽</span> Government
       </span>
     ),
     image: (
       <img
-        className="mx-auto d-none d-xxl-block"
-        src={Finance}
-        alt="Personal Finance banner"
+        className="classImage mx-auto d-none d-xxl-block"
+        src={Government}
+        alt="World Wars banner"
       />
     ),
     content: (
       <>
-        <div id="financeColor">
+        <div id="governmentColor">
           <a
             role="button"
             className="btn btn-light btn-link"
-            href="https://classroom.google.com/c/NTA5MjE0NDg2OTYw/a/NTEzNzE3MjM2NjQ4/details"
+            href="https://docs.google.com/document/d/1cftkj88mYvBn6q3JI5YAJXJgcVvpERpo1nWDzs88wSY/edit?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
-            ✏️ Warm-Up Questions for Personal Finance
+            ✏️ Warm-Up Questions for Government
           </a>
 
           <a
             role="button"
             className="btn btn-light btn-link"
-            href="https://classroom.google.com/w/NTA5MjE0NDg2OTYw/t/all"
+            href="https://classroom.google.com/c/NTIzNTQ0NjMwNTQ0"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -230,7 +230,7 @@ export const fall2023Classes = [
           <a
             role="button"
             className="btn btn-light btn-link"
-            href="https://docs.google.com/document/u/0/d/1bkEJ6qf1NTSnN5maJxNwx_I8-fZLWNJ6ahemsFS5oWY/edit"
+            href="https://docs.google.com/document/d/1JYHPc44KjabOynCVk2p1XROe4OZuLllRo_kKBwWG-w4/edit?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -240,11 +240,72 @@ export const fall2023Classes = [
           <a
             role="button"
             className="btn btn-light btn-link"
-            href="https://docs.google.com/document/d/1V1xNswBmC4NU-OxA8Xii4aCyvo5vFkVeglKfBPCLzv8/edit?usp=sharing"
+            href="https://docs.google.com/document/u/0/d/1UQVEhTZW8fx2mRYXL3iSMJlie4VKqxsUebjh69cDVPc/edit"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Personal Finance 💰 Syllabus
+            Government 🗽 Syllabus
+          </a>
+        </div>
+      </>
+    ),
+  },
+  {
+    id: 8,
+    current: true,
+    title: (
+      <span>
+        <span id="icon">🧭</span> Survive the World!
+      </span>
+    ),
+    image: (
+      <img
+        className="classImage mx-auto d-none d-xxl-block"
+        src={Survival}
+        alt="Survive the World banner"
+      />
+    ),
+    content: (
+      <>
+        <div id="stwColor">
+          <a
+            role="button"
+            className="btn btn-light btn-link"
+            href="https://docs.google.com/document/d/1RpQ1lGuU5hq8s7-OJZxlwgDAVhtKRLFMU-2keBILEO8/edit?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            ✏️ Warm-Up Questions for Survive the World!
+          </a>
+
+          <a
+            role="button"
+            className="btn btn-light btn-link"
+            href="https://classroom.google.com/w/NTIzNTQ0MzY4OTAz/t/all"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            📚 Classroom Page
+          </a>
+
+          <a
+            role="button"
+            className="btn btn-light btn-link"
+            href="https://docs.google.com/document/d/11zngy-feCi3cO8GU7kg_uhJJ-vh4J7AI8ITwTRaoANY/edit?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            🌈 Honors & Extra Credit
+          </a>
+
+          <a
+            role="button"
+            className="btn btn-light btn-link"
+            href="https://docs.google.com/document/d/1DFMKTT-n9TBZgan_KpDOfjtFcIELoUDQXerk0ZZMqmk/edit?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Survive the World! 🧭 Syllabus
           </a>
         </div>
       </>
