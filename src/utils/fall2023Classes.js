@@ -2,8 +2,9 @@ import Government from "../app/img/Government.jpeg";
 import Fugitives from "../app/img/Come_and_Join_Us_Brothers.jpg";
 import Programming from "../app/img/programming-banner.png";
 import Survival from "../app/img/survive-the-world-banner.png";
-import ColdWar from "../app/img/ColdWar.jpg"; 
+import ColdWar from "../app/img/ColdWar.jpg";
 import "../App.css";
+import "../courseTheme.css";
 
 export const fall2023Classes = [
   {
