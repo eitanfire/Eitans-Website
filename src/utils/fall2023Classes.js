@@ -4,7 +4,7 @@ import Programming from "../app/img/programming-banner.png";
 import Survival from "../app/img/survive-the-world-banner.png";
 import ColdWar from "../app/img/ColdWar.jpg";
 import "../App.css";
-import "../courseTheme.css";
+// import "../courseTheme.css";
 
 export const fall2023Classes = [
   {
@@ -146,7 +146,7 @@ export const fall2023Classes = [
     ),
     content: (
       <>
-        <div id="policingColor">
+        <div id="programmingColor">
           {/* <a
             role="button"
             className="btn btn-light btn-link"

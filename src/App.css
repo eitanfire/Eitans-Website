@@ -97,7 +97,9 @@ padding-bottom: -15rem;
 #icon:after,
 #icon:active,
 #icon:hover {
-  color: red;
+  color: transparent;
+
+  /* color: red; */
 }
 
 .accordion-title:hover {
@@ -350,6 +352,65 @@ padding-bottom: -15rem;
 #financeColor::before {
   content: "";
   background: radial-gradient(circle, #2efa05d1 25%, rgb(255, 255, 255) 100%);
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.75;
+}
+
+#coldWarColor {
+  background: 
+  radial-gradient(circle,     rgba(239, 42, 3, 0.541) 15%,
+    rgb(255, 255, 255) 110%), url("https://d1sxy7l4fhu207.cloudfront.net/uploads/392/conversions/Banner_2_Red_1579264170-1255x780.jpg");
+  background-size: 600px;
+}
+
+#coldWarColor::before {
+  content: "";
+  /* box-shadow: inset 0 0 0 1000px rgba(239, 42, 3, 0.541); */
+  /* background: radial-gradient(
+    circle,
+    rgba(239, 42, 3, 0.541) 25%,
+    rgb(255, 255, 255) 100%
+  ); */
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.75;
+  z-index: -10;
+}
+
+#uSHistColor {
+  background-size: 570px;
+  background-image: url("https://www.fractalcamo.com/uploads/5/9/0/2/5902948/s189772745713394276_p2806_i100_w1000.jpeg");
+}
+
+#uSHistColor::before {
+  content: "";
+  background: radial-gradient(circle, rgb(194, 20, 20) 25%, rgb(255, 255, 255) 100%);
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.75;
+}
+
+#governmentColor {
+  background-size: 570px;
+  background-image: url("https://en.pimg.jp/043/069/837/1/43069837.jpg");
+}
+
+#governmentColor::before {
+  content: "";
+  background: radial-gradient(circle, rgb(7, 73, 58) 25%, rgb(255, 255, 255) 100%);
   background-size: cover;
   position: absolute;
   top: 0px;
