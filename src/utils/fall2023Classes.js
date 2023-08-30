@@ -28,7 +28,7 @@ export const fall2023Classes = [
           <a
             role="button"
             className="btn btn-light btn-link"
-            href="https://classroom.google.com/c/NTA3NjcyOTIwMzQx/a/NTEzNzE2OTAxMzEy/details"
+            href="https://classroom.google.com/c/NTIzNTQ0MzM4NTI4/a/NTIzNzY0ODIxNDM2/details"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -89,7 +89,7 @@ export const fall2023Classes = [
           <a
             role="button"
             className="btn btn-light btn-link"
-            href="https://docs.google.com/document/d/1giqaVH1dcFvnIQvTB2tsu5dsIxUI65a-tWpHnl0EeIo/edit?usp=sharing"
+            href="https://classroom.google.com/c/NTIzNTQyMzk3Mjg2/a/NjE5OTAxNDA2MzU2/details"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -211,7 +211,7 @@ export const fall2023Classes = [
           <a
             role="button"
             className="btn btn-light btn-link"
-            href="https://docs.google.com/document/d/1cftkj88mYvBn6q3JI5YAJXJgcVvpERpo1nWDzs88wSY/edit?usp=sharing"
+            href="https://classroom.google.com/c/NTIzNTQ0NjMwNTQ0/a/NTIzNzkxMTQ1NzU3/details"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -272,7 +272,7 @@ export const fall2023Classes = [
           <a
             role="button"
             className="btn btn-light btn-link"
-            href="https://docs.google.com/document/d/1RpQ1lGuU5hq8s7-OJZxlwgDAVhtKRLFMU-2keBILEO8/edit?usp=sharing"
+            href="https://classroom.google.com/c/NTIzNTQ0MzY4OTAz/a/NjE5OTAyMzg0NzU4/details"
             target="_blank"
             rel="noopener noreferrer"
           >
