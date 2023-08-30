@@ -363,8 +363,7 @@ padding-bottom: -15rem;
 
 #coldWarColor {
   background: 
-  radial-gradient(circle,     rgba(239, 42, 3, 0.541) 15%,
-    rgb(255, 255, 255) 110%), url("https://d1sxy7l4fhu207.cloudfront.net/uploads/392/conversions/Banner_2_Red_1579264170-1255x780.jpg");
+  radial-gradient(  rgb(255, 255, 255)40%, rgba(239, 42, 3, 0.541)100%), url("https://d1sxy7l4fhu207.cloudfront.net/uploads/392/conversions/Banner_2_Red_1579264170-1255x780.jpg");
   background-size: 600px;
 }
 
@@ -382,7 +381,7 @@ padding-bottom: -15rem;
   right: 0px;
   bottom: 0px;
   left: 0px;
-  opacity: 0.75;
+  /* opacity: 0.75; */
   z-index: -10;
 }
 
@@ -393,7 +392,7 @@ padding-bottom: -15rem;
 
 #uSHistColor::before {
   content: "";
-  background: radial-gradient(circle, rgb(194, 20, 20) 25%, rgb(255, 255, 255) 100%);
+  background: linear-gradient( rgb(194, 20, 20) 0%, rgb(255, 255, 255) 40%);
   background-size: cover;
   position: absolute;
   top: 0px;
@@ -410,7 +409,8 @@ padding-bottom: -15rem;
 
 #governmentColor::before {
   content: "";
-  background: radial-gradient( rgb(255, 255, 255) 50%,rgb(7, 73, 58) 25%, rgb(255, 255, 255) 50% );
+  background: radial-gradient( rgb(21, 208, 165) 25%, rgb(255, 255, 255) 100% );
+    /* background: radial-gradient(circle, #00ff7f 25%, rgb(255, 255, 255) 100%); */
   background-size: cover;
   position: absolute;
   top: 0px;
