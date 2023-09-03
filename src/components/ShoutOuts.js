@@ -12,13 +12,16 @@ import { shoutOuts } from "../utils/shoutOuts";
 
 const ShoutOuts = () => {
   return (
-    <div className="shoutOuts">
-      <Container>
-        {shoutOuts.map(({ to, from, because, id }) => (
-          <ShoutOutCard key={id} to={to} from={from} because={because} />
-        ))}
-      </Container>
-    </div>
+    <Container className="shoutOuts">
+      <Row>
+        <Col className="shoutOutTitle">📢 Shout Outs</Col>
+        <Col>
+          {shoutOuts.map(({ to, from, because, id }) => (
+            <ShoutOutCard key={id} to={to} from={from} because={because} />
+          ))}
+        </Col>
+      </Row>
+    </Container>
   );
 };
 
