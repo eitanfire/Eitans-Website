@@ -560,3 +560,12 @@ a {
   color: black;
   background-color: #ec008c;
 } */
+
+.shoutOuts {
+  background-color: #00ff7f;
+  color:#af7fdd;
+}
+
+.shoutOutsRow {
+border-top: 1px solid #000;
+  border-bottom: 1px solid #000;padding: .5rem;}

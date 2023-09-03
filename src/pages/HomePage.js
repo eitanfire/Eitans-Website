@@ -1,6 +1,7 @@
 import { Col, Row, Container } from "reactstrap";
 import EitanInfo from "../features/EitanInfo.js";
 import Calendar from "../components/Calendar.js";
+import ShoutOuts from "../components/ShoutOuts.js";
 import Time from "../components/Time";
 import aDayBDay from "../utils/aDayBDay";
 // import Tabs from "../components/TabComponent/Tabs";
@@ -16,6 +17,7 @@ const HomePage = () => {
         </Col>
         <Col className="accordion col-12 col-lg-9 col-xxl-10">
           {/* <Tabs /> */}
+          <ShoutOuts />
           <Fall2023ClassesAccordion />
         </Col>
         <Row>
