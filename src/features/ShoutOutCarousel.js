@@ -9,6 +9,7 @@ import {
   CardTitle,
   CardSubtitle,
   CardText,
+  Col,
 } from "reactstrap";
 import { shoutOuts } from "../utils/shoutOuts";
 
@@ -35,10 +36,10 @@ const ShoutOutCarousel = () => {
       onExited={() => setAnimating(false)}
     >
       <Card>
-        <CardBody>
-          <CardTitle>{item.to}</CardTitle>
-          {item.from && <CardSubtitle>From: {item.from}</CardSubtitle>}
-          {item.for && <CardText>For: {item.for}</CardText>}
+        <CardBody className="shoutOuts">
+          <CardText>To: {item.to}</CardText>
+          {item.from && <CardText>From: {item.from}</CardText>}
+          {item.for && <CardText>For: {item.because}</CardText>}
         </CardBody>
       </Card>
     </CarouselItem>
@@ -47,13 +48,14 @@ const ShoutOutCarousel = () => {
   return (
     <div>
       <Carousel activeIndex={activeIndex} next={next} previous={previous}>
-        <CarouselIndicators
+        {/* <CarouselIndicators
           items={shoutOuts}
           activeIndex={activeIndex}
           onClickHandler={(index) => setActiveIndex(index)}
-        />
+        /> */}
         {slides}
         <CarouselControl
+          className="CarouselControl"
           direction="prev"
           directionText="Previous"
           onClickHandler={previous}

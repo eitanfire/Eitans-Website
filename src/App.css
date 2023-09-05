@@ -179,7 +179,6 @@ padding-bottom: -15rem;
   }
 }
 
-.shoutOuts,
 .shoutOutTitle,
 #icon:before,
 .rainbow-paisley-bg, 
@@ -196,7 +195,6 @@ padding-bottom: -15rem;
   background-attachment: fixed;
 }
 
-.shoutOuts,
 .black-and-white-paisley-bg,
 #EitanInfoBox {
   background: url("https://image.shutterstock.com/image-vector/traditional-indian-paisley-pattern-on-600w-1726867504.jpg"),
@@ -366,8 +364,11 @@ padding-bottom: -15rem;
 }
 
 #coldWarColor {
-  background: 
-  radial-gradient(  rgb(255, 255, 255)40%, rgba(239, 42, 3, 0.541)100%), url("https://d1sxy7l4fhu207.cloudfront.net/uploads/392/conversions/Banner_2_Red_1579264170-1255x780.jpg");
+  background: radial-gradient(
+      rgb(255, 255, 255) 40%,
+      rgba(239, 42, 3, 0.541) 100%
+    ),
+    url("https://d1sxy7l4fhu207.cloudfront.net/uploads/392/conversions/Banner_2_Red_1579264170-1255x780.jpg");
   background-size: 600px;
 }
 
@@ -396,7 +397,7 @@ padding-bottom: -15rem;
 
 #uSHistColor::before {
   content: "";
-  background: linear-gradient( rgb(194, 20, 20) 0%, rgb(255, 255, 255) 40%);
+  background: linear-gradient(rgb(194, 20, 20) 0%, rgb(255, 255, 255) 40%);
   background-size: cover;
   position: absolute;
   top: 0px;
@@ -413,8 +414,8 @@ padding-bottom: -15rem;
 
 #governmentColor::before {
   content: "";
-  background: radial-gradient( rgb(21, 208, 165) 25%, rgb(255, 255, 255) 100% );
-    /* background: radial-gradient(circle, #00ff7f 25%, rgb(255, 255, 255) 100%); */
+  background: radial-gradient(rgb(21, 208, 165) 25%, rgb(255, 255, 255) 100%);
+  /* background: radial-gradient(circle, #00ff7f 25%, rgb(255, 255, 255) 100%); */
   background-size: cover;
   position: absolute;
   top: 0px;
@@ -502,6 +503,7 @@ a {
   color: #70c3a5;
 }
 
+.shoutOuts,
 .time {
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)),
     radial-gradient(ellipse at top, #ec008c, transparent),
@@ -528,6 +530,7 @@ a {
   }
 }
 
+.shoutOuts,
 #aBAB {
   background: radial-gradient(ellipse at top, yellow, transparent),
     radial-gradient(ellipse at bottom, rgb(3, 249, 110), transparent),
@@ -566,19 +569,32 @@ a {
 } */
 
 .shoutOuts {
-  max-height: 3rem;
-  background-color: #00ff7f;
-  color:#af7fdd;
+  /* color: #af7fdd; */
+  /* font-size: 2.75rem; */
+  font-weight: 700;
+  -webkit-text-stroke: 0.5px black;
+  height: 20.3rem;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  text-align: left;
+  margin-left: 2rem;
 }
 
 .shoutOutsRow {
-border-top: 1px solid #000;
-  border-bottom: 1px solid #000;padding: .5rem;}
-  
-  .shoutOutCard {
-    color: #fc6767;
-  }
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  padding: 0.5rem;
+}
 
-  .shoutOutTitle {
-font-size: larger;
-  }
+.shoutOutCard {
+  color: #fc6767;
+}
+
+.shoutOutTitle {
+  font-size: larger;
+}
+.CarouselControl
+ {
+background-color: #ec008c;
+}
