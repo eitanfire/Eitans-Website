@@ -28,7 +28,6 @@ const ShoutOutCarousel = () => {
     const nextIndex = activeIndex === 0 ? shoutOuts.length - 1 : activeIndex - 1;
     setActiveIndex(nextIndex);
   };
-
   const slides = shoutOuts.map((item, index) => (
     <CarouselItem
       key={index}
@@ -37,9 +36,13 @@ const ShoutOutCarousel = () => {
     >
       <Card>
         <CardBody className="shoutOuts">
-          <CardText>To: {item.to}</CardText>
-          {item.from && <CardText>From: {item.from}</CardText>}
-          {item.for && <CardText>For: {item.because}</CardText>}
+          <Col col-4>
+            <CardText>To: {item.to}</CardText>
+          </Col>
+          <Col col-4>{item.from && <CardText>From: {item.from}</CardText>}</Col>
+          <Col col-4>
+            {item.because && <CardText>For: {item.because}</CardText>}
+          </Col>
         </CardBody>
       </Card>
     </CarouselItem>

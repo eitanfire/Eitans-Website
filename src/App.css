@@ -200,7 +200,7 @@ padding-bottom: -15rem;
   background: url("https://image.shutterstock.com/image-vector/traditional-indian-paisley-pattern-on-600w-1726867504.jpg"),
     no-repeat;
 }
-
+/* .shoutOuts, */
 .shoutOutTitle,
 #rainbowText::before,
 #rainbowText {
@@ -518,6 +518,8 @@ a {
 
 @media all and (max-width: 895px) {
   .time {
+        margin-top: 1rem;
+
     padding: 15rem;
   }
 }
@@ -530,7 +532,6 @@ a {
   }
 }
 
-.shoutOuts,
 #aBAB {
   background: radial-gradient(ellipse at top, yellow, transparent),
     radial-gradient(ellipse at bottom, rgb(3, 249, 110), transparent),
@@ -570,31 +571,33 @@ a {
 
 .shoutOuts {
   /* color: #af7fdd; */
-  /* font-size: 2.75rem; */
+  font-size: 1.5rem;
   font-weight: 700;
-  -webkit-text-stroke: 0.5px black;
-  height: 20.3rem;
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
-  text-align: left;
-  margin-left: 2rem;
+    opacity: 90%;
+
+  max-height: fit-content;
+  /* -webkit-text-stroke: 0.5px black; */
+  /* background-clip: text; */
+  /* -webkit-background-clip: text; */
+  /* color: transparent; */
+  /* text-align: left; */
+  /* margin-left: 2rem; */
+  margin-bottom: 0rem;
 }
 
-.shoutOutsRow {
+/* .shoutOutsRow {
   border-top: 1px solid #000;
   border-bottom: 1px solid #000;
   padding: 0.5rem;
-}
+} */
 
-.shoutOutCard {
+/* .shoutOutCard {
   color: #fc6767;
-}
+} */
 
 .shoutOutTitle {
-  font-size: larger;
+  /* font-size: larger; */
 }
 .CarouselControl
  {
-background-color: #ec008c;
 }

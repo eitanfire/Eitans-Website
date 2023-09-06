@@ -155,4 +155,29 @@ export const shoutOuts = [
     from: "",
     because: "Organizing the cold plunge and poster signing",
   },
+  {
+    id: 27,
+    to: "Aimee",
+    from: "",
+    because: "Organizing the cold plunge and poster signing",
+  },
+  {
+    id: 28,
+    to: "Maddy and Andy",
+    from: "Community Service Class",
+    because:
+      "Creating signs for rooms, creating a suggestion box, and planning Spirirt Week.",
+  },
+  {
+    id: 29,
+    to: "Xander and Simon",
+    from: "Jill",
+    because: "Helping out with the flags.",
+  },
+  {
+    id: 30,
+    to: "Zoe",
+    from: "Kiri",
+    because: "Sharing her fidget toys from home.",
+  },
 ];
