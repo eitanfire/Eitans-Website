@@ -12,6 +12,7 @@ import {
   Col,
 } from "reactstrap";
 import { shoutOuts } from "../utils/shoutOuts";
+import { shoutOutBackground } from "../../src/app/img/shout-out-background.jpg";
 
 const ShoutOutCarousel = () => {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -35,7 +36,7 @@ const ShoutOutCarousel = () => {
       onExited={() => setAnimating(false)}
     >
       <Card>
-        <CardBody className="shoutOuts">
+        <CardBody src="shoutOutBackground" className="shoutOuts">
           <Col col-4>
             <CardText>To: {item.to}</CardText>
           </Col>

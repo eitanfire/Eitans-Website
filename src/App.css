@@ -1,7 +1,4 @@
 body {
-  /* font-family: "Times New Roman"; */
-  /* margin-left: 0rem; */
-  /* background-color: transparent; */
 }
 h1,
 h3 {
@@ -185,7 +182,6 @@ padding-bottom: -15rem;
 #rainbowText,
 #eitansProfilePic,
 #infoCard,
-/* .Calendar, */
 #banner,
 .accordion,
 .accordion-title,
@@ -503,9 +499,22 @@ a {
   color: #70c3a5;
 }
 
-.shoutOuts,
+.shoutOuts {
+  background:  url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsR0j6al3ZijRrDfTd69ykZYNVdFLrQr_qtwz4708ZMv1vqarS6J31dA_SpOwhzgWYQhw&usqp=CAU"),
+  linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)),
+    radial-gradient(ellipse at top, #ec008c, transparent),
+    radial-gradient(ellipse at bottom, #fc6767, transparent);
+  opacity: 75%;
+  margin-bottom: 3rem;
+  padding: 2.33rem;
+  border: 4px solid black;
+  text-align: center;
+  background-color: #af7fdd;
+}
+
 .time {
-  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)),
+  background: 
+  linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)),
     radial-gradient(ellipse at top, #ec008c, transparent),
     radial-gradient(ellipse at bottom, #fc6767, transparent);
   opacity: 75%;
