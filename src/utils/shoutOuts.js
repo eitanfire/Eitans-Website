@@ -180,4 +180,16 @@ export const shoutOuts = [
     from: "Kiri",
     because: "Sharing her fidget toys from home.",
   },
+  {
+    id: 31,
+    to: "Eitan",
+    from: "Kyla",
+    because: "Taking the class outside to learn about Boulder history.",
+  },
+  {
+    id: 32,
+    to: "Middle School",
+    from: "David",
+    because: "Working hard on their research projects.",
+  },
 ];
