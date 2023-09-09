@@ -178,7 +178,7 @@ padding-bottom: -15rem;
 
 .shoutOutTitle,
 #icon:before,
-.rainbow-paisley-bg, 
+.rainbow-paisley-bg,
 #rainbowText,
 #eitansProfilePic,
 #infoCard,
@@ -500,8 +500,8 @@ a {
 }
 
 .shoutOuts {
-  background:  url("https://www.wallpapertip.com/wmimgs/185-1853339_memphis-style-wallpaper-4k.jpg"),
-  linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)),
+  background: url("https://www.wallpapertip.com/wmimgs/185-1853339_memphis-style-wallpaper-4k.jpg"),
+    linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)),
     radial-gradient(ellipse at top, #ec008c, transparent),
     radial-gradient(ellipse at bottom, #fc6767, transparent);
   opacity: 75%;
@@ -513,8 +513,7 @@ a {
 }
 
 .time {
-  background: 
-  linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)),
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)),
     radial-gradient(ellipse at top, #ec008c, transparent),
     radial-gradient(ellipse at bottom, #fc6767, transparent);
   opacity: 75%;
@@ -527,7 +526,7 @@ a {
 
 @media all and (max-width: 895px) {
   .time {
-        margin-top: 1rem;
+    margin-top: 1rem;
 
     padding: 15rem;
   }
@@ -582,7 +581,7 @@ a {
   /* color: #af7fdd; */
   font-size: 1.5rem;
   font-weight: 700;
-    opacity: 90%;
+  opacity: 90%;
 
   max-height: fit-content;
   /* -webkit-text-stroke: 0.5px black; */
@@ -607,6 +606,5 @@ a {
 .shoutOutTitle {
   /* font-size: larger; */
 }
-.CarouselControl
- {
+.CarouselControl {
 }
