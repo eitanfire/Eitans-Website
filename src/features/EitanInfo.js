@@ -30,6 +30,13 @@ const EitanInfo = () => {
                 ></Col>
                 <Col className="col-xl-2">
                   <Button className="EitanInfoButtons border btn-light">
+                    <Link to="/shout-out">
+                      <h3 id="rainbowText">Shout Out</h3>
+                    </Link>
+                  </Button>
+                </Col>
+                <Col className="col-xl-2">
+                  <Button className="EitanInfoButtons border btn-light">
                     <Link to="/contact">
                       <h3 id="rainbowText">Contact</h3>
                     </Link>
