@@ -36,7 +36,11 @@ const ShoutOutCarousel = () => {
       onExited={() => setAnimating(false)}
     >
       <Card>
-        <CardBody src="shoutOutBackground" className="shoutOuts">
+        <CardBody
+          d-flex src="shoutOutBackground"
+          className="shoutOuts"
+          // style={{ vertical-align: middle}}
+        >
           <Col col-4>
             <CardText>To: {item.to}</CardText>
           </Col>

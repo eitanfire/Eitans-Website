@@ -1,5 +1,6 @@
-body {
-}
+/* body {
+} */
+
 h1,
 h3 {
   text-align: center;
@@ -47,7 +48,7 @@ img {
 .accordion {
   position: relative;
   display: block;
-  padding-top: 10px;
+  padding-top: 20px;
   padding-bottom: 5px;
   padding-left: 0.5rem;
   margin-bottom: 0rem;
@@ -115,10 +116,12 @@ padding-bottom: -15rem;
   /* width: clamp(1em); */
 }
 
+.MakeAShoutOutForm,
 .ContactForm {
   display: block;
-  width: min-content;
   height: 100%;
+  width:min-content;
+  /* max-width: fit-content; */
   margin: auto;
   background-color: rgb(129, 59, 59);
 }
@@ -176,6 +179,7 @@ padding-bottom: -15rem;
   }
 }
 
+.MakeAShoutOutForm,
 .shoutOutTitle,
 #icon:before,
 .rainbow-paisley-bg,
@@ -196,7 +200,7 @@ padding-bottom: -15rem;
   background: url("https://image.shutterstock.com/image-vector/traditional-indian-paisley-pattern-on-600w-1726867504.jpg"),
     no-repeat;
 }
-/* .shoutOuts, */
+.shoutOuts,
 .shoutOutTitle,
 #rainbowText::before,
 #rainbowText {
@@ -474,7 +478,7 @@ a {
 
 .EitanInfoButtons {
   position: relative;
-  margin-top: 2rem;
+  margin-top: 1.5rem;
 }
 
 #eitansProfilePic {
@@ -500,15 +504,15 @@ a {
 }
 
 .shoutOuts {
-  background: url("https://www.wallpapertip.com/wmimgs/185-1853339_memphis-style-wallpaper-4k.jpg"),
+  background: url("https://img.freepik.com/premium-vector/rainbow-squares-confetti-confetti-celebration-falling-rainbow-abstract-decoration-party-birthday-celebrate-anniversary-event-festive-festival-decor-vector-illustration_88211-8118.jpg"),
     linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)),
     radial-gradient(ellipse at top, #ec008c, transparent),
     radial-gradient(ellipse at bottom, #fc6767, transparent);
-  opacity: 75%;
-  margin-bottom: 3rem;
+  /* margin-bottom: 5rem; */
   padding: 2.33rem;
   border: 4px solid black;
-  text-align: center;
+  /* text-align:center; */
+text-align: center;
   background-color: #af7fdd;
   height: 10rem;
 }
@@ -574,10 +578,8 @@ a {
 }
 
 .shoutOuts {
-  font-size: 1.5rem;
+  font-size:xx-large;
   font-weight: 700;
-  opacity: 90%;
-
   max-height: fit-content;
   margin-bottom: 0rem;
 }
