@@ -192,4 +192,22 @@ export const shoutOuts = [
     from: "David",
     because: "Working hard on their research projects.",
   },
+  {
+    id: 33,
+    to: "Deion",
+    from: "Xander",
+    because: "Helping him understand distance formulas.",
+  },
+  {
+    id: 34,
+    to: "Nyx",
+    from: "Eitan",
+    because: "Staying after class to get the class notes.",
+  },
+  {
+    id: 35,
+    to: "Deion",
+    from: "Maddy",
+    because: "Helping the class understand distance formulas.",
+  },
 ];

@@ -120,7 +120,7 @@ padding-bottom: -15rem;
 .ContactForm {
   display: block;
   height: 100%;
-  width:min-content;
+  width: min-content;
   /* max-width: fit-content; */
   margin: auto;
   background-color: rgb(129, 59, 59);
@@ -179,6 +179,7 @@ padding-bottom: -15rem;
   }
 }
 
+.shoutOuts,
 .MakeAShoutOutForm,
 .shoutOutTitle,
 #icon:before,
@@ -200,6 +201,7 @@ padding-bottom: -15rem;
   background: url("https://image.shutterstock.com/image-vector/traditional-indian-paisley-pattern-on-600w-1726867504.jpg"),
     no-repeat;
 }
+
 .shoutOuts,
 .shoutOutTitle,
 #rainbowText::before,
@@ -477,7 +479,6 @@ a {
 }
 
 .EitanInfoButtons {
-  position: relative;
   margin-top: 1.5rem;
 }
 
@@ -490,6 +491,7 @@ a {
   margin: 0.5rem;
 }
 
+.shoutOuts,
 .time,
 #shine {
   font-weight: 700;
@@ -504,17 +506,27 @@ a {
 }
 
 .shoutOuts {
-  background: url("https://img.freepik.com/premium-vector/rainbow-squares-confetti-confetti-celebration-falling-rainbow-abstract-decoration-party-birthday-celebrate-anniversary-event-festive-festival-decor-vector-illustration_88211-8118.jpg"),
+  background: 
+url("https://www.pngmart.com/files/8/Color-PNG-Image.png")
+      no-repeat,
     linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)),
     radial-gradient(ellipse at top, #ec008c, transparent),
-    radial-gradient(ellipse at bottom, #fc6767, transparent);
+    radial-gradient(ellipse at bottom, #fc6767, transparent)
+    ;
+    background-position: 50% 45%;
+    background-size: 50%;
+      background-color: transparent, #af7fdd;
+
   /* margin-bottom: 5rem; */
+    /* opacity: 75%; */
+
   padding: 2.33rem;
   border: 4px solid black;
-  /* text-align:center; */
-text-align: center;
-  background-color: #af7fdd;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
   height: 10rem;
+  /* background-color: transparent; */
 }
 
 .time {
@@ -578,7 +590,7 @@ text-align: center;
 }
 
 .shoutOuts {
-  font-size:xx-large;
+  font-size: xx-large;
   font-weight: 700;
   max-height: fit-content;
   margin-bottom: 0rem;

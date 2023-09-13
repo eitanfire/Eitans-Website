@@ -12,7 +12,7 @@ import {
   Col,
 } from "reactstrap";
 import { shoutOuts } from "../utils/shoutOuts";
-import { shoutOutBackground } from "../../src/app/img/shout-out-background.jpg";
+import shoutOutBackground from "../../src/app/img/97128-color-explosion-free-download-png-hd.png";
 
 const ShoutOutCarousel = () => {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -37,14 +37,21 @@ const ShoutOutCarousel = () => {
     >
       <Card>
         <CardBody
-          d-flex src="shoutOutBackground"
+          // src="../../src/app/img/97128-color-explosion-free-download-png-hd.png"
           className="shoutOuts"
           // style={{ vertical-align: middle}}
+          // style={{ backgroundImage: shoutOutBackground }}
         >
-          <Col col-4>
-            <CardText>To: {item.to}</CardText>
-          </Col>
-          <Col col-4>{item.from && <CardText>From: {item.from}</CardText>}</Col>
+          {item.to && (
+            <Col col-4>
+              <CardText>To: {item.to}</CardText>
+            </Col>
+          )}
+          {item.from && (
+            <Col col-4>
+              {item.from && <CardText>From: {item.from}</CardText>}
+            </Col>
+          )}
           <Col col-4>
             {item.because && <CardText>For: {item.because}</CardText>}
           </Col>
