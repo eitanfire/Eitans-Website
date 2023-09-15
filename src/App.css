@@ -143,18 +143,22 @@ padding-bottom: -15rem;
 }
 
 .footer {
-  text-indent: 7em;
+  /* text-indent: 7em; */
   border-top: 1px solid #000;
   border-bottom: 1px solid #000;
-  opacity: 0.85;
-  -webkit-text-stroke: 0.15px black;
+  /* opacity: 0.85; */
+  /* -webkit-text-stroke: 0.15px black; */
 
-  background: url("https://image.shutterstock.com/image-vector/traditional-indian-paisley-pattern-on-600w-1726867504.jpg")
-      no-repeat,
-    linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)),
-    radial-gradient(ellipse at top, #ec008c, transparent),
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)),
+    radial-gradient( #ec008c, transparent),
     radial-gradient(ellipse at bottom, #fc6767, transparent);
+  /* opacity: 75%; */
+  /* margin-bottom: 3rem; */
+  /* padding: 2.33rem; */
+  /* border: 4px solid black; */
+  /* text-align: center; */
   background-color: #af7fdd;
+  /* background-color: #af7fdd; */
 
   margin-top: 1.25rem;
   padding-top: 1.5rem;
@@ -167,17 +171,15 @@ padding-bottom: -15rem;
   .footer {
     text-indent: -5em;
     font-size: large;
+    
   }
 }
 
-@media all and (max-width: 1260px) {
+/* @media all and (max-width: 1260px) {
   .footer {
     text-indent: -10em;
-    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)),
-      radial-gradient(ellipse at top, #ec008c, transparent),
-      radial-gradient(ellipse at bottom, #fc6767, transparent);
   }
-}
+} */
 
 .shoutOuts,
 .MakeAShoutOutForm,
@@ -491,6 +493,7 @@ a {
   margin: 0.5rem;
 }
 
+.footer,
 .shoutOuts,
 .time,
 #shine {
@@ -507,15 +510,16 @@ a {
 
 .shoutOuts {
   background: 
-url("https://www.pngmart.com/files/8/Color-PNG-Image.png")
-      no-repeat,
+/* url(app/img/97128-color-explosion-free-download-png-hd.png) */
+url(app/img/Color-Explosion.png)      
+no-repeat,
     linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)),
     radial-gradient(ellipse at top, #ec008c, transparent),
     radial-gradient(ellipse at bottom, #fc6767, transparent)
     ;
     background-position: 50% 45%;
     background-size: 50%;
-      background-color: transparent, #af7fdd;
+      background-color: #af7fdd;
 
   /* margin-bottom: 5rem; */
     /* opacity: 75%; */
