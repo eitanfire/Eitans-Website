@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className="footer">
       <span id="aBAB">©{year}&nbsp;Eitan Fire</span>
-      <span style={{ color: "#00008B" }}> ⎸</span>
+      {/* <span style={{ color: "#00008B" }}> ⎸</span> */}
       <span id="shine">
         &nbsp;A <span id="globe">🌍</span> Class Experience!
       </span>

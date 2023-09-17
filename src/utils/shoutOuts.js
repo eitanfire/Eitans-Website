@@ -210,4 +210,28 @@ export const shoutOuts = [
     from: "Maddy",
     because: "Helping the class understand distance formulas.",
   },
+  {
+    id: 36,
+    to: "Jill",
+    from: "Eitan",
+    because: "Fixing the printer",
+  },
+  {
+    id: 37,
+    to: "Music Classes",
+    from: "Hunter",
+    because: "Working hard and jamming out.",
+  },
+  {
+    id: 38,
+    to: "Survive the World + Community Service + Culinary",
+    from: "Eitan",
+    because: "Planning amazing meals.",
+  },
+  {
+    id: 39,
+    to: "Mamie Kakes",
+    from: "Nova",
+    because: "A fun community filled with dancing!",
+  },
 ];

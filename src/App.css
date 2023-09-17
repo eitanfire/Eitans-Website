@@ -149,15 +149,15 @@ padding-bottom: -15rem;
   /* opacity: 0.85; */
   /* -webkit-text-stroke: 0.15px black; */
 
-  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)),
-    radial-gradient( #ec008c, transparent),
-    radial-gradient(ellipse at bottom, #fc6767, transparent);
+  /* background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)),
+    radial-gradient(#ec008c, transparent),
+    radial-gradient(ellipse at bottom, #fc6767, transparent); */
   /* opacity: 75%; */
   /* margin-bottom: 3rem; */
   /* padding: 2.33rem; */
   /* border: 4px solid black; */
   /* text-align: center; */
-  background-color: #af7fdd;
+  /* background-color: #af7fdd; */
   /* background-color: #af7fdd; */
 
   margin-top: 1.25rem;
@@ -165,13 +165,23 @@ padding-bottom: -15rem;
   padding-bottom: 1.5rem;
   text-align: center;
   font-size: larger;
+
+  background: 
+  url(app/img/kindpng_4845863.png)
+/* url(app/img/Color-Explosion.png) */
+      no-repeat,
+    linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)),
+    radial-gradient(ellipse at top, #ec008c, transparent),
+    radial-gradient(ellipse at bottom, #fc6767, transparent);
+
+      background-position: 0% 75%;
+  /* background-size: 99%; */
 }
 
 @media screen and (max-width: 500px) {
   .footer {
     text-indent: -5em;
     font-size: large;
-    
   }
 }
 
@@ -497,11 +507,11 @@ a {
 .shoutOuts,
 .time,
 #shine {
-  font-weight: 700;
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: black;
-  -webkit-text-stroke: 0.01rem #70c3a5;
+  /* font-weight: 700; */
+  /* background-clip: text; */
+  /* -webkit-background-clip: text; */
+  /* color: black; */
+  /* -webkit-text-stroke: 0.01rem #70c3a5; */
 }
 
 #nameAndYear {
@@ -509,28 +519,15 @@ a {
 }
 
 .shoutOuts {
-  background: 
-/* url(app/img/97128-color-explosion-free-download-png-hd.png) */
-url(app/img/Color-Explosion.png)      
-no-repeat,
-    linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)),
-    radial-gradient(ellipse at top, #ec008c, transparent),
-    radial-gradient(ellipse at bottom, #fc6767, transparent)
-    ;
-    background-position: 50% 45%;
-    background-size: 50%;
-      background-color: #af7fdd;
-
   /* margin-bottom: 5rem; */
-    /* opacity: 75%; */
+  /* opacity: 75%; */
 
   padding: 2.33rem;
-  border: 4px solid black;
   text-align: center;
   align-items: center;
   justify-content: center;
-  height: 10rem;
   /* background-color: transparent; */
+  
 }
 
 .time {
@@ -598,9 +595,18 @@ no-repeat,
   font-weight: 700;
   max-height: fit-content;
   margin-bottom: 0rem;
+  background: 
+/* url(app/img/97128-color-explosion-free-download-png-hd.png) */ url(app/img/Color-Explosion.png)
+      no-repeat,
+    linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)),
+    radial-gradient(ellipse at top, #ec008c, transparent),
+    radial-gradient(ellipse at bottom, #fc6767, transparent);
+  background-position: 50% 45%;
+  background-size: 50%;
+  background-color: #af7fdd;
+  border: 4px solid black;
+  height: 10rem;
 }
 
-.shoutOutTitle {
-}
 .CarouselControl {
 }
