@@ -1,4 +1,6 @@
 /* body {
+  color: whitesmoke;
+  width: 1rem;
 } */
 
 h1,
@@ -121,7 +123,6 @@ padding-bottom: -15rem;
   display: block;
   height: 100%;
   width: min-content;
-  /* max-width: fit-content; */
   margin: auto;
   background-color: rgb(129, 59, 59);
 }
@@ -180,8 +181,15 @@ padding-bottom: -15rem;
 
 @media screen and (max-width: 500px) {
   .footer {
+    color: rgb(45, 31, 31);
     text-indent: -5em;
     font-size: large;
+     /* background-clip: text; */
+  /* -webkit-background-clip: text; */
+  /* color: transparent; */
+  /* -webkit-text-stroke: 0.85px white; */
+  border: 0.2rem solid transparent;
+  opacity: .9;
   }
 }
 
