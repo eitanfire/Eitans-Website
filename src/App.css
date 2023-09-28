@@ -418,7 +418,6 @@ padding-bottom: -15rem;
 #governmentColor::before {
   content: "";
   background: radial-gradient(rgb(21, 208, 165) 25%, rgb(255, 255, 255) 100%);
-  /* background: radial-gradient(circle, #00ff7f 25%, rgb(255, 255, 255) 100%); */
   background-size: cover;
   position: absolute;
   top: 0px;
