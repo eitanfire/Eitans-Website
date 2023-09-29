@@ -507,15 +507,10 @@ a {
 }
 
 .shoutOuts {
-  /* margin-bottom: 5rem; */
-  /* opacity: 75%; */
-
   padding: 2.33rem;
   text-align: center;
   align-items: center;
   justify-content: center;
-  /* background-color: transparent; */
-  
 }
 
 .time {
@@ -584,7 +579,7 @@ a {
   max-height: fit-content;
   margin-bottom: 0rem;
   background: 
-/* url(app/img/97128-color-explosion-free-download-png-hd.png) */ url(app/img/Color-Explosion.png)
+url(app/img/Color-Explosion.png)
       no-repeat,
     linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)),
     radial-gradient(ellipse at top, #ec008c, transparent),
@@ -596,5 +591,5 @@ a {
   height: 10rem;
 }
 
-.CarouselControl {
-}
+/* .CarouselControl {
+} */
