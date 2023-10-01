@@ -5,9 +5,7 @@ import { fall2023Classes } from "../../../utils/fall2023Classes";
 
 const Fall2023ClassesAccordion = () => {
   return (
-    <div 
-    // className="SecondSemesterAccordion"
-    >
+    <div>
       <Container>
         {fall2023Classes.map(({ title, content, image, id, current }) => (
           <AnimatedAccordion

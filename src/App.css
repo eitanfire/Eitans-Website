@@ -143,6 +143,12 @@ padding-bottom: -15rem;
   padding-right: 2%;
 }
 
+#openCloseSymbols {
+  opacity: 0.5;
+  float: right;
+  padding-right: 2%;
+}
+
 .footer {
   border-top: 1px solid #000;
   border-bottom: 1px solid #000;

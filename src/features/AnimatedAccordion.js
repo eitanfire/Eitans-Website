@@ -25,14 +25,14 @@ const AnimatedAccordion = ({ icon, title, content, image, id }) => {
           onClick={() => setIsActive(!isActive)}
         >
           <CardTitle>
-            <span id="openCloseSymbols">{icon}</span>
+            {/* <span id="openCloseSymbols">{icon}</span> */}
             {title}
             {image}
             {id}
             <span
               className="d-none d-md-block d-xxl-none"
               id="openCloseSymbols"
-              // style={{ color: "red" }}
+              style={{ color: "red" }}
             >
               {isActive ? " 🪐" : " 🚀"}
             </span>
