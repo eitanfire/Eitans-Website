@@ -73,20 +73,20 @@ export const fall2023Classes = [
     current: false,
     title: (
       <>
-        <span className="d-md-block d-none">
+        <span className="USHistoryofthe1800s d-none d-sm-none d-md-inline-block">
           <span id="icon">🇺🇸</span> US History of the 1800s
         </span>
         <span className="d-xs-block d-md-none">
           <span id="icon">🇺🇸</span> US History
         </span>
-        <span className="d-sm-block d-lg-block d-none">
+        {/* <span className="d-sm-block d-lg-block d-none">
           <span id="icon">🇺🇸</span> 1800s US History
-        </span>
+        </span> */}
       </>
     ),
     image: (
       <img
-        className="classImage mx-auto d-none d-xxl-block"
+        className="classImage d-none d-xxl-block"
         src={Fugitives}
         alt="US History of the 1800s banner"
       />
