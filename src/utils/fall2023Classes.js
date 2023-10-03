@@ -97,7 +97,7 @@ export const fall2023Classes = [
           <a
             role="button"
             className="btn btn-light btn-link"
-            href="https://classroom.google.com/c/NTIzNTQyMzk3Mjg2/a/NjE5OTAxNDA2MzU2/details"
+            href="https://classroom.google.com/c/NTIzNTQyMzk3Mjg2/a/NTI5NjI0MjY3ODE3/details"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -219,7 +219,7 @@ export const fall2023Classes = [
           <a
             role="button"
             className="btn btn-light btn-link"
-            href="https://classroom.google.com/c/NTIzNTQ0NjMwNTQ0/a/NTIzNzkxMTQ1NzU3/details"
+            href="https://classroom.google.com/c/NTIzNTQ0NjMwNTQ0/a/NTI5NjI0Mzc3MTc2/details"
             target="_blank"
             rel="noopener noreferrer"
           >
