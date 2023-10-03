@@ -234,4 +234,46 @@ export const shoutOuts = [
     from: "Nova",
     because: "A fun community filled with dancing!",
   },
+  {
+    id: 40,
+    to: "Aaron",
+    from: "Jack",
+    because: "Buying treats at Lolita's",
+  },
+  {
+    id: 41,
+    to: "Period 1B",
+    from: "Vaj",
+    because: "Helping prepare supplies for camping trip.",
+  },
+  {
+    id: 42,
+    to: "Aaron",
+    from: "Jack",
+    because: "Buying treats at Lolita's",
+  },
+  {
+    id: 43,
+    to: "Culinary",
+    from: "Sarah",
+    because: "Preparing pasta salad for fall trip.",
+  },
+  {
+    id: 44,
+    to: "Culinary",
+    from: "Ari",
+    because: "Making food",
+  },
+  {
+    id: 45,
+    to: "Eitan",
+    from: "Kyla",
+    because: "Fun class",
+  },
+  {
+    id: 46,
+    to: "Aimee",
+    from: "Zoe",
+    because: "Helping students feel safe to be vulnerable in class.",
+  },
 ];
