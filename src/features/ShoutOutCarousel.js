@@ -39,8 +39,6 @@ const ShoutOutCarousel = () => {
         <CardBody
           // src="../../src/app/img/97128-color-explosion-free-download-png-hd.png"
           className="shoutOuts"
-          // style={{ vertical-align: middle}}
-          // style={{ backgroundImage: shoutOutBackground }}
         >
           {item.to && (
             <Col col-4>
