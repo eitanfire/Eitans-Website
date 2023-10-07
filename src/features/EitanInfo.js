@@ -26,7 +26,6 @@ const EitanInfo = () => {
             <Row className="mx-flex">
               <Col>
                 <Col
-                //    className='col-none col-md-9 col-xl-7 col-xxl-6'
                 ></Col>
                 <Col className="col-xl-2">
                   <Button className="EitanInfoButtons border btn-light">
