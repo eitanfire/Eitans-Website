@@ -539,6 +539,10 @@ a {
   background-color: #af7fdd;
 }
 
+.time-text {
+color: black;
+}
+
 @media all and (max-width: 895px) {
   .time {
     margin-top: 1rem;

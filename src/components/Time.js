@@ -23,17 +23,19 @@ const Time = () => {
   return (
     <animated.div style={animatedStyle}>
       <Container className="time">
-        <Row>
-          <Col>
-            <span>Today is {weekday}.</span>
-          </Col>
-        </Row>
-        <Row>
-          {aDayBDay && (
+        <Row className="time-text">
+          <Row>
             <Col>
-              It's a{aDayBDay[0]} {brightDay} day.
+              <span>Today is {weekday}.</span>
             </Col>
-          )}
+          </Row>
+          <Row>
+            {aDayBDay && (
+              <Col>
+                It's a{aDayBDay[0]} {brightDay} day.
+              </Col>
+            )}
+          </Row>
         </Row>
       </Container>
     </animated.div>
