@@ -62,12 +62,14 @@ const ShoutOutCarousel = () => {
     <div>
       <Carousel activeIndex={activeIndex} next={next} previous={previous}>
         {/* <CarouselIndicators
+          className="carousel-indicators"
           items={shoutOuts}
           activeIndex={activeIndex}
           onClickHandler={(index) => setActiveIndex(index)}
         /> */}
         {slides}
         <CarouselControl
+          data-slide="prev"
           className="CarouselControl"
           direction="prev"
           directionText="Previous"

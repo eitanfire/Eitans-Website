@@ -51,13 +51,14 @@ img {
   position: relative;
   display: block;
   padding-top: 20px;
-  padding-bottom: 5px;
+  /* padding-bottom: 5px; */
   padding-left: 0.5rem;
-  margin-bottom: 0rem;
+  /* margin-bottom: 0rem; */
   align-items: center;
   background-attachment: fixed;
   background-position: 25% 75%;
-  width: 118%;
+  /* width: 118%; */
+  width: auto;
 }
 
 /* .accordion-item {
@@ -67,7 +68,7 @@ padding-bottom: -15rem;
 .accordion-title {
   font-size: 2.75rem;
   font-weight: 300;
-    filter: grayscale(60%);
+  filter: grayscale(60%);
 
   -webkit-text-stroke: 0.5px black;
   height: 5.3rem;
@@ -77,8 +78,7 @@ padding-bottom: -15rem;
   text-align: left;
   margin-left: 2rem;
   margin-bottom: 0%;
-    padding-top: .50%;
-
+  padding-top: 0.5%;
 }
 
 #icon:before {
@@ -109,7 +109,7 @@ padding-bottom: -15rem;
 
 .accordion-title:hover {
   font-weight: 400;
-    filter: grayscale(0);
+  filter: grayscale(0);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
@@ -155,8 +155,8 @@ padding-bottom: -15rem;
 }
 
 .USHistoryofthe1800s {
-/* padding-right: 5rem; */
-/* font-weight: 200; */
+  /* padding-right: 5rem; */
+  /* font-weight: 200; */
 }
 
 .footer {
@@ -167,13 +167,11 @@ padding-bottom: -15rem;
   padding-bottom: 1.5rem;
   text-align: center;
   font-size: larger;
-  background: 
-  url(app/img/kindpng_4845863.png)
-      no-repeat,
+  background: url(app/img/kindpng_4845863.png) no-repeat,
     linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)),
     radial-gradient(ellipse at top, #ec008c, transparent),
     radial-gradient(ellipse at bottom, #fc6767, transparent);
-      background-position: 0% 75%;
+  background-position: 0% 75%;
 }
 
 @media screen and (max-width: 500px) {
@@ -181,12 +179,12 @@ padding-bottom: -15rem;
     color: rgb(45, 31, 31);
     text-indent: -5em;
     font-size: large;
-     /* background-clip: text; */
-  /* -webkit-background-clip: text; */
-  /* color: transparent; */
-  /* -webkit-text-stroke: 0.85px white; */
-  border: 0.2rem solid transparent;
-  opacity: .9;
+    /* background-clip: text; */
+    /* -webkit-background-clip: text; */
+    /* color: transparent; */
+    /* -webkit-text-stroke: 0.85px white; */
+    border: 0.2rem solid transparent;
+    opacity: 0.9;
   }
 }
 
@@ -450,12 +448,12 @@ a {
   text-align: center;
 }
 
-#infoCard {
+/* #infoCard {
   display: block;
   position: inline;
   margin-bottom: 2.5rem;
   font-size: x-large;
-}
+} */
 
 #infoCard,
 .Calendar {
@@ -485,15 +483,17 @@ a {
 }
 
 #EitanInfoBox {
-  max-width: 10rem;
+  /* max-width: 10rem; */
   background-position: 80% 80%;
   border: 4px solid black;
   background-position: 90% 5%;
-  padding-bottom: 2rem;
+  /* padding-bottom: 2rem; */
 }
 
 .EitanInfoButtons {
-  margin-top: 1.5rem;
+  margin-top: 0.75rem;
+  opacity: 0.9;
+  /* text-size-adjust: auto; */
 }
 
 #eitansProfilePic {
@@ -528,19 +528,21 @@ a {
 }
 
 .time {
+  font-weight: 600;
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)),
     radial-gradient(ellipse at top, #ec008c, transparent),
     radial-gradient(ellipse at bottom, #fc6767, transparent);
   opacity: 75%;
-  margin-bottom: 3rem;
-  padding: 2.33rem;
+  /* margin-bottom: .5rem; */
+  margin-top: 1.75rem;
+  padding: 0.5rem;
   border: 4px solid black;
   text-align: center;
   background-color: #af7fdd;
 }
 
 .time-text {
-color: black;
+  color: black;
 }
 
 @media all and (max-width: 895px) {
@@ -595,10 +597,7 @@ color: black;
   font-size: xx-large;
   font-weight: 700;
   max-height: fit-content;
-  margin-bottom: 0rem;
-  background: 
-url(app/img/Color-Explosion.png)
-      no-repeat,
+  background: url(app/img/Color-Explosion.png) no-repeat,
     linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)),
     radial-gradient(ellipse at top, #ec008c, transparent),
     radial-gradient(ellipse at bottom, #fc6767, transparent);
@@ -609,5 +608,15 @@ url(app/img/Color-Explosion.png)
   height: 10rem;
 }
 
-/* .CarouselControl {
+/* .carousel-indicators {
+color: #00ff7f;
+height: 90%;
+}
+
+.CarouselControl {
+  background-color: #af7fdd;
 } */
+
+.card-body {
+  background-color: transparent;
+}

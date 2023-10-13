@@ -13,7 +13,10 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <div className="App">
-      <Header className="col col-12" />
+      <Header 
+      // className="col col-12" 
+
+      />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="read-more" element={<EitansIntro />} />
@@ -21,7 +24,9 @@ function App() {
         <Route path="shout-out" element={<MakeAShoutOutForm />} />
         <Route path="course-interest-form" element={<CourseInterestForm />} />
       </Routes>
-      <Footer className="col col-9" />
+      <Footer 
+      // className="col col-9" 
+      />
     </div>
   );
 }
