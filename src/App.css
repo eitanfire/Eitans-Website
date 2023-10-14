@@ -37,14 +37,26 @@ img {
 #banner {
   border: 3px solid black;
   height: 10rem;
-  width: 110%;
+  width: fit-content;
   background-attachment: fixed;
 }
 
-#classWithEitan {
+#class-with-eitan-sm {
   position: relative;
   border: 4px solid black;
   bottom: 0.15rem;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+#class-with-eitan-lg {
+  position: relative;
+  border: 4px solid black;
+  bottom: 0.15rem;
+  right:5%;
+  /* height: auto;
+  object-fit: contain; */
 }
 
 .accordion {

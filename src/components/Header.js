@@ -35,8 +35,14 @@ const Header = () => {
         <Link to="/">
           <Container>
             <Row id="banner">
-              <Col className="col col-md-4">
-                <img id="classWithEitan" src={Banner} alt="Banner" />
+              <Col className="d-none d-sm-none d-md-inline-block">
+                <img id="class-with-eitan-lg" src={Banner} alt="Banner" />
+              </Col>
+              <Col
+                className="d-xs-inline-block d-md-none"
+                // className="col col-md-4"
+              >
+                <img id="class-with-eitan-sm" src={Banner} alt="Banner" />
               </Col>
               <Col className="d-none d-lg-block">
                 <img id="logo" src={Logo} alt="September School logo" />
