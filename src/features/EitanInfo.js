@@ -22,27 +22,25 @@ const EitanInfo = () => {
     <animated.div style={animatedStyle}>
       <Card>
         <CardBody className="d-none d-lg-block">
-          <Container id="EitanInfoBox">
-            <Row className="mx-flex">
+          <Container className="eitan-info-box">
+            <Row>
               <Col>
-                <Col
-                ></Col>
-                <Col className="col-xl-2">
-                  <Button className="EitanInfoButtons border btn-light">
+                <Col className="col">
+                  <Button className="EitanInfoButtons border-dark rounded-pill btn-info btn-block">
                     <Link to="/shout-out">
                       <h3 id="rainbowText">Shout Out</h3>
                     </Link>
                   </Button>
                 </Col>
-                <Col className="col-xl-2">
-                  <Button className="EitanInfoButtons border btn-light">
+                <Col className="col">
+                  <Button className="EitanInfoButtons border border-dark rounded-pill btn-info btn-block">
                     <Link to="/contact">
                       <h3 id="rainbowText">Contact</h3>
                     </Link>
                   </Button>
                 </Col>
                 <Col>
-                  <Button id="" className="EitanInfoButtons border btn-light">
+                  <Button className="EitanInfoButtons border border-dark rounded-pill btn-info btn-block">
                     <Link to="/read-more">
                       <h3 id="rainbowText">Read about Eitan</h3>
                     </Link>
