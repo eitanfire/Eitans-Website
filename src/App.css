@@ -17,15 +17,14 @@ img {
 }
 
 #Header {
-  background-color: #af7fdd;
-
   background: url("https://image.shutterstock.com/image-vector/traditional-indian-paisley-pattern-on-600w-1726867504.jpg")
       no-repeat,
     linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)),
     radial-gradient(ellipse at top, #ec008c, transparent),
     radial-gradient(ellipse at bottom, #fc6767, transparent);
-           /* background-blend-mode:luminosity; */
-
+  /* background-blend-mode:luminosity; */
+  /* background: url(app/img/kindpng_4845863.png) no-repeat,
+  #af7fdd; */
   border-top: 1px solid #000;
   border-bottom: 1px solid #000;
   margin-bottom: 2rem;
@@ -48,7 +47,7 @@ img {
 
 #class-with-eitan-sm {
   position: relative;
-    top: 15%;
+  top: 15%;
 
   border: 4px solid black;
   bottom: 0.15rem;
@@ -230,8 +229,7 @@ padding-bottom: -15rem;
 .ContactForm {
   background-image: url("https://as2.ftcdn.net/v2/jpg/00/94/53/25/500_F_94532580_XwSK8I03t7oQY246gc6vdeU1wm6q2r8P.jpg");
   background-attachment: fixed;
-    /* background-blend-mode:exclusion; */
-
+  /* background-blend-mode:exclusion; */
 }
 
 .black-and-white-paisley-bg,
@@ -509,16 +507,16 @@ a {
   background-position: 80% 80%;
   border: 4px solid black;
   background-position: 90% 5%;
-  padding-bottom: .75rem;
+  padding-bottom: 0.75rem;
 }
 
 .eitan-info-box-container {
-background-color: #00ff7f;
+  background-color: #00ff7f;
 
   background-position: 80% 80%;
   border: 4px solid black;
   background-position: 90% 5%;
-  padding-bottom: .75rem;
+  padding-bottom: 0.75rem;
 }
 
 .EitanInfoButtons {

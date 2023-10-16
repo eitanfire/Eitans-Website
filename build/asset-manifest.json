@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.34184317.css",
-    "main.js": "/static/js/main.2cad858f.js",
+    "main.css": "/static/css/main.58fd37a2.css",
+    "main.js": "/static/js/main.b31f2399.js",
     "static/media/logo.jpg": "/static/media/logo.9916513064d897a34ed5.jpg",
     "static/media/Color-Explosion.png": "/static/media/Color-Explosion.6f146da90ff23bf3dbb9.png",
     "static/media/Government.jpeg": "/static/media/Government.1ae2c849fd14c3ff2551.jpeg",
@@ -14,11 +14,11 @@
     "static/media/class-website-banner.png": "/static/media/class-website-banner.18ddd6400db9b1bafe5d.png",
     "static/media/ColdWar.jpg": "/static/media/ColdWar.7e88b19c61da8fc4a333.jpg",
     "index.html": "/index.html",
-    "main.34184317.css.map": "/static/css/main.34184317.css.map",
-    "main.2cad858f.js.map": "/static/js/main.2cad858f.js.map"
+    "main.58fd37a2.css.map": "/static/css/main.58fd37a2.css.map",
+    "main.b31f2399.js.map": "/static/js/main.b31f2399.js.map"
   },
   "entrypoints": [
-    "static/css/main.34184317.css",
-    "static/js/main.2cad858f.js"
+    "static/css/main.58fd37a2.css",
+    "static/js/main.b31f2399.js"
   ]
 }
