@@ -4,7 +4,8 @@
 } */
 
 h1,
-h3 {
+h2
+ {
   text-align: center;
 }
 
@@ -525,11 +526,13 @@ a {
 }
 
 #eitansProfilePic {
-  float: right;
+  float: left;
   border: 0.2rem solid transparent;
   background-size: 100rem;
   background-attachment: fixed;
-  width: auto;
+  /* max-width: 100%;
+  height: auto;
+  object-fit: contain;   */
   margin: 0.5rem;
 }
 .shoutOuts,

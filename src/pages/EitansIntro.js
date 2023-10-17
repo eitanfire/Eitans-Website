@@ -13,24 +13,26 @@ const EitansIntro = () => {
               <h1 id="rainbowText">Hi I'm Eitan</h1>
             </Col>
           </Row>
+          <h2>Let me tell you a little bit about myself.</h2>
+          <br></br>
           <Row>
-            {<h3>Let me tell you a little bit about myself.</h3>}
-            <br></br>
-            <br></br>
-            {
-              <p>
+            <Col className="col col-12 col-lg-6">
+              <h3>
                 <img id="eitansProfilePic" src={Eitan} alt="Eitans profile" />I
                 grew up in Boulder, Colorado. I attended Foothill Elementary,
                 Centennial Middle School and graduated from Boulder High School.
-                I attended St. John’s College for my undergraduate studies. I
-                took a year off in between my sophomore and junior year of
+                I went to St. John’s College in Santa Fe, NM for my
+                undergraduate studies.
+              </h3>
+
+              <p>
+                I took a year off in between my sophomore and junior year of
                 college and worked on a kibbutz in Israel. There I had the
                 chance to stock shelves in a store, dig ditches, tend gardens,
                 and I even took care of animals in a petting zoo!
               </p>
-            }
-
-            {
+            </Col>
+            <Col className="col col-12 col-lg-6">
               <p>
                 At the end of college I met, Haley, the love of my life and the
                 woman who would become my wife. She liked me at first but she
@@ -46,9 +48,6 @@ const EitansIntro = () => {
                 to graduate school to learn how to become a better teacher at
                 Lewis & Clark College.
               </p>
-            }
-
-            {
               <p>
                 Haley and I moved back to my hometown of Boulder, Colorado in
                 2010. I have been a classroom teacher for the last {year - 2010}{" "}
@@ -56,7 +55,7 @@ const EitansIntro = () => {
                 at September High School. Thank you for welcoming me. I look
                 forward to learning more about you.
               </p>
-            }
+            </Col>
           </Row>
         </CardBody>
       </Card>
