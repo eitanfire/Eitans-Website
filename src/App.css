@@ -477,7 +477,11 @@ a {
   font-size: x-large;
 } */
 
-#infoCard,
+#infoCard {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
 .Calendar {
   /* display: block; */
   background-attachment: fixed;
