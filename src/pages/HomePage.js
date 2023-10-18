@@ -15,14 +15,12 @@ const HomePage = () => {
         <ShoutOutCarousel />
         {/* <ShoutOuts /> */}
         <Col className="col d-none d-lg-block eitan-info-box-container">
-          <h2>{
-            aDayBDay && 
-            <Time className="d-none d-md-block xxl-2" />}</h2>
+          <h2>{aDayBDay && <Time className="d-none d-md-block xxl-2" />}</h2>
           <EitanInfo />
         </Col>
         <Col className="accordion col-12 col-lg-9 col-xxl-9">
           {/* <Tabs /> */}
-          <Fall2023ClassesAccordion />
+          <Fall2023ClassesAccordion className="col-12" />
         </Col>
         <Row>
           <Col className="col-12 mt-4">

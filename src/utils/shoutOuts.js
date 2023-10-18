@@ -49,7 +49,7 @@ export const shoutOuts = [
   },
   {
     id: 9,
-    to: "Franje",
+    to: "Frangie",
     from: "",
     because: "Being here",
   },
@@ -344,8 +344,32 @@ export const shoutOuts = [
   },
   {
     id: 57,
-    to: "Charlotte",
-    from: "Olivia",
+    to: "Olivia",
+    from: "Charlotte",
     because: "Buying me tacos.",
+  },
+  {
+    id: 58,
+    to: "Frangie & Barley",
+    from: "Graysin",
+    because: "",
+  },
+  {
+    id: 59,
+    to: "Olivia",
+    from: "Kyla",
+    because: "Getting a model for our art class",
+  },
+  {
+    id: 60,
+    to: "Adrien, O, & Cat",
+    from: "David",
+    because: "BGreat art class presentations",
+  },
+  {
+    id: 61,
+    to: "Tania",
+    from: "Xander",
+    because: "Giving us artistic freedom",
   },
 ];

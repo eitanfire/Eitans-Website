@@ -479,12 +479,12 @@ a {
 
 #infoCard,
 .Calendar {
-  display: block;
+  /* display: block; */
   background-attachment: fixed;
-  padding-top: 5px;
-  padding-right: 6px;
+  /* padding-top: 5px; */
+  /* padding-right: 6px; */
   padding-bottom: 5px;
-  padding-left: 6px;
+  /* padding-left: 6px; */
 }
 
 #stwGreen {

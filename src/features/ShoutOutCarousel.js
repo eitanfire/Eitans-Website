@@ -68,13 +68,13 @@ const ShoutOutCarousel = () => {
           onClickHandler={(index) => setActiveIndex(index)}
         /> */}
         {slides}
-        <CarouselControl
+        {/* <CarouselControl
           data-slide="prev"
           className="CarouselControl"
           direction="prev"
           directionText="Previous"
           onClickHandler={previous}
-        />
+        /> */}
         <CarouselControl
           direction="next"
           directionText="Next"
