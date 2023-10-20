@@ -4,8 +4,7 @@
 } */
 
 h1,
-h2
- {
+h2 {
   text-align: center;
 }
 
@@ -465,7 +464,6 @@ padding-bottom: -15rem;
 
 a {
   position: relative;
-  /* font-size: 1rem; */
   line-height: 0.9;
   text-align: center;
 }
@@ -478,17 +476,13 @@ a {
 } */
 
 #infoCard {
-    padding-top: 5px;
-    padding-bottom: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .Calendar {
-  /* display: block; */
   background-attachment: fixed;
-  /* padding-top: 5px; */
-  /* padding-right: 6px; */
   padding-bottom: 5px;
-  /* padding-left: 6px; */
 }
 
 #stwGreen {
