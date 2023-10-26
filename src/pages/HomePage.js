@@ -13,7 +13,6 @@ const HomePage = () => {
     <Container>
       <Row className="accordion">
         <ShoutOutCarousel />
-        {/* <ShoutOuts /> */}
         <Col className="col d-none d-lg-block eitan-info-box-container">
           <h2>{aDayBDay && <Time className="d-none d-md-block xxl-2" />}</h2>
           <EitanInfo />
