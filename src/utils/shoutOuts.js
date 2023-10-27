@@ -364,12 +364,30 @@ export const shoutOuts = [
     id: 60,
     to: "Adrien, O, & Cat",
     from: "David",
-    because: "BGreat art class presentations",
+    because: "Great art class presentations",
   },
   {
     id: 61,
     to: "Tania",
     from: "Xander",
     because: "Giving us artistic freedom",
+  },
+  {
+    id: 62,
+    to: "",
+    from: "",
+    because: "Shout out to everyone participating in spirit week",
+  },
+  {
+    id: 63,
+    to: "Aimee",
+    from: "Nichols",
+    because: "Great book in class",
+  },
+  {
+    id: 64,
+    to: "Trevor & Nichols",
+    from: "Sarah",
+    because: "Being supportive friends to Ben",
   },
 ];
