@@ -40,7 +40,6 @@ const Header = () => {
               </Col>
               <Col
                 className="d-xs-inline-block d-md-none"
-                // className="col col-md-4"
               >
                 <img id="class-with-eitan-sm" src={Banner} alt="Banner" />
               </Col>

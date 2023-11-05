@@ -1,6 +1,10 @@
-/* body {
-  color: whitesmoke;
-  width: 1rem;
+body {
+  /* color: whitesmoke;
+  width: 1rem; */
+  background: var(--body-bg);
+}
+
+/* :root {
 } */
 
 h1,
@@ -211,7 +215,7 @@ padding-bottom: -15rem;
   }
 } */
 
-.shoutOuts,
+/* .shoutOuts, */
 .MakeAShoutOutForm,
 .shoutOutTitle,
 #icon:before,
@@ -236,7 +240,7 @@ padding-bottom: -15rem;
 }
 
 .shoutOuts,
-.shoutOutTitle,
+/* .shoutOutTitle, */
 #rainbowText::before,
 #rainbowText {
   background-clip: text;
@@ -546,9 +550,34 @@ a {
 
 .shoutOuts {
   padding: 2.33rem;
-  text-align: center;
+  /* text-align: center; */
   align-items: center;
   justify-content: center;
+    --shoutOut-color:var(--body-bg)
+  /* position: relative; */
+
+}
+
+.shoutOuts::before,
+.shoutOuts::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 60px;
+  background:var(--shoutOut-color);
+  -webkit-mask-image: url('app/img/triangle.svg');
+  mask-image: url('app/img/triangle.svg');
+  background: url('./app/img/Color-Explosion.png');
+
+}
+
+.shoutOuts::before {
+  top: 0;
+}
+
+.shoutOuts::after {
+  bottom: 0;
+  transform: rotate(.5turn);
 }
 
 .eitan-info-box-container,
@@ -620,15 +649,15 @@ a {
 .shoutOuts {
   font-size: xx-large;
   font-weight: 700;
-  max-height: fit-content;
+  /* max-height: fit-content; */
   background: url(app/img/Color-Explosion.png) no-repeat,
     linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)),
     radial-gradient(ellipse at top, #ec008c, transparent),
     radial-gradient(ellipse at bottom, #fc6767, transparent);
   background-position: 50% 45%;
   background-size: 50%;
-  background-color: #af7fdd;
-  border: 4px solid black;
+  /* background-color: #af7fdd; */
+  /* border: 4px solid black; */
   height: 10rem;
 }
 

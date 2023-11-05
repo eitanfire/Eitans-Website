@@ -390,4 +390,10 @@ export const shoutOuts = [
     from: "Sarah",
     because: "Being supportive friends to Ben",
   },
+  {
+    id: 65,
+    to: "Charlie",
+    from: "Michelle Mullin",
+    because:"Charlie, you have grown so much since you have come to Sept School and I am just in awe of your vulnerability, kindness, and curiosity. Thanks for joining our community, Charlie!  You have absolutely made it better place.",
+  },
 ];
