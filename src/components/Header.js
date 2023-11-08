@@ -38,9 +38,7 @@ const Header = () => {
               <Col className="d-none d-sm-none d-md-inline-block">
                 <img id="class-with-eitan-lg" src={Banner} alt="Banner" />
               </Col>
-              <Col
-                className="d-xs-inline-block d-md-none"
-              >
+              <Col className="d-xs-inline-block d-md-none">
                 <img id="class-with-eitan-sm" src={Banner} alt="Banner" />
               </Col>
               <Col className="d-none d-lg-block">
