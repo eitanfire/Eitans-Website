@@ -19,7 +19,7 @@ const HomePage = () => {
         </Col>
         <Col className="accordion col-12 col-lg-9 col-xxl-9">
           {/* <Tabs /> */}
-          <Fall2023ClassesAccordion className="col-12" />
+          <Fall2023ClassesAccordion className="Fall2023ClassesAccordion col-12" />
         </Col>
         <Row>
           <Col className="col-12 mt-4">

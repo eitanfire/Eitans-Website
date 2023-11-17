@@ -19,7 +19,9 @@ const AnimatedAccordion = ({ icon, title, content, image, id }) => {
 
   return (
     <animated.div style={animatedStyle}>
-      <div className="accordion-item">
+      <div
+        className="accordion-item"
+      >
         <CardText
           className="accordion-title"
           onClick={() => setIsActive(!isActive)}

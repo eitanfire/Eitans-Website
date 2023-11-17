@@ -1,6 +1,4 @@
 body {
-  /* color: whitesmoke;
-  width: 1rem; */
   background: var(--body-bg);
 }
 
@@ -26,9 +24,6 @@ img {
     linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)),
     radial-gradient(ellipse at top, #ec008c, transparent),
     radial-gradient(ellipse at bottom, #fc6767, transparent);
-  /* background-blend-mode:luminosity; */
-  /* background: url(app/img/kindpng_4845863.png) no-repeat,
-  #af7fdd; */
   border-top: 1px solid #000;
   border-bottom: 1px solid #000;
   margin-bottom: 2rem;
@@ -65,8 +60,6 @@ img {
   border: 4px solid black;
   bottom: 0.15rem;
   right: 5%;
-  /* height: auto;
-  object-fit: contain; */
 }
 
 .accordion {
@@ -79,10 +72,6 @@ img {
   background-position: 25% 75%;
   width: auto;
 }
-
-/* .accordion-item {
-padding-bottom: -15rem;
-} */
 
 .accordion-title {
   font-size: 2.75rem;
@@ -173,13 +162,6 @@ padding-bottom: -15rem;
   padding-right: 2%;
 }
 
-.USHistoryofthe1800s {
-  /* padding-right: 5rem; */
-  /* font-weight: 200; */
-}
-
-/* #Header */
-
 .footer {
   border-top: 1px solid #000;
   border-bottom: 1px solid #000;
@@ -200,22 +182,11 @@ padding-bottom: -15rem;
     color: rgb(45, 31, 31);
     text-indent: -5em;
     font-size: large;
-    /* background-clip: text; */
-    /* -webkit-background-clip: text; */
-    /* color: transparent; */
-    /* -webkit-text-stroke: 0.85px white; */
     border: 0.2rem solid transparent;
     opacity: 0.9;
   }
 }
 
-/* @media all and (max-width: 1260px) {
-  .footer {
-    text-indent: -10em;
-  }
-} */
-
-/* .shoutOuts, */
 .MakeAShoutOutForm,
 .shoutOutTitle,
 #icon:before,
@@ -230,7 +201,6 @@ padding-bottom: -15rem;
 .ContactForm {
   background-image: url("https://as2.ftcdn.net/v2/jpg/00/94/53/25/500_F_94532580_XwSK8I03t7oQY246gc6vdeU1wm6q2r8P.jpg");
   background-attachment: fixed;
-  /* background-blend-mode:exclusion; */
 }
 
 .black-and-white-paisley-bg,
@@ -240,7 +210,6 @@ padding-bottom: -15rem;
 }
 
 .shoutOuts,
-/* .shoutOutTitle, */
 #rainbowText::before,
 #rainbowText {
   background-clip: text;
@@ -413,19 +382,12 @@ padding-bottom: -15rem;
 
 #coldWarColor::before {
   content: "";
-  /* box-shadow: inset 0 0 0 1000px rgba(239, 42, 3, 0.541); */
-  /* background: radial-gradient(
-    circle,
-    rgba(239, 42, 3, 0.541) 25%,
-    rgb(255, 255, 255) 100%
-  ); */
   background-size: cover;
   position: absolute;
   top: 0px;
   right: 0px;
   bottom: 0px;
   left: 0px;
-  /* opacity: 0.75; */
   z-index: -10;
 }
 
@@ -468,13 +430,6 @@ a {
   line-height: 0.9;
   text-align: center;
 }
-
-/* #infoCard {
-  display: block;
-  position: inline;
-  margin-bottom: 2.5rem;
-  font-size: x-large;
-} */
 
 #infoCard {
   padding-top: 5px;
@@ -521,7 +476,6 @@ a {
 
 .EitanInfoButtons {
   margin-top: 0.75rem;
-  /* opacity: 0.9; */
 }
 
 #eitansProfilePic {
@@ -537,11 +491,6 @@ a {
 .shoutOuts,
 .time,
 #shine {
-  /* font-weight: 700; */
-  /* background-clip: text; */
-  /* -webkit-background-clip: text; */
-  /* color: black; */
-  /* -webkit-text-stroke: 0.01rem #70c3a5; */
 }
 
 #nameAndYear {
@@ -550,12 +499,9 @@ a {
 
 .shoutOuts {
   padding: 2.33rem;
-  /* text-align: center; */
   align-items: center;
   justify-content: center;
     --shoutOut-color:var(--body-bg)
-  /* position: relative; */
-
 }
 
 .shoutOuts::before,
@@ -649,26 +595,14 @@ a {
 .shoutOuts {
   font-size: xx-large;
   font-weight: 700;
-  /* max-height: fit-content; */
   background: url(app/img/Color-Explosion.png) no-repeat,
     linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)),
     radial-gradient(ellipse at top, #ec008c, transparent),
     radial-gradient(ellipse at bottom, #fc6767, transparent);
   background-position: 50% 45%;
   background-size: 50%;
-  /* background-color: #af7fdd; */
-  /* border: 4px solid black; */
   height: 10rem;
 }
-
-/* .carousel-indicators {
-color: #00ff7f;
-height: 90%;
-}
-
-.CarouselControl {
-  background-color: #af7fdd;
-} */
 
 .card-body {
   background-color: transparent;
