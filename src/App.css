@@ -501,20 +501,19 @@ a {
   padding: 2.33rem;
   align-items: center;
   justify-content: center;
-    --shoutOut-color:var(--body-bg)
+  --shoutOut-color: var(--body-bg);
 }
 
 .shoutOuts::before,
 .shoutOuts::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   height: 60px;
-  background:var(--shoutOut-color);
-  -webkit-mask-image: url('app/img/triangle.svg');
-  mask-image: url('app/img/triangle.svg');
-  background: url('./app/img/Color-Explosion.png');
-
+  background: var(--shoutOut-color);
+  -webkit-mask-image: url("app/img/triangle.svg");
+  mask-image: url("app/img/triangle.svg");
+  background: url("./app/img/Color-Explosion.png");
 }
 
 .shoutOuts::before {
@@ -523,7 +522,7 @@ a {
 
 .shoutOuts::after {
   bottom: 0;
-  transform: rotate(.5turn);
+  transform: rotate(0.5turn);
 }
 
 .eitan-info-box-container,
