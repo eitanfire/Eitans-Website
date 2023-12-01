@@ -14,8 +14,6 @@ function App() {
   return (
     <div className="App">
       <Header 
-      // className="col col-12" 
-
       />
       <Routes>
         <Route path="/" element={<HomePage />} />
@@ -25,7 +23,6 @@ function App() {
         <Route path="course-interest-form" element={<CourseInterestForm />} />
       </Routes>
       <Footer 
-      // className="col col-9" 
       />
     </div>
   );
