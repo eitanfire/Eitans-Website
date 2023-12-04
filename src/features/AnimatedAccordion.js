@@ -27,7 +27,6 @@ const AnimatedAccordion = ({ icon, title, content, image, id }) => {
           onClick={() => setIsActive(!isActive)}
         >
           <CardTitle>
-            {/* <span id="openCloseSymbols">{icon}</span> */}
             {title}
             {image}
             {id}
