@@ -2,8 +2,13 @@ import { Card, CardBody } from "reactstrap";
 import { Col, Row, Container } from "reactstrap";
 import year from "../utils/currentYear.js";
 import Eitan from "../app/img/Eitans-portfolio-page-picture.png";
+import React, { useEffect } from "react";
 
 const EitansIntro = () => {
+       useEffect(() => {
+         document.title = "Read More";
+       }, []);
+
   return (
     <Container id="infoCard">
       <Card>
