@@ -1,8 +1,20 @@
 import { useState, useEffect } from "react";
 import { Card, CardBody, CardTitle, CardText } from "reactstrap";
 import { useSpring, animated, scale, easings } from "react-spring";
+import '../courseTheme.css';
 
-const ClassAccordionInterface = ({ icon,image, id, warmups, theme, extra, youtube, credit }) => {
+const ClassAccordionInterface = ({
+  name,
+  icon,
+  image,
+  id,
+  warmups,
+  theme,
+  extra,
+  youtube,
+  credit,
+  intro,
+}) => {
   const [isActive, setIsActive] = useState(false);
   const [toggle, setToggle] = useState(false);
 
@@ -18,7 +30,7 @@ const ClassAccordionInterface = ({ icon,image, id, warmups, theme, extra, youtub
   }, []);
 
   return (
-    <animated.div style={animatedStyle}>
+    <animated.div className={theme} style={animatedStyle}>
       <div className="accordion-item">
         <CardText
           className="accordion-title"
@@ -26,13 +38,18 @@ const ClassAccordionInterface = ({ icon,image, id, warmups, theme, extra, youtub
         >
           <CardTitle>
             {icon}
-            {image}
+            <img
+              className="classImage mx-auto d-none d-xxl-block"
+              src={image}
+              alt="World Wars banner"
+            />
+            {name}
             {id}
-            {warmups}
-            {theme}
-            {extra}
-            {youtube}
-            {credit}
+            {/* {warmups} */}
+            {/* {theme} */}
+            {/* {extra} */}
+            {/* {youtube} */}
+            {/* {credit} */}
             <span
               className="d-none d-md-block d-xxl-none"
               id="openCloseSymbols"
@@ -45,8 +62,20 @@ const ClassAccordionInterface = ({ icon,image, id, warmups, theme, extra, youtub
         <Card>
           <CardBody className="accordion-content-theme">
             {isActive && (
-              <div className="accordion-content card-xxl-12">Hello</div>
+              <div className="accordion-content card-xxl-12">
+                {credit}
+                {intro}
+              </div>
             )}
+            <a
+              role="button"
+              className="btn btn-light btn-link"
+              href="https://docs.google.com/document/d/1iXyCNXjkfTFJy5DpO2tUF3MuDKHf9dFkl9pTCKcmpJQ/edit?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              🌈 Honors & Extra Credit
+            </a>
           </CardBody>
         </Card>
       </div>

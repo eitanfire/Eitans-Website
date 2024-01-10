@@ -22,6 +22,7 @@ const ClassAccordion = () => {
           return (
             <ClassAccordionInterface
               name={selectedCourse.name}
+              intro={selectedCourse.intro}
               icon={selectedCourse.icon}
               image={selectedCourse.image}
               key={selectedCourse.id}

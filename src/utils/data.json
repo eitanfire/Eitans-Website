@@ -4,7 +4,7 @@
       "id": 0,
       "icon": "📜",
       "name": "Philosophy",
-      "image": "img/flammarion-engraving.jpg",
+      "image": "../app/img/flammarion-engraving.jpg",
       "credit": ["World History"],
       "theme": "philosophyColor",
       "semester": 2,
