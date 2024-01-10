@@ -1,0 +1,569 @@
+{
+  "courses": [
+    {
+      "id": 0,
+      "icon": "📜",
+      "name": "Philosophy",
+      "image": "img/flammarion-engraving.jpg",
+      "credit": ["World History"],
+      "theme": "philosophyColor",
+      "semester": 2,
+      "featured": false,
+      "youtube": "https://youtube.com/playlist?list=PLhwsqXANwnd3zQ0YNxqK2dGsp1Q5Z3BrR&si=gCfvUkcN6hMyXek_",
+      "intro": "Social studies shouldn't just be an excercise in memorizing names and places. In this course students consider world history through the frame of both western as well as eastern philosophy. This curriculum supports students in encountering some of the most important ideas in life and with honing their own philosophical toolbox.",
+      "description": "https://docs.google.com/document/u/1/d/19qqf55dhA81wjTBBWP2vptpcF5QVPWFr9yGrWq9VC2Y/edit",
+      "warmups": "https://docs.google.com/document/d/10I7LpBpv2NQFEmr84Kd5S4vOdel0hha6eEgMy69fSoM/edit?usp=sharing",
+      "extra": "https://docs.google.com/document/d/11uwCD9deuqqwRTq3koyCVn617a4iuIdZZGun7IAfypk/edit?usp=sharing",
+      "curriculum": "https://docs.google.com/document/d/1VnNUg6Z1eqW0YfGl3GlQg-RkY00wmi-EVfRMVODLT28/edit?usp=sharing"
+    },
+    {
+      "id": 1,
+      "icon": "🪖",
+      "name": "World Wars",
+      "image": "img/world-wars-banner.png",
+      "credit": ["US History", "World History"],
+      "theme": "wWColor",
+      "semester": 2,
+      "featured": false,
+      "free": false,
+      "freeContentDescription": "Teach about what matters.",
+      "youtube": "https://youtube.com/playlist?list=PLhwsqXANwnd28gaP3qa4PyUzXiWk5FPwh&si=IKWJkiKuEEla7Kb5",
+      "extrayoutube": "https://youtube.com/playlist?list=PLhwsqXANwnd0SdTXGoq9FYS7M-8swnHkb&si=F-lUbEZLFwXK_Lhd",
+      "extrayoutube1": "https://youtube.com/playlist?list=PL1DEE787E7468D11C&si=sT-CzGb6-latefVV",
+      "intro": "When asked why people must learn histry we often respond with George Santayana's admonition that we must learn history lest we repeat it. This is in direct reflection of WWII and the Holocaust. In a world where Nazis are again in the news the need to understand the World Wars is becoming critical.",
+      "description": "https://docs.google.com/document/d/1Y3mZ5Dw_IFe98il3b0MksRGwGa1lOuypOtqtY0MB5h4/edit?usp=sharing",
+      "warmups": "https://docs.google.com/document/d/1aduRAWAIs3UNez2uYMAIZokIgf-Db-sHLtPIYHZWcLo/edit?usp=sharing",
+      "extra": "https://docs.google.com/document/d/1qyaBJao8d0oCy4QQy3gE0ZU5gMrj8NFthYPGozGDLXo/edit?usp=sharing",
+      "curriculum": ""
+    },
+    {
+      "id": 2,
+      "icon": "💰",
+      "name": "Personal Finance",
+      "image": "img/personal-finance.png",
+      "credit": [],
+      "theme": "financeColor",
+      "semester": 2,
+      "featured": false,
+      "youtube": "https://youtube.com/playlist?list=PLhwsqXANwnd03Cpg2Jd1u-L2cGu3qkYSZ&si=LjX36MX7ybTsjLkh",
+      "intro": "Often when people talk about things they wished they had learned in high school they will mention how to get a job, buy, a house, and do their there taxes. This course offers the opportunity to teach about these important and relevant topics. This course can also serve as a great introduction for students to economics.",
+      "description": "https://docs.google.com/document/d/1ohpVCtJ2a53yy-9rgNf8pmoYo3WovpyrWNy_-mEWaOE/edit?usp=sharing",
+      "warmups": "https://docs.google.com/document/d/1-BDmQykU88eZJ25gRcf4QWBOTmY1Igb79b1hhrcWyXQ/edit?usp=sharing",
+      "extra": "https://docs.google.com/document/u/0/d/1bkEJ6qf1NTSnN5maJxNwx_I8-fZLWNJ6ahemsFS5oWY/edit",
+      "curriculum": "https://docs.google.com/document/d/1KzroC5exBAe4-O547MfEEpglWPXixrUlHSKnQp75g9U/edit?usp=sharing"
+    },
+    {
+      "id": 3,
+      "icon": "🚔",
+      "name": "Policing in America",
+      "image": "img/Policing-in-America.png",
+      "credit": ["US History"],
+      "theme": "policingColor",
+      "semester": 2,
+      "featured": false,
+      "youtube": "https://youtube.com/playlist?list=PLhwsqXANwnd3puAm8hhSsbnbguCO9kJre&si=-2mbWEfrc3mFsxtc",
+      "intro": "Policing in America is an animating topic in today's social discourse. This course serves as a valuable entry point into understanding history and many students will find the information for how to protect their rights when interacting with police interesting and relevant.",
+      "description": "https://docs.google.com/document/d/16TdMOs1pTpmcNho4AYkzK0N0PlU11WNe5c8NNGMrWy8/edit?usp=sharing",
+      "freeContentDescription": "Speak up. Teach about what matters.",
+      "free": true,
+      "warmups": "https://docs.google.com/document/d/192s8n1GHmTQB9OSLKdc4hO_JsdvdsgxZFT41WgdtB2I/edit?usp=sharing",
+      "extra": "https://docs.google.com/document/d/1mhwSCIjBwzfaKKMl-H7ecx9wZOsvXxOQ_Mj6GOlOOfM/edit?usp=sharing",
+      "curriculum": "https://docs.google.com/document/d/1qdk1-y9sOInccpq0QuxjbgUDl-5DSvvIzm-nst6lWM0/edit?usp=sharing"
+    },
+    {
+      "id": 4,
+      "icon": "📽",
+      "name": "Film",
+      "image": "img/film-banner.png",
+      "theme": "filmColor",
+      "credit": [],
+      "semester": 2,
+      "featured": false,
+      "youtube": "https://youtube.com/playlist?list=PLhwsqXANwnd3iClUxi6_5BDGKUZqSy8dJ&si=pVz05qwB1JHj6xfq",
+      "intro": "Students spend increasingly significant amounts of their persoanl time watching videos on YouTube and TikTok. This course provides the scaffolding for them to understand what they are viewing. Students are excited to be in a class that gets to watch movies and as a teacher you have the opportunity to use this as a vehicle to increase their literacy.",
+      "description": "https://docs.google.com/document/d/1yR1lESYS7ZWYixmg3kjDqU4PGZwXBjFEgef_vt8vqZk/edit?usp=sharing",
+      "free": false,
+      "warmups": "https://docs.google.com/document/d/18EFYRk3c-5Y1wGQCO-ZzfasrFPO6V9Trhr3eDgPDEKY/edit?usp=sharing",
+      "extra": "https://docs.google.com/document/d/1-ct5ojv5wnIFi2BEN6KSQpRi-XNPMddGc6i9x4i2dB0/edit?usp=sharing",
+      "curriculum": "https://docs.google.com/document/d/1anxjUwmkP1JNv1ihyAP0KtdfQuK3ntYJ_IER3V1-b08/edit?usp=sharing"
+    },
+    {
+      "id": 5,
+      "icon": "👩🏿‍💻",
+      "name": "Programming",
+      "image": "img/programming-banner.png",
+      "credit": [],
+      "theme": "programmingColor",
+      "semester": 1,
+      "featured": false,
+      "youtube": "https://youtube.com/playlist?list=PLhwsqXANwnd28h43dPqcLqt-zVBnqbFQi&si=eqPRgpd4UJJeGwVD",
+      "intro": "In an increasingly technological society students need to understand how web applications are built and not merely passively experience them as end users. This is a course that can potentially provide students with sustainable and engaging life-long careers.",
+      "description": "https://docs.google.com/document/d/1zsWaLaGfaWAjilx5ikrSGXRmq20ydaqAyRf_RKMhbUY/edit?usp=sharing",
+      "warmups": "https://docs.google.com/document/d/1YLB3t864khBzKIF16OnUzbPZ0Gcb-Zhu0Fg0eNawwLc/edit?usp=sharing",
+      "extra": "https://docs.google.com/document/d/1WjDPLyE6bn7bbq1AWPDyLj3vLUvgBibL_16e2_TViUM/edit?usp=sharing",
+      "curriculum": "https://docs.google.com/document/d/1d4aittTSJMW7yiCUITHCUW3RnPShps2UetZO1oKLzkY/edit?usp=sharing"
+    },
+    {
+      "id": 6,
+      "icon": "⚔",
+      "name": "Epics",
+      "image": "img/epics-banner.png",
+      "credit": ["Language Arts", "World History"],
+      "theme": "epicsColor",
+      "semester": 2,
+      "featured": true,
+      "youtube": "https://youtube.com/playlist?list=PLhwsqXANwnd18fgO8a15gDT1AqEyGt4Qv&si=031Hywu1tt9mT56m",
+      "intro": "This course teaches students about some of the worlds most enduring stories such as the Mahabarata and the Illiad while allowing them to explore their own identity and the hero's journey they are traveling.",
+      "description": "https://docs.google.com/document/d/1V_O_Gi1ILTeoalAuvUfy9bhWXfGj85VPNt3p3Ei2bQc/edit?usp=sharing",
+      "warmups": "https://docs.google.com/document/d/1dxNDDvEg13rQXPFgN_05Jq4d34O498dfION8k6oisFM/edit?usp=sharing",
+      "extra": "https://docs.google.com/document/d/1QfKDnU4j-JTlKIE6JMCdapAgH95i3jc_XamNiEMWhMw/edit?usp=sharing",
+      "curriculum": "https://docs.google.com/document/d/1oCD61CCWqmALYtM7i0yjzjX2rRc7Ka3ZfF9yGYJ78Dw/edit?usp=sharing"
+    },
+    {
+      "id": 7,
+      "icon": "🧭",
+      "name": "Survive the World!",
+      "image": "img/survive-the-world-banner.png",
+      "credit": ["Geography"],
+      "theme": "sTWColor",
+      "semester": 2,
+      "featured": false,
+      "youtube": "https://youtube.com/playlist?list=PLhwsqXANwnd1Q0TB5D0oZcrHRoISCptmb&si=lwKNdWThUfPXyaOk",
+      "extrayoutube": "https://youtube.com/playlist?list=PLhwsqXANwnd2UUyrzTGaG3NIQU8GSHEzt&si=My2_p5lIhq1A5kwF",
+      "intro": "This course explores the subject of geography through the lens of survival. For example students will follow a line of inquiry from the topic of plate techtonics to the earthquakes and tsunamis they can cause and then consider how they can survive these natural disasters. This course holds students interest through engaging subject matter and dynamic activities.",
+      "description": "https://docs.google.com/document/u/1/d/1TdTq_k_Nu9NzwealS8cJjohWcGZoSXSDdl4LHLXUm5Y/edit",
+      "warmups": "https://docs.google.com/document/d/1RpQ1lGuU5hq8s7-OJZxlwgDAVhtKRLFMU-2keBILEO8/edit?usp=sharing",
+      "extra": "https://docs.google.com/document/d/11zngy-feCi3cO8GU7kg_uhJJ-vh4J7AI8ITwTRaoANY/edit?usp=sharing",
+      "curriculum": "https://docs.google.com/document/d/1mTUoXGrBoBtwq1-lVehIF4G6qAuOEvpkaGzaS4WrSfE/edit?usp=sharing"
+    },
+    {
+      "id": 8,
+      "icon": "☠️",
+      "name": "The History of Piracy",
+      "image": "img/pirates.png",
+      "credit": ["World History"],
+      "semester": 2,
+      "theme": "pirateColor",
+      "featured": false,
+      "youtube": "https://youtube.com/playlist?list=PLhwsqXANwnd2u8aadT7VYVkrx9UVy589v&si=r7HyLIXv0GgA0ZFu",
+      "intro": "This course explores world history though the lens of piracy. In the past I have taught this course by teaming up with our PE teacher and imparting pirate skills such as sword making and fighting, axe and knife throwing, and archery. We have also engaged in learning knot tying, singing sea shanties and making irate flags. Students also get a kick out of getting to engage in the various historical role-plays in this course.",
+      "description": "https://docs.google.com/document/u/1/d/1z933JDqodWS0eODg01NmWHEIoRR_RJFaNXG6EBa4yWk/edit",
+      "warmups": "",
+      "extra": "https://docs.google.com/document/d/1u0rOcj2ZF2XSitI-R-EbEpI3Env-mR5-FrieoUGBTRs/edit?usp=sharing",
+      "curriculum": "https://docs.google.com/document/d/1riKSYUXmBsTpTLa9yu0KMtUD-KcbBhHoG204UUnxYgM/edit?usp=sharing"
+    },
+    {
+      "id": 9,
+      "icon": "🇺🇲",
+      "name": "US History of the 1800s",
+      "image": "img/Fugitives.jpg",
+      "credit": ["US History"],
+      "theme": "uSHistColor",
+      "semester": 2,
+      "featured": false,
+      "youtube": "https://youtube.com/playlist?list=PLhwsqXANwnd2TWPncOK6Atgwnho1cvzuK&si=C8RIDeNMcErsnHWa",
+      "intro": "This course delves into a time period of US History that is critical to understand in order to make sense of our present but which is often not taught in very much depth and or with accuracy.",
+      "description": "https://docs.google.com/document/u/1/d/12veNaeH_u1F-GwuXEPKlJifOG0NRJ4APT-oevmsKS-A/edit",
+      "warmups": "https://docs.google.com/document/d/1giqaVH1dcFvnIQvTB2tsu5dsIxUI65a-tWpHnl0EeIo/edit?usp=sharing",
+      "extra": "https://docs.google.com/document/d/1Z39uXtE1NEC3MVlQwPt-WjK1fJDBj0YzF0aQjssoYOA/edit?usp=sharing",
+      "curriculum": "https://docs.google.com/document/d/10n-UHpCTVyMvd__fenOURw1iHIAaeEQ1j9PA9bl8leY/edit?usp=sharing"
+    },
+    {
+      "id": 10,
+      "icon": "🗽",
+      "name": "Government",
+      "image": "img/Government.jpeg",
+      "credit": ["Government"],
+      "theme": "governmentColor",
+      "semester": 2,
+      "featured": false,
+      "youtube": "https://youtube.com/playlist?list=PLhwsqXANwnd0t3rPS4jgH6GJvxL9KqxUy&si=apOlgJixcT-UYZBk",
+      "extrayoutube": "https://youtube.com/playlist?list=PLhwsqXANwnd0vKPPfJgMSU7fMzyPKzYM8&si=GTA0Pj4ETCadb2y2",
+      "description": "https://docs.google.com/document/d/1gTeAvGX1dQncL163X9InuYiaqhMTG0COsnTcNUfySuo/edit?usp=sharing",
+      "intro": "We require students to learn government due to the critical importance of an engaged citizenry in our democracy. It can be easy for students to become confused and disengaged by the intricacies of enlightenment and the byzantine nature of government. After honing this curriculum over many years this course offers an engaging and honed curriculum to support our future citizenry.",
+      "warmups": "https://docs.google.com/document/d/1cftkj88mYvBn6q3JI5YAJXJgcVvpERpo1nWDzs88wSY/edit?usp=sharing",
+      "extra": "https://docs.google.com/document/d/1JYHPc44KjabOynCVk2p1XROe4OZuLllRo_kKBwWG-w4/edit?usp=sharing",
+      "curriculum": "https://docs.google.com/document/d/1oxLhHaJHm4n3RFVam7EScp8UnpKhHd6k1clVx6ueSpY/edit?usp=sharing"
+    },
+    {
+      "id": 11,
+      "icon": "🧳",
+      "name": "Migration",
+      "image": "img/migration.jpg",
+      "credit": ["World History", "Geography", "Government"],
+      "theme": "migrationColor",
+      "semester": 2,
+      "featured": false,
+      "youtube": "https://youtube.com/playlist?list=PLhwsqXANwnd1ME9ZMSVPGMo3ZpGUVewQW&si=jzixjvEi7xOD5-5d",
+      "intro": "The topic of migration underlies many of the most animating current events. This course supports students in stepping into the shoes of those that make the journey from their homes and in understanding the complicated dynamic between migration and technological change that shape our economies and nation-states.",
+      "description": "https://docs.google.com/document/d/1zW5Mv2jEBIihzDU_j-a9o2tIU-e5Mvv-sMPhhpqB7Uw/edit?usp=sharing",
+      "warmups": "https://docs.google.com/document/d/1sBiawGSKCLPrauXuxeGX8EB_IESZyXXNHazCrL5fg5A/edit?usp=sharing",
+      "extra": "",
+      "curriculum": ""
+    },
+    {
+      "id": 12,
+      "icon": "🪬",
+      "name": "The Holy Land",
+      "image": "img/Bunting-Map-of-the-World-around-Jerusalem-site-Keilo-Jack.jpg",
+      "credit": ["World History", "Geography"],
+      "theme": "holyLandColor",
+      "semester": 2,
+      "featured": true,
+      "youtube": "https://youtube.com/playlist?list=PLhwsqXANwnd1-q9NsDg4jZJnMR0OGaADP&si=Jrroby2WELLJx3Vw",
+      "intro": "Since antiquity this region has been viewed as the center of the world. Being the epiceneter for many religions and an ongoing source of conflict makes the relavance of this subject clear.",
+      "description": "https://docs.google.com/document/d/1yBr17pPiquH4gTvc0RluxGMIJaWXK4k7cd4p08T4d6U/edit?usp=sharing",
+      "warmups": "https://docs.google.com/document/d/15Wgen57cT3LkIJHqg-2P8GsGNy5OgjSfCMmwZDCX-MM/edit?usp=sharing",
+      "extra": "https://docs.google.com/document/d/1bzZP98DFrf4VZ6gv0-KOONzS0mzblpFgd4pIWbTuPZ4/edit?usp=sharing",
+      "curriculum": "https://docs.google.com/document/d/1RSA_Rsw4e_IzJJs3amkbF6JEZqqFwyqp45EftkfSUEI/edit?usp=sharing"
+    },
+    {
+      "id": 13,
+      "icon": "🦠",
+      "name": "The History of Disease",
+      "image": "img/diseases-image.jpg",
+      "credit": ["World History", "Geography"],
+      "theme": "diseaseColor",
+      "semester": 2,
+      "featured": false,
+      "youtube": "https://youtube.com/playlist?list=PLhwsqXANwnd3WOjVSvZHBC9q6yM9hwkmh&si=8oTDtEm9-pa2IT1X",
+      "intro": "As the world navigates a pandemic the relevance of the topic of disease is clear. This subject also provides an engaging framework to explore history and geegraphy. In the past I have taught this course by teaming up with our science teacher.",
+      "description": "https://docs.google.com/document/u/1/d/1YPshTofCnMGq6ITL5TNTvwebH3XcLlozcbRFnwq7lUE/edit",
+      "warmups": "https://docs.google.com/document/d/1IO4ObsTOQov7IkAXdD6JUf01k70SnYAPJpCHArYjmXQ/edit?usp=sharing",
+      "extra": "https://docs.google.com/document/d/146zhsoXdrORBTUP1Wi_v488pch7C5BbeK-1jOpj2mVM/edit?usp=sharing",
+      "curriculum": "https://docs.google.com/document/d/1poDHve6hi2d-G9o_48BX893-A_RayJMRUBcllGT0qnk/edit?usp=sharing"
+    },
+    {
+      "id": 14,
+      "icon": "☭",
+      "name": "The Cold War",
+      "image": "img/berlinWall.jpg",
+      "credit": ["World History", "US History"],
+      "theme": "coldWarColor",
+      "semester": 2,
+      "featured": false,
+      "youtube": "https://youtube.com/playlist?list=PLhwsqXANwnd1RGWdaO1EmprHGowEErA6F&si=CU9BZ7BRHpDoNZZN",
+      "intro": "The ongoing conflict between Russia and Ukraine and pronouncements by China that the US is attempting to pursue a containment strategy against it make clear that the world continues to be shaped by the echoes of the Cold War. This course explores the various social, economic, political, and militaristic strands that make up this topic.",
+      "description": "https://docs.google.com/document/d/17pWxk38PeHcjCcgwllx5INU4NRWitMOQtsV3j0sscF4/edit?usp=sharing",
+      "warmups": "https://docs.google.com/document/d/1C4gR5luh4aV0vmwDBgA0-WCuPDTNcY8n9oXLccbB9VQ/edit?usp=sharing",
+      "extra": "https://docs.google.com/document/d/1iXyCNXjkfTFJy5DpO2tUF3MuDKHf9dFkl9pTCKcmpJQ/edit?usp=sharing",
+      "curriculum": "https://docs.google.com/document/d/1v8gyfvct96_NFpvsej-m65eYjg4l-brth5X22dvSG7Q/edit?usp=sharing"
+    },
+    {
+      "id": 15,
+      "icon": "𓀮",
+      "name": "Ancient History",
+      "image": "img/AncientHistory.webp",
+      "credit": ["World History", "Geography"],
+      "theme": "ancientHistoryColor",
+      "semester": 2,
+      "featured": false,
+      "youtube": "https://youtube.com/playlist?list=PLhwsqXANwnd1ne8263smlBfS1GYxlmpi7&si=GITJ7kO9GmoRAt20",
+      "intro": "The ancient world never ceases to provoke our curiosity and wonder.",
+      "description": "This course will cover the history and cultures of the ancient world. The primary focus will be on Mesopotamia, Egypt, China, India, the Greek civilizations, and the rise and fall of the Roman Empire. The history, geography, cultural identity, and impact on the modern world will be studied in-depth. Students will reinforce map skills, interpret mythology, and strengthen written and verbal communication of historical information.",
+      "warmups": "https://docs.google.com/document/d/1xkXxjwE4FKx9pmOleHYkNFJFl5DK4yxBoJj_PPUwdy0/edit?usp=sharing",
+      "extra": "",
+      "curriculum": ""
+    },
+    {
+      "id": 16,
+      "icon": "🗣️",
+      "name": "Speech and Debate",
+      "image": "img/group_discussions.png",
+      "credit": [],
+      "theme": "speechandDebateColor",
+      "semester": 2,
+      "featured": false,
+      "intro": "As teachers we hope to support the voices of our students. This course provides the scaffolding to make this possile. Coaches of speech and debate teams may find this curriculum relevant as well.",
+      "description": "https://docs.google.com/document/d/1maGjnaJ_ULnQonD7DpeXJWHUT0S3u7EWP3l9DT2SXy4/edit?usp=sharing",
+      "extra": "",
+      "curriculum": ""
+    },
+    {
+      "id": 17,
+      "icon": "📢",
+      "name": "Critical Race Theory",
+      "image": "img/hypnotizedArmy.png",
+      "credit": ["Mandatory"],
+      "theme": "cRTColor",
+      "semester": 2,
+      "featured": false,
+      "intro": "Coming Soon: As soon as we figure out what it means.",
+      "description": "",
+      "warmups":""
+    },
+    {
+      "id": 18,
+      "icon": "🪶",
+      "name": "Native America",
+      "image": "img/chumash-indian-po23w-wow.jpg",
+      "credit": ["US History"],
+      "theme": "nAColor",
+      "semester": 2,
+      "featured": false,
+      "youtube": "https://youtube.com/playlist?list=PLhwsqXANwnd3j1PeN-TPyvqCNs8_d0dNc&si=7RKDpJautOjgJe-k",
+      "intro": "This class aims to construct an understanding of America's earliest inhabitants.",
+      "description": "",
+      "warmups": "https://docs.google.com/document/d/120vLZWzep5EWSGXP0bYes-woVjIlvG_D7X6z4SYy7cw/edit?usp=sharing",
+      "extra": "https://docs.google.com/document/d/1pCViAxV7PgXTSc8khy6yHdJCjG_nhJy0hmuZJH4MfBE/edit?usp=sharing",
+      "curriculum": ""
+    }
+  ],
+  "comments": [
+    {
+      "id": 17,
+      "courseId": 17,
+      "rating": 4,
+      "text": "Quas quis libero aliquid ut cum odio fuga.",
+      "author": "Alyssa Veum",
+      "date": "2023-01-09T20:56:53.276Z"
+    },
+    {
+      "id": 7,
+      "courseId": 0,
+      "rating": 5,
+      "text": "Deserunt consequatur magni cupiditate porro.",
+      "author": "Jean Mueller",
+      "date": "2023-01-04T11:35:59.625Z"
+    },
+    {
+      "id": 99,
+      "courseId": 17,
+      "rating": 3,
+      "text": "Minima quod recusandae quae.",
+      "author": "Mrs. Rosalie Moen",
+      "date": "2023-02-25T07:00:18.995Z"
+    },
+    {
+      "id": 25344,
+      "courseId": 1,
+      "rating": 2,
+      "text": "Voluptatem et quo quo at quam.",
+      "author": "Jeremy Lind",
+      "date": "2023-02-23T11:39:41.450Z"
+    },
+    {
+      "id": 67861,
+      "courseId": 2,
+      "rating": 4,
+      "text": "Blanditiis officiis sapiente ut quo autem.",
+      "author": "Marion DuBuque",
+      "date": "2022-12-04T01:12:46.418Z"
+    },
+    {
+      "id": 67291,
+      "courseId": 3,
+      "rating": 3,
+      "text": "Hic enim nobis consequuntur possimus eaque soluta.",
+      "author": "Elias Rohan",
+      "date": "2023-07-21T11:40:50.310Z"
+    },
+    {
+      "id": 37262,
+      "courseId": 4,
+      "rating": 3,
+      "text": "Asperiores dolor reiciendis.",
+      "author": "Gregg Hagenes I",
+      "date": "2023-06-03T14:05:02.216Z"
+    },
+    {
+      "id": 71330,
+      "courseId": 5,
+      "rating": 5,
+      "text": "Qui impedit excepturi praesentium dolorum vel explicabo illo quasi maiores.",
+      "author": "Mr. Lester Renner",
+      "date": "2023-02-18T16:20:33.230Z"
+    },
+    {
+      "id": 35229,
+      "courseId": 7,
+      "rating": 5,
+      "text": "Ut et facere reiciendis fuga.",
+      "author": "Alberto Kohler",
+      "date": "2023-07-07T08:08:15.005Z"
+    },
+    {
+      "id": 27482,
+      "courseId": 8,
+      "rating": 3,
+      "text": "Praesentium autem repudiandae magni voluptatem.",
+      "author": "Leonard Moore",
+      "date": "2023-04-22T22:51:19.460Z"
+    },
+    {
+      "id": 53522,
+      "courseId": 8,
+      "rating": 1,
+      "text": "Qui illum perspiciatis cumque rem quia sint.",
+      "author": "Faith Crona",
+      "date": "2023-02-16T11:12:05.996Z"
+    },
+    {
+      "id": 94901,
+      "courseId": 8,
+      "rating": 4,
+      "text": "Id ab sed.",
+      "author": "Sophie Abshire",
+      "date": "2023-05-21T02:30:29.170Z"
+    },
+    {
+      "id": 5548,
+      "courseId": 9,
+      "rating": 3,
+      "text": "Aliquid quia culpa iure quod.",
+      "author": "Gayle Parisian DDS",
+      "date": "2023-07-04T04:51:23.646Z"
+    },
+    {
+      "id": 77035,
+      "courseId": 10,
+      "rating": 1,
+      "text": "Suscipit et aut error in quod voluptatem et.",
+      "author": "Todd Hudson Sr.",
+      "date": "2023-01-02T13:17:23.213Z"
+    },
+    {
+      "id": 10772,
+      "courseId": 7,
+      "rating": 1,
+      "text": "Architecto et officiis nihil incidunt ut veritatis totam nesciunt dicta.",
+      "author": "Jerome Kemmer II",
+      "date": "2022-08-03T06:52:08.774Z"
+    },
+    {
+      "id": 74656,
+      "courseId": 10,
+      "rating": 4,
+      "text": "Veniam hic ut quam.",
+      "author": "Melvin Hodkiewicz",
+      "date": "2023-04-23T08:31:25.328Z"
+    },
+    {
+      "id": 27055,
+      "courseId": 4,
+      "rating": 1,
+      "text": "Aut accusantium aut unde et eos et quasi.",
+      "author": "Dr. Shelly Schoen",
+      "date": "2022-12-16T22:35:51.961Z"
+    },
+    {
+      "id": 57074,
+      "courseId": 5,
+      "rating": 5,
+      "text": "Fugit consequatur repellendus doloremque quidem in voluptas modi quas.",
+      "author": "Arnold Legros",
+      "date": "2023-04-26T04:35:04.937Z"
+    },
+    {
+      "id": 97657,
+      "courseId": 1,
+      "rating": 2,
+      "text": "Sit architecto soluta sit odio voluptatem reiciendis et laborum nam.",
+      "author": "Patrick Becker",
+      "date": "2023-06-20T14:01:17.138Z"
+    },
+    {
+      "id": 80523,
+      "courseId": 3,
+      "rating": 5,
+      "text": "Voluptatem minus debitis repudiandae enim ut sed et.",
+      "author": "Kellie Conroy",
+      "date": "2023-05-20T00:20:05.402Z"
+    },
+    {
+      "id": 28478,
+      "name": "Robel Group",
+      "image": "http://placeimg.com/640/480/nature",
+      "featured": true,
+      "description": "Voluptatem assumenda sint autem fuga cumque."
+    },
+    {
+      "courseId": 0,
+      "rating": "5",
+      "author": "Zero Cool",
+      "text": "Hello World!",
+      "date": "2023-07-22T21:32:38.025Z",
+      "id": 97658
+    },
+    {
+      "courseId": 2,
+      "rating": "5",
+      "author": "Eitan",
+      "text": "Hello!",
+      "date": "2023-07-29T05:21:41.314Z",
+      "id": 97659
+    }
+  ],
+  "takes": [
+    {
+      "id": 0,
+      "name": "Boulder County Latino History Project",
+      "image": "img/BCLHP.png",
+      "link": "https://twitter.com/EitanFire/status/651521850095235072?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E651521850095235072%7Ctwgr%5Ec7b20ce67f4bdb366b65a0d5d1193d75b9ce4762%7Ctwcon%5Es1_c10&ref_url=https%3A%2F%2Fpublish.twitter.com%2F%3Fquery%3Dhttps3A2F2Ftwitter.com2FEitanFire2Fstatus2F651521850095235072widget%3DTweet",
+      "featured": false,
+      "description": "Use these lesson plans I created for BCLHP. Learn more at https://latinohistoryproject.org/boulder-county/"
+    },
+    {
+      "id": 1,
+      "name": "What’s the truth about the Black Panther Party?",
+      "image": "img/bpp.jpg",
+      "link": "https://docs.google.com/document/d/1r6P4NZPV5jSF35Mz7VX9is_-JJoGndOMqA8XNV5IoSw/edit?usp=sharing",
+      "featured": false,
+      "description": "This learning activity offers students the opportunity to understand what was the Black Panther Party and to arrive at their own conclusions through research and a compare and contrast essay."
+    },
+    {
+      "id": 2,
+      "name": "Zinn Education Project",
+      "image": "img/teach-peoples-history.jpeg",
+      "link": "https://www.zinnedproject.org/",
+      "featured": true,
+      "description": "This collaboration between Rethinking Schools and Teaching for Change is a revolutionary resource for the progressive classroom. "
+    },
+        {
+      "id": 3,
+      "name": "Teacher Career Coach.",
+      "image": "img/daphne-gomez.jpeg",
+      "link": "https://www.instagram.com/p/CyUd0wYMzFD/",
+      "featured": false,
+      "description": "Daphne Gomez is a former teacher that helps teachers transition out of education and into other careers. Check out her insta for inspiration if you think you might want out."
+    }
+  ],
+  "rants": [
+    {
+      "id": 0,
+      "name": "r/Teachers",
+      "image": "img/r:AskHSteacher.png",
+      "link": "https://www.reddit.com/r/Teachers/",
+      "featured": true,
+      "description": "Check out this teacher subreddit to keep your finger on the pulse of how other teachers are feeling and even to give your own 2¢."
+    },
+    {
+      "id": 1,
+      "name": "Feral",
+      "image": "img/feral-circle.jpg",
+      "link": "https://haleytrippfire.substack.com/p/on-absenteeism",
+      "featured": false,
+      "description": "On Absenteeism \n Where are all the missing kids from classrooms? I can tell you where mine is."
+    },
+    {
+      "id": 2,
+      "name": "The Secret Teacher",
+      "image": "img/The-Secret-Teacher.webp",
+      "link": "https://www.theguardian.com/teacher-network/series/the-secret-teacher",
+      "featured": false,
+      "description": "This series of anonymous blog posts published in The Guardian has been discontinued but it's archive is still a great place to go to fell validated in your struggles as a teacher."
+    }
+  ],
+  "feedback": [
+    {
+      "id": 0,
+      "firstname": "Test",
+      "lastname": "Test",
+      "phoneNum": "12345",
+      "email": "test@test.com",
+      "agree": true,
+      "contactType": "Email",
+      "feedback": "test"
+    }
+  ]
+}
