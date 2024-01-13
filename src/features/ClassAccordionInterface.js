@@ -3,6 +3,7 @@ import { Card, CardBody, CardTitle, CardText } from "reactstrap";
 import { useSpring, animated, scale, easings } from "react-spring";
 import Government from "../app/img/Government.jpeg";
 import '../courseTheme.css';
+import '../Credit.css';
 
 const ClassAccordionInterface = ({
   name,
@@ -62,10 +63,10 @@ const ClassAccordionInterface = ({
           </CardTitle>
         </CardText>
         <Card>
-          <CardBody className="accordion-content-theme">
+          <CardBody className="accordion-content-theme"> // {theme}
             {isActive && (
-              <div className="accordion-content card-xxl-12">
-                {credit}
+              <div className="credit accordion-content card-xxl-12">
+                <span className="credit"> {credit[0]}</span>
                 {intro}
               </div>
             )}
