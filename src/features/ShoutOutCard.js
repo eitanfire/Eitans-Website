@@ -2,10 +2,6 @@ import {
   Container,
   Col,
   Row,
-  Card,
-  CardBody,
-  CardTitle,
-  CardText,
 } from "reactstrap";
 
 const ShoutOutCard = ({ to, from, because, id }) => {
