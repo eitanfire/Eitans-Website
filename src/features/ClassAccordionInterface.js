@@ -32,7 +32,7 @@ const ClassAccordionInterface = ({
   }, []);
 
   return (
-    <animated.div className={theme} style={animatedStyle}>
+    <animated.div style={animatedStyle}>
       <div className="accordion-item">
         <CardText
           className="accordion-title"
@@ -44,7 +44,7 @@ const ClassAccordionInterface = ({
               className="classImage mx-auto d-none d-xxl-block"
               // src="../app/img/world-war-vctor-background.png"
               src={image}
-              alt="World Wars banner"
+              alt="Class image banner"
             />
             {name}
             {id}
@@ -63,13 +63,23 @@ const ClassAccordionInterface = ({
           </CardTitle>
         </CardText>
         <Card>
-          <CardBody className="accordion-content-theme"> // {theme}
+          <CardBody className="accordion-content-theme">
             {isActive && (
-              <div className="credit accordion-content card-xxl-12">
+              <div className="accordion-content card-xxl-12">
                 <span className="credit"> {credit[0]}</span>
                 {intro}
               </div>
             )}
+            <a
+              role="button"
+              className="btn btn-light btn-link"
+              // href="https://docs.google.com/document/d/1iXyCNXjkfTFJy5DpO2tUF3MuDKHf9dFkl9pTCKcmpJQ/edit?usp=sharing"
+              href={warmups}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              👩🏻‍💻 Warm-Up Questions
+            </a>
             <a
               role="button"
               className="btn btn-light btn-link"
