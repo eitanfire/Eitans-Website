@@ -4,6 +4,7 @@ import { useSpring, animated, scale, easings } from "react-spring";
 import Government from "../app/img/Government.jpeg";
 import '../courseTheme.css';
 import '../Credit.css';
+import "../courseTheme.css";
 
 const ClassAccordionInterface = ({
   name,
@@ -38,12 +39,13 @@ const ClassAccordionInterface = ({
           className="accordion-title"
           onClick={() => setIsActive(!isActive)}
         >
-          <CardTitle>
+          <CardTitle id={theme}>
             {icon}
             <img
+              // id={theme}
               className="classImage mx-auto d-none d-xxl-block"
-              // src="../app/img/world-war-vctor-background.png"
               src={image}
+              // src="../app/img/world-war-vctor-background.png"
               alt="Class image banner"
             />
             {name}
@@ -65,7 +67,7 @@ const ClassAccordionInterface = ({
         <Card>
           <CardBody className="accordion-content-theme">
             {isActive && (
-              <div className="accordion-content card-xxl-12">
+              <div id={theme} className="accordion-content card-xxl-12">
                 <span className="credit"> {credit[0]}</span>
                 {intro}
               </div>

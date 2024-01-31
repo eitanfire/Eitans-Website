@@ -1,3 +1,6 @@
+import { useEffect } from "react";
+import { fetchCourses } from "./features/courses/coursesSlice";
+import { useDispatch } from "react-redux";
 import "./App.css";
 import Header from "./components/Header";
 import React from "react";
@@ -11,10 +14,14 @@ import HomePage from "./pages/HomePage";
 import Footer from "./components/Footer";
 
 function App() {
+  const dispatch = useDispatch();
+  useEffect(() => {
+    dispatch(fetchCourses());
+  }, [dispatch]);
+
   return (
     <div className="App">
-      <Header 
-      />
+      <Header />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="read-more" element={<EitansIntro />} />
@@ -22,8 +29,7 @@ function App() {
         <Route path="shout-out" element={<MakeAShoutOutForm />} />
         <Route path="course-interest-form" element={<CourseInterestForm />} />
       </Routes>
-      <Footer 
-      />
+      <Footer />
     </div>
   );
 }
