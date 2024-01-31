@@ -26,24 +26,22 @@ const coursesSlice = createSlice({
   name: "courses",
   initialState,
   reducers: {},
-  extraReducers: {
-    [fetchCourses.pending]: (state) => {
-      state.isLoading = true;
-    },
-    [fetchCourses.fulfilled]: (state, action) => {
-      state.isLoading = false;
-      state.errMsg = "";
-      state.coursesArray = mapImageURL(action.payload);
-    },
-    [fetchCourses.rejected]: (state, action) => {
-      state.isLoading = false;
-      state.errMsg = action.error ? action.error.message : "Fetch failed";
-    },
+  extraReducers: (builder) => {
+    builder
+      .addCase(fetchCourses.pending, (state) => {
+        state.isLoading = true;
+      })
+      .addCase(fetchCourses.fulfilled, (state, action) => {
+        state.isLoading = false;
+        state.errMsg = "";
+        state.coursesArray = mapImageURL(action.payload);
+      })
+      .addCase(fetchCourses.rejected, (state, action) => {
+        state.isLoading = false;
+        state.errMsg = action.error ? action.error.message : "Fetch failed";
+      });
   },
 });
-
-
-
 
 export const coursesReducer = coursesSlice.reducer;
 
