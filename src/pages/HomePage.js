@@ -8,6 +8,8 @@ import aDayBDay from "../utils/aDayBDay";
 // import Fall2023ClassesAccordion from "../components/TabComponent/V2/Fall2023ClassesAccordion.js";
 import ShoutOutCarousel from "../features/ShoutOutCarousel";
 import ClassAccordion from '../components/TabComponent/V2/ClassAccordion.js';
+import ClassAccordionInterface from "../features/ClassAccordionInterface.js";
+import AnimatedAccordion from "../features/AnimatedAccordion.js";
 
 const HomePage = () => {
   return (
@@ -20,7 +22,7 @@ const HomePage = () => {
         </Col>
         <Col className="accordion col-12 col-lg-9 col-xxl-9">
           {/* <Tabs /> */}
-          <ClassAccordion className="Fall2023ClassesAccordion col-12" />
+          <ClassAccordionInterface className="Fall2023ClassesAccordion col-12" />
         </Col>
         <Row>
           <Col className="col-12 mt-4">
