@@ -1,0 +1,34 @@
+{
+  "courses": [
+    {
+      "id": 0,
+      "name": "Philosophy",
+      "currentWarmUpURL": "",
+      "currentGoogleClassroomPage": ""
+    },
+    {
+      "id": 2,
+      "name": "Personal Finance",
+      "currentWarmUpURL": "",
+      "currentGoogleClassroomPage": ""
+    },
+    {
+      "id": 13,
+      "name": "The History of Disease",
+      "currentWarmUpURL": "",
+      "currentGoogleClassroomPage": ""
+    },
+        {
+          "id": 18,
+          "name": "Native America",
+          "currentWarmUpURL": "",
+          "currentGoogleClassroomPage": ""
+        },
+        {
+          "id": 10,
+          "name": "Government",
+          "currentWarmUpURL": "",
+          "currentGoogleClassroomPage": ""
+        }
+  ]
+}

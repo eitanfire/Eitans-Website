@@ -5,7 +5,7 @@ import ShoutOuts from "../components/ShoutOuts.js";
 import Time from "../components/Time";
 import aDayBDay from "../utils/aDayBDay";
 // import Tabs from "../components/TabComponent/Tabs";
-// import Fall2023ClassesAccordion from "../components/TabComponent/V2/Fall2023ClassesAccordion.js";
+import Fall2023ClassesAccordion from "../components/TabComponent/V2/Fall2023ClassesAccordion.js";
 import ShoutOutCarousel from "../features/ShoutOutCarousel";
 import ClassAccordion from '../components/TabComponent/V2/ClassAccordion.js';
 import ClassAccordionInterface from "../features/ClassAccordionInterface.js";
@@ -22,7 +22,7 @@ const HomePage = () => {
         </Col>
         <Col className="accordion col-12 col-lg-9 col-xxl-9">
           {/* <Tabs /> */}
-          <ClassAccordionInterface className="Fall2023ClassesAccordion col-12" />
+          <ClassAccordion className="Fall2023ClassesAccordion col-12" />
         </Col>
         <Row>
           <Col className="col-12 mt-4">
