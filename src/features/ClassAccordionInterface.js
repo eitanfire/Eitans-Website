@@ -2,8 +2,8 @@ import { useState, useEffect } from "react";
 import { Card, CardBody, CardTitle, CardText } from "reactstrap";
 import { useSpring, animated, scale, easings } from "react-spring";
 // import Government from "../app/img/Government.jpeg";
-import '../courseTheme.css';
-import '../Credit.css';
+import "../courseTheme.css";
+import "../Credit.css";
 import "../courseTheme.css";
 
 const ClassAccordionInterface = ({
