@@ -4,31 +4,36 @@
       "id": 0,
       "name": "Philosophy",
       "currentWarmUpURL": "https://classroom.google.com/c/NjQ2ODIxNDE4NjEy/a/NjQ2ODY1MzEzNTM4/details",
-      "currentGoogleClassroomPage": "https://classroom.google.com/w/NjQ2ODIxNDE4NjEy/t/all"
+      "currentGoogleClassroomPage": "https://classroom.google.com/w/NjQ2ODIxNDE4NjEy/t/all",
+      "currentExtra": "https://docs.google.com/document/u/0/d/11uwCD9deuqqwRTq3koyCVn617a4iuIdZZGun7IAfypk/edit"
     },
     {
       "id": 2,
       "name": "Personal Finance",
       "currentWarmUpURL": "https://classroom.google.com/c/NjUzMjgzMDI5MjYx/a/NjUzMjgzMDI5MzM1/details",
-      "currentGoogleClassroomPage": "https://classroom.google.com/w/NjUzMjgzMDI5MjYx/t/all"
+      "currentGoogleClassroomPage": "https://classroom.google.com/w/NjUzMjgzMDI5MjYx/t/all",
+      "currentExtra": "https://docs.google.com/document/u/0/d/1bkEJ6qf1NTSnN5maJxNwx_I8-fZLWNJ6ahemsFS5oWY/edit"
     },
     {
       "id": 13,
       "name": "The History of Disease",
       "currentWarmUpURL": "https://classroom.google.com/c/NjQ2ODUxNDYzMDg4/a/NjQ2ODUxNDYzMTY5/details",
-      "currentGoogleClassroomPage": "https://classroom.google.com/c/NjQ2ODUxNDYzMDg4/a/NjQ2ODUxNDYzMTY5/details"
+      "currentGoogleClassroomPage": "https://classroom.google.com/w/NjQ2ODUxNDYzMDg4/t/all",
+      "currentExtra": "https://docs.google.com/document/d/1Ap7tYeZPd6J333X9g9Hpq8ZmXdebK5TAqn7SX3UIICM/edit?usp=sharing"
     },
         {
           "id": 18,
           "name": "Native America",
           "currentWarmUpURL": "https://classroom.google.com/c/NjQ2ODUxNTQ2NjY5/a/NjQ2ODY2Mzg5MzM4/details",
-          "currentGoogleClassroomPage": ""
+          "currentGoogleClassroomPage": "https://classroom.google.com/w/NjQ2ODUxNTQ2NjY5/t/all",
+          "currentExtra": "https://docs.google.com/document/d/1pCViAxV7PgXTSc8khy6yHdJCjG_nhJy0hmuZJH4MfBE/edit?usp=sharing"
         },
         {
           "id": 10,
           "name": "Government",
-          "currentWarmUpURL": "",
-          "currentGoogleClassroomPage": ""
+          "currentWarmUpURL": "https://classroom.google.com/c/NjUzMjgxOTc0MjEz/a/NjQ2ODY2ODMyOTEx/details",
+          "currentGoogleClassroomPage": "https://classroom.google.com/w/NjUzMjgxOTc0MjEz/t/all",
+          "currentExtra": "https://docs.google.com/document/d/1JYHPc44KjabOynCVk2p1XROe4OZuLllRo_kKBwWG-w4/edit?usp=sharing"
         }
   ]
 }

@@ -39,6 +39,9 @@ const ClassAccordion = () => {
       currentGoogleClassroomPage: currentCourseData
         ? currentCourseData.currentGoogleClassroomPage
         : null,
+      currentExtra: currentCourseData 
+        ? currentCourseData.currentExtra 
+        : null,
     };
   });
 
@@ -63,6 +66,7 @@ const ClassAccordion = () => {
             image,
             currentWarmUpURL,
             currentGoogleClassroomPage,
+            currentExtra,
           } = selectedCourse;
 
           return (
@@ -79,6 +83,7 @@ const ClassAccordion = () => {
               credit={credit}
               currentWarmUpURL={currentWarmUpURL}
               currentGoogleClassroomPage={currentGoogleClassroomPage}
+              currentExtra={currentExtra}
             />
           );
         })}

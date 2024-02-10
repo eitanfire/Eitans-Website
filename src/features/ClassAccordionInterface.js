@@ -13,6 +13,8 @@ const ClassAccordionInterface = ({
   id,
   warmups,
   currentWarmUpURL,
+  currentGoogleClassroomPage,
+  currentExtra,
   theme,
   extra,
   youtube,
@@ -87,12 +89,22 @@ const ClassAccordionInterface = ({
                 >
                   👩🏻‍💻 Warm-Up Questions
                 </a>
-                📚 Classroom Page
                 <a
                   role="button"
                   className="btn btn-light btn-link"
                   // href="https://docs.google.com/document/d/1iXyCNXjkfTFJy5DpO2tUF3MuDKHf9dFkl9pTCKcmpJQ/edit?usp=sharing"
-                  href={extra}
+                  href={currentGoogleClassroomPage}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  📚 Classroom Page
+                </a>
+                <a
+                  role="button"
+                  className="btn btn-light btn-link"
+                  // href="https://docs.google.com/document/d/1iXyCNXjkfTFJy5DpO2tUF3MuDKHf9dFkl9pTCKcmpJQ/edit?usp=sharing"
+                  href={currentExtra}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
