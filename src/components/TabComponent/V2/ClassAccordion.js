@@ -18,31 +18,67 @@ const ClassAccordion = () => {
     { id: 10, image: Government },
   ];
 
+  // Combine courses from both data sources
+  const combinedCourses = courses.map(({ id, image }) => {
+    const selectedCourseData = data.courses.find((course) => course.id === id);
+    const currentCourseData = currentcoursedata.currentcoursedata.find(
+      (course) => course.id === id
+    );
+
+    if (!selectedCourseData) {
+      console.error(`Course with id ${id} not found in data.json.`);
+      return null;
+    }
+
+    return {
+      ...selectedCourseData,
+      image,
+      currentWarmUpURL: currentCourseData
+        ? currentCourseData.currentWarmUpURL
+        : null,
+      currentGoogleClassroomPage: currentCourseData
+        ? currentCourseData.currentGoogleClassroomPage
+        : null,
+    };
+  });
+
   return (
     <div>
       <Container>
-        {courses.map(({ id, image }) => {
-          const selectedCourse = data.courses.find(
-            (course) => course.id === id
-          );
-
+        {combinedCourses.map((selectedCourse) => {
           if (!selectedCourse) {
-            console.error(`Course with id ${id} not found.`);
-            return null; // or handle the case when the course is not found
+            return null;
           }
+
+          const {
+            id,
+            name,
+            intro,
+            icon,
+            warmups,
+            theme,
+            extra,
+            youtube,
+            credit,
+            image,
+            currentWarmUpURL,
+            currentGoogleClassroomPage,
+          } = selectedCourse;
 
           return (
             <ClassAccordionInterface
-              name={selectedCourse.name}
-              intro={selectedCourse.intro}
-              icon={selectedCourse.icon}
-              image={image} // Use the image from the courses array
-              key={selectedCourse.id}
-              warmups={selectedCourse.warmups}
-              theme={selectedCourse.theme}
-              extra={selectedCourse.extra}
-              youtube={selectedCourse.youtube}
-              credit={selectedCourse.credit}
+              name={name}
+              intro={intro}
+              icon={icon}
+              image={image}
+              key={id}
+              warmups={warmups}
+              theme={theme}
+              extra={extra}
+              youtube={youtube}
+              credit={credit}
+              currentWarmUpURL={currentWarmUpURL}
+              currentGoogleClassroomPage={currentGoogleClassroomPage}
             />
           );
         })}
