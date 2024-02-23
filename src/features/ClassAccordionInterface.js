@@ -72,7 +72,7 @@ const ClassAccordionInterface = ({
           </CardText>
           <Card>
             {isActive && (
-              <CardBody className="accordion-content-theme">
+              <CardBody className="accordion-content-theme" >
                 {/* {isActive && (
                 <div className="accordion-content card-xxl-12" id={theme}>
                   <span className="credit"> {credit[0]}</span>
