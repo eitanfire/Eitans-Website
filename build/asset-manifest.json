@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.64d751f6.css",
+    "main.css": "/static/css/main.b674e96f.css",
     "main.js": "/static/js/main.ec58d2ac.js",
     "static/media/students.png": "/static/media/students.20f812bfa447fe429a9a.png",
     "static/media/progressive-democracy copy.png": "/static/media/progressive-democracy copy.ecca24c80b3ce4ac55ef.png",
@@ -115,11 +115,11 @@
     "static/media/TLLogo.svg": "/static/media/TLLogo.bfbca0afa202c255b315.svg",
     "static/media/triangle copy.svg": "/static/media/triangle copy.5d61a7848efacd122c65.svg",
     "static/media/triangle.svg": "/static/media/triangle.5d61a7848efacd122c65.svg",
-    "main.64d751f6.css.map": "/static/css/main.64d751f6.css.map",
+    "main.b674e96f.css.map": "/static/css/main.b674e96f.css.map",
     "main.ec58d2ac.js.map": "/static/js/main.ec58d2ac.js.map"
   },
   "entrypoints": [
-    "static/css/main.64d751f6.css",
+    "static/css/main.b674e96f.css",
     "static/js/main.ec58d2ac.js"
   ]
 }
