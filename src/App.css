@@ -539,8 +539,6 @@ a {
     radial-gradient(ellipse at top, #ec008c, transparent),
     radial-gradient(ellipse at bottom, #fc6767, transparent);
   opacity: 85%;
-  /* margin-bottom: .5rem; */
-  /* margin-top: 1.75rem; */
   padding: 0.5rem;
   border: 4px solid black;
   text-align: center;
