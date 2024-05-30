@@ -6,6 +6,8 @@ body {
     background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)),
     radial-gradient(ellipse at top, #ffffff, transparent),
     radial-gradient(ellipse at bottom, #e7e3e3, transparent);
+      filter: brightness(0.85);
+
 }
 
 h1,
