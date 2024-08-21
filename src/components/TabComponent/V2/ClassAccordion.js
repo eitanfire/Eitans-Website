@@ -3,19 +3,15 @@ import { Container } from "reactstrap";
 import ClassAccordionInterface from "../../../features/ClassAccordionInterface";
 import data from "../../../utils/data.json";
 import currentcoursedata from "../../../utils/currentcoursedata.json";
-import Philosophy from "../../../app/img/flammarion-engraving.jpg";
-import FinanceImage from "../../../app/img/personal-finance.png";
-import DiseaseImage from "../../../app/img/diseases-image.jpg";
-import America from "../../../app/img/chumash-indian-pow-wow.jpg";
-import Government from "../../../app/img/Government.jpeg";
+import WorldHistoryImage from "../../../app/img/flammarion-engraving.jpg";
+import TechnologyImage from "../../../app/img/personal-finance.png";
+import GovernmentImage from "../../../app/img/diseases-image.jpg";
 
 const ClassAccordion = () => {
   const courses = [
-    { id: 0, image: Philosophy },
-    { id: 2, image: FinanceImage },
-    { id: 13, image: DiseaseImage },
-    { id: 18, image: America },
-    { id: 10, image: Government },
+    { id: 19, image: WorldHistoryImage },
+    { id: 20, image: TechnologyImage },
+    { id: 10, image: GovernmentImage },
   ];
 
   const [isExtraSmallScreen, setIsExtraSmallScreen] = useState(

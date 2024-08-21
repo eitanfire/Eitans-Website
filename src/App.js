@@ -14,10 +14,6 @@ import HomePage from "./pages/HomePage";
 import Footer from "./components/Footer";
 
 function App() {
-  const dispatch = useDispatch();
-  useEffect(() => {
-    dispatch(fetchCourses());
-  }, [dispatch]);
 
   return (
     <div className="App">

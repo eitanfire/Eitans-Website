@@ -9,7 +9,6 @@ import {
   Col,
 } from "reactstrap";
 import { shoutOuts } from "../utils/shoutOuts";
-import shoutOutBackground from "../../src/app/img/97128-color-explosion-free-download-png-hd.png";
 
 const ShoutOutCarousel = () => {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -28,6 +27,7 @@ const ShoutOutCarousel = () => {
       activeIndex === 0 ? shoutOuts.length - 1 : activeIndex - 1;
     setActiveIndex(nextIndex);
   };
+
   const slides = shoutOuts.map((item, index) => (
     <CarouselItem
       key={index}
@@ -35,45 +35,29 @@ const ShoutOutCarousel = () => {
       onExited={() => setAnimating(false)}
     >
       <Card>
-        <CardBody
-          // src="../../src/app/img/97128-color-explosion-free-download-png-hd.png"
-          className="shoutOuts"
-        >
+        <CardBody className="shoutOuts">
           {item.to && (
-            <Col col-4>
+            <Col>
               <CardText>To: {item.to}</CardText>
             </Col>
           )}
           {item.from && (
-            <Col col-4>
-              {item.from && <CardText>From: {item.from}</CardText>}
-            </Col>
+            <Col>{item.from && <CardText>From: {item.from}</CardText>}</Col>
           )}
-          <Col col-4>
-            {item.because && <CardText>For: {item.because}</CardText>}
-          </Col>
+          <Col>{item.because && <CardText>For: {item.because}</CardText>}</Col>
         </CardBody>
       </Card>
     </CarouselItem>
   ));
 
   return (
-    <div>
+    <div style={{ position: "relative" }}>
+      {/* Logo */}
+      <div className="shoutOut-logo">Shout Out</div>
+
+      {/* Carousel */}
       <Carousel activeIndex={activeIndex} next={next} previous={previous}>
-        {/* <CarouselIndicators
-          className="carousel-indicators"
-          items={shoutOuts}
-          activeIndex={activeIndex}
-          onClickHandler={(index) => setActiveIndex(index)}
-        /> */}
         {slides}
-        {/* <CarouselControl
-          data-slide="prev"
-          className="CarouselControl"
-          direction="prev"
-          directionText="Previous"
-          onClickHandler={previous}
-        /> */}
         <CarouselControl
           direction="next"
           directionText="Next"

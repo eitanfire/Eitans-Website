@@ -89,7 +89,7 @@
   z-index: -10;
 }
 
-#governmentColor {
+.governmentColor {
   content: "";
   box-shadow: inset 0 0 0 1000px rgb(7, 73, 58), 0.75;
   background: 
@@ -124,6 +124,21 @@
   box-shadow: inset 0 0 0 1000px rgb(194, 20, 20), 0.75;
   background: 
   /* radial-gradient(circle, #00ff7f 25%, rgb(255, 255, 255) 100%), */ url("https://www.fractalcamo.com/uploads/5/9/0/2/5902948/s189772745713394276_p2806_i100_w1000.jpeg");
+  background-size: 80rem;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.75;
+  z-index: -10;
+}
+
+.wHColor {
+  content: "";
+  box-shadow: inset 0 0 0 1000px rgb(7, 73, 58), 0.75;
+  background: 
+  /* radial-gradient(circle, #00ff7f 25%, rgb(255, 255, 255) 100%), */ url("./app/img/Egypt.png");
   background-size: 80rem;
   position: absolute;
   top: 0px;
@@ -292,6 +307,21 @@
   background: 
   /* radial-gradient(circle, #3a97b4d1 25%, rgb(55, 30, 151) 10%), */ url("https://i.pinimg.com/originals/a7/ea/f1/a7eaf16988a163f6efb3efd0ba35b690.gif");
   background-size: 2000px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.75;
+  z-index: -10;
+}
+
+.tColor {
+  content: "";
+  box-shadow: inset 0 0 0 1000px rgb(7, 73, 58), 0.75;
+  background: 
+  /* radial-gradient(circle, #00ff7f 25%, rgb(255, 255, 255) 100%), */ url("https://en.pimg.jp/043/069/837/1/43069837.jpg");
+  background-size: 80rem;
   position: absolute;
   top: 0px;
   right: 0px;

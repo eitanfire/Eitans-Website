@@ -172,10 +172,10 @@
       "id": 10,
       "icon": "🗽",
       "name": "Government",
-      "image": "img/Government.jpeg",
+      "image": "img/vote.png",
       "credit": ["Government"],
       "theme": "governmentColor",
-      "semester": 2,
+      "semester": 1,
       "featured": false,
       "youtube": "https://youtube.com/playlist?list=PLhwsqXANwnd0t3rPS4jgH6GJvxL9KqxUy&si=apOlgJixcT-UYZBk",
       "extrayoutube": "https://youtube.com/playlist?list=PLhwsqXANwnd0vKPPfJgMSU7fMzyPKzYM8&si=GTA0Pj4ETCadb2y2",
@@ -290,7 +290,7 @@
       "featured": false,
       "intro": "Coming Soon: As soon as we figure out what it means.",
       "description": "",
-      "warmups":""
+      "warmups": ""
     },
     {
       "id": 18,
@@ -306,7 +306,39 @@
       "description": "",
       "warmups": "https://docs.google.com/document/d/120vLZWzep5EWSGXP0bYes-woVjIlvG_D7X6z4SYy7cw/edit?usp=sharing",
       "extra": "https://docs.google.com/document/d/1pCViAxV7PgXTSc8khy6yHdJCjG_nhJy0hmuZJH4MfBE/edit?usp=sharing",
-      "curriculum": ""
+      "curriculum": "https://docs.google.com/document/d/1w5cv_0Pj9_Y6BMUJ9ohO5EClAmR2a51cowxUtrPqy2E/edit?usp=sharing"
+    },
+    {
+      "id": 19,
+      "icon": "🗺️",
+      "name": "World History",
+      "image": "img/stonehenge.png",
+      "credit": ["World History"],
+      "theme": "wHColor",
+      "semester": 1,
+      "featured": false,
+      "youtube": "https://youtube.com/playlist?list=PLhwsqXANwnd0KsSeywC2wIJBehcOzxZOK&si=LFm6S6USIhfIYqw9",
+      "intro": "",
+      "description": "",
+      "warmups": "https://docs.google.com/document/d/1v6inamRE6I1vx-jJPm1D3xvdGb8L0XVXQkjPgLLU_Uw/edit?usp=sharing",
+      "extra": "https://docs.google.com/document/d/1nzQDiUvynM7iHFT2aakUXIx0eKGjV7l2Ue9UVXJnVrI/edit?usp=sharing",
+      "curriculum": "https://docs.google.com/document/d/1F_Vf-AtsTPIpMkhs4PaN_NhM_pXqrQgjZnj2iyJo8q0/edit?usp=sharing"
+    },
+    {
+      "id": 20,
+      "icon": "📱",
+      "name": "Technology",
+      "image": "img/robot.jpg",
+      "credit": [],
+      "theme": "tColor",
+      "semester": 1,
+      "featured": false,
+      "youtube": "https://youtube.com/playlist?list=PLhwsqXANwnd07Q04ilVdoa2gQvIIkpVh7&si=TsJv9rWob5w94fih",
+      "intro": "",
+      "description": "",
+      "warmups": "https://docs.google.com/document/d/1dixlF0rjLKa4MbYwi3-wLcyrtQVPbeKcDc1Y4W--9W8/edit?usp=sharing",
+      "extra": "https://docs.google.com/document/d/18w1X4JgZc1-TpHTqggAAVU4nUiZhITBSWhOe-zOmD-0/edit?usp=sharing",
+      "curriculum": "https://docs.google.com/document/d/1n0BpFycy-pww3LtkNHL8SpWReDgQfOGAM2gYRqwxr6w/edit?usp=sharing"
     }
   ],
   "comments": [

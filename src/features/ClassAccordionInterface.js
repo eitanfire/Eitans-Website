@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { Card, CardBody, CardTitle, CardText } from "reactstrap";
 import { useSpring, animated, scale, easings } from "react-spring";
-// import Government from "../app/img/Government.jpeg";
 import "../courseTheme.css";
 import "../Credit.css";
 import "../courseTheme.css";
@@ -36,16 +35,14 @@ const ClassAccordionInterface = ({
   }, []);
 
   return (
-    <animated.div style={animatedStyle}>
+    <animated.div style={animatedStyle} >
       {
         <div className="accordion-item mb-1">
           <CardText
             className="accordion-title"
             onClick={() => setIsActive(!isActive)}
           >
-            <CardTitle
-            // id={theme}
-            >
+            <CardTitle>
               {icon}
               <img
                 // id={theme}
@@ -72,7 +69,9 @@ const ClassAccordionInterface = ({
           </CardText>
           <Card>
             {isActive && (
-              <CardBody className="accordion-content-theme">
+              <CardBody className={"accordion-item"} 
+              // id={theme}
+              >
                 {/* {isActive && (
                 <div className="accordion-content card-xxl-12" id={theme}>
                   <span className="credit"> {credit[0]}</span>

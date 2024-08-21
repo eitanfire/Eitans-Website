@@ -514,6 +514,7 @@ a {
   align-items: center;
   justify-content: center;
   --shoutOut-color: var(--body-bg);
+    text-align:center;
 }
 
 .shoutOuts::before,
@@ -602,8 +603,8 @@ a {
 }
 
 .shoutOuts {
-  font-size: xx-large;
-  font-weight: 700;
+  font-size: x-large;
+  /* font-weight: 700; */
   background: url(app/img/Color-Explosion.png) no-repeat,
     linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)),
     radial-gradient(ellipse at top, #ec008c, transparent),
@@ -611,12 +612,37 @@ a {
   background-position: 50% 45%;
   background-size: 50%;
   height: 10rem;
+   /* position: relative;
+  padding: 20px;
+  margin-left: 97px;  */
+}
+
+.shoutOuts .card-text {
+  word-wrap: break-word; /* Ensure text wraps */
+  white-space: pre-wrap; /* Preserve whitespace and wrap text */
+  /* font-size: 16px; */
+}
+
+.shoutOut-logo {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 100px;
+  height: 90px;
+  background-color: rgba(255, 255, 255, 0.7); /* Light white background */
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  text-transform: uppercase;
+  z-index: 10;
+  text-align: center;
 }
 
 .card-body {
   background-color: transparent;
-}
-
-.shoutOuts {
-  text-align: center;
 }

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b674e96f.css",
-    "main.js": "/static/js/main.ec58d2ac.js",
+    "main.css": "/static/css/main.4c0cae48.css",
+    "main.js": "/static/js/main.dbefc979.js",
     "static/media/students.png": "/static/media/students.20f812bfa447fe429a9a.png",
     "static/media/progressive-democracy copy.png": "/static/media/progressive-democracy copy.ecca24c80b3ce4ac55ef.png",
     "static/media/progressive-democracy.png": "/static/media/progressive-democracy.ecca24c80b3ce4ac55ef.png",
@@ -12,8 +12,10 @@
     "static/media/halo.png": "/static/media/halo.0fffd43000a72e98d875.png",
     "static/media/paper-wallpaper copy.png": "/static/media/paper-wallpaper copy.7dc87fd55d50f6ee39b9.png",
     "static/media/paper-wallpaper.png": "/static/media/paper-wallpaper.7dc87fd55d50f6ee39b9.png",
+    "static/media/vote.png": "/static/media/vote.88a22896679f9722937f.png",
     "static/media/leaf-wallpaper copy.png": "/static/media/leaf-wallpaper copy.2eb717959ff501248c40.png",
     "static/media/leaf-wallpaper.png": "/static/media/leaf-wallpaper.2eb717959ff501248c40.png",
+    "static/media/stonehenge.png": "/static/media/stonehenge.ac4d15de75a8c84035e5.png",
     "static/media/world-wars-banner.png": "/static/media/world-wars-banner.530ebb33252118cc30a4.png",
     "static/media/black-death copy.avif": "/static/media/black-death copy.f7ecc86d056ed0b9ff97.avif",
     "static/media/black-death.avif": "/static/media/black-death.f7ecc86d056ed0b9ff97.avif",
@@ -77,6 +79,7 @@
     "static/media/class-website-banner copy.png": "/static/media/class-website-banner copy.18ddd6400db9b1bafe5d.png",
     "static/media/class-website-banner.png": "/static/media/class-website-banner.18ddd6400db9b1bafe5d.png",
     "static/media/money-vector-bg.jpg": "/static/media/money-vector-bg.03df47afbbf38dbd0dee.jpg",
+    "static/media/robot.jpg": "/static/media/robot.af759f34e039c3c0b963.jpg",
     "static/media/seamless-germs-virus-and-microbes-background-vector-16161805.webp": "/static/media/seamless-germs-virus-and-microbes-background-vector-16161805.0db4af4d676882c0c624.webp",
     "static/media/AncientHistory copy.webp": "/static/media/AncientHistory copy.9e1ae23d58b99dd7f289.webp",
     "static/media/AncientHistory.webp": "/static/media/AncientHistory.9e1ae23d58b99dd7f289.webp",
@@ -115,11 +118,11 @@
     "static/media/TLLogo.svg": "/static/media/TLLogo.bfbca0afa202c255b315.svg",
     "static/media/triangle copy.svg": "/static/media/triangle copy.5d61a7848efacd122c65.svg",
     "static/media/triangle.svg": "/static/media/triangle.5d61a7848efacd122c65.svg",
-    "main.b674e96f.css.map": "/static/css/main.b674e96f.css.map",
-    "main.ec58d2ac.js.map": "/static/js/main.ec58d2ac.js.map"
+    "main.4c0cae48.css.map": "/static/css/main.4c0cae48.css.map",
+    "main.dbefc979.js.map": "/static/js/main.dbefc979.js.map"
   },
   "entrypoints": [
-    "static/css/main.b674e96f.css",
-    "static/js/main.ec58d2ac.js"
+    "static/css/main.4c0cae48.css",
+    "static/js/main.dbefc979.js"
   ]
 }
