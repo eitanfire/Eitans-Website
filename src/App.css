@@ -625,16 +625,16 @@ a {
 
 .shoutOut-logo {
   position: absolute;
-  top: 10px;
-  left: 10px;
-  width: 100px;
-  height: 90px;
+  top: 2vh; /* Adjusted for proportional spacing */
+  left: 2vh; /* Adjusted for proportional spacing */
+  width: 10vw; /* Width based on viewport width */
+  aspect-ratio: 1/1; /* Maintain a 1:1 aspect ratio for a perfect circle */
   background-color: rgba(255, 255, 255, 0.7); /* Light white background */
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 20px;
+  font-size: 2vw; /* Font size based on viewport width */
   font-weight: bold;
   color: #333;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
@@ -642,6 +642,7 @@ a {
   z-index: 10;
   text-align: center;
 }
+
 
 .card-body {
   background-color: transparent;
