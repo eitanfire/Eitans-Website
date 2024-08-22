@@ -187,7 +187,6 @@ img {
 @media screen and (max-width: 500px) {
   .footer {
     color: rgb(45, 31, 31);
-    text-indent: -5em;
     font-size: large;
     border: 0.2rem solid transparent;
     opacity: 0.9;
