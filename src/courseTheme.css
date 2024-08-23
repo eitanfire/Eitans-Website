@@ -330,3 +330,8 @@
   opacity: 0.75;
   z-index: -10;
 }
+
+ .tech-class-image {
+  image-orientation: flip;
+  /* background-position: -3rem -5rem; */
+ }

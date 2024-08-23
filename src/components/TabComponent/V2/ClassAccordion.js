@@ -3,14 +3,14 @@ import { Container } from "reactstrap";
 import ClassAccordionInterface from "../../../features/ClassAccordionInterface";
 import data from "../../../utils/data.json";
 import currentcoursedata from "../../../utils/currentcoursedata.json";
-import WorldHistoryImage from "../../../app/img/flammarion-engraving.jpg";
-import TechnologyImage from "../../../app/img/personal-finance.png";
-import GovernmentImage from "../../../app/img/diseases-image.jpg";
+import WorldHistoryImage from "../../../app/img/stonehenge.png";
+import TechnologyImage from "../../../app/img/thinking_bot.jpg";
+import GovernmentImage from "../../../app/img/vote.png";
 
 const ClassAccordion = () => {
   const courses = [
     { id: 19, image: WorldHistoryImage },
-    { id: 20, image: TechnologyImage },
+    { id: 20, image: TechnologyImage, className: "tech-class-image" },
     { id: 10, image: GovernmentImage },
   ];
 
@@ -32,7 +32,7 @@ const ClassAccordion = () => {
   }, []);
 
   // Combine courses from both data sources
-  const combinedCourses = courses.map(({ id, image }) => {
+  const combinedCourses = courses.map(({ id, image, className }) => {
     const selectedCourseData = data.courses.find((course) => course.id === id);
     const currentCourseData = currentcoursedata.currentcoursedata.find(
       (course) => course.id === id
@@ -46,6 +46,7 @@ const ClassAccordion = () => {
     return {
       ...selectedCourseData,
       image,
+      className,
       currentWarmUpURL: currentCourseData
         ? currentCourseData.currentWarmUpURL
         : null,
@@ -101,6 +102,7 @@ const ClassAccordion = () => {
               currentWarmUpURL={currentWarmUpURL}
               currentGoogleClassroomPage={currentGoogleClassroomPage}
               currentExtra={currentExtra}
+              className={selectedCourse.className}
             />
           );
         })}
