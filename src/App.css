@@ -626,7 +626,7 @@ a {
   position: absolute;
   top: 2vh;
   left: 5.5vh;
-  width: 10.5vw;
+  width: 10.25vw;
   aspect-ratio: 1/1; /* Maintain a 1:1 aspect ratio for a perfect circle */
   background-color: rgba(255, 255, 255, 0.7); /* Light white background */
   border-radius: 50%;
