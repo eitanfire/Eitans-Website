@@ -624,16 +624,16 @@ a {
 
 .shoutOut-logo {
   position: absolute;
-  top: 2vh; /* Adjusted for proportional spacing */
-  left: 2vh; /* Adjusted for proportional spacing */
-  width: 10vw; /* Width based on viewport width */
+  top: 2vh;
+  left: 5.5vh;
+  width: 10.5vw;
   aspect-ratio: 1/1; /* Maintain a 1:1 aspect ratio for a perfect circle */
   background-color: rgba(255, 255, 255, 0.7); /* Light white background */
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 2vw; /* Font size based on viewport width */
+  font-size: 2vw;
   font-weight: bold;
   color: #333;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
