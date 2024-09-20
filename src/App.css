@@ -494,14 +494,7 @@ a {
   border: 0.2rem solid transparent;
   background-size: 100rem;
   background-attachment: fixed;
-  /* max-width: 100%;
-  height: auto;
-  object-fit: contain;   */
   margin: 0.5rem;
-}
-.shoutOuts,
-.time,
-#shine {
 }
 
 #nameAndYear {
@@ -603,7 +596,6 @@ a {
 
 .shoutOuts {
   font-size: x-large;
-  /* font-weight: 700; */
   background: url(app/img/Color-Explosion.png) no-repeat,
     linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)),
     radial-gradient(ellipse at top, #ec008c, transparent),
@@ -611,15 +603,11 @@ a {
   background-position: 50% 45%;
   background-size: 50%;
   height: 10rem;
-   /* position: relative;
-  padding: 20px;
-  margin-left: 97px;  */
 }
 
 .shoutOuts .card-text {
   word-wrap: break-word; /* Ensure text wraps */
   white-space: pre-wrap; /* Preserve whitespace and wrap text */
-  /* font-size: 16px; */
 }
 
 .shoutOut-logo {
@@ -628,7 +616,7 @@ a {
   left: 5.5vh;
   width: 10.25vw;
   aspect-ratio: 1/1; /* Maintain a 1:1 aspect ratio for a perfect circle */
-  background-color: rgba(255, 255, 255, 0.7); /* Light white background */
+  background-color: rgba(255, 255, 255, 0.7);
   border-radius: 50%;
   display: flex;
   justify-content: center;

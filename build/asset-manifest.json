@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.4c0cae48.css",
-    "main.js": "/static/js/main.dbefc979.js",
+    "main.css": "/static/css/main.910b53ff.css",
+    "main.js": "/static/js/main.b8960c96.js",
     "static/media/students.png": "/static/media/students.20f812bfa447fe429a9a.png",
+    "static/media/Egypt.png": "/static/media/Egypt.7e2bdf1f2bde11f91da5.png",
     "static/media/progressive-democracy copy.png": "/static/media/progressive-democracy copy.ecca24c80b3ce4ac55ef.png",
     "static/media/progressive-democracy.png": "/static/media/progressive-democracy.ecca24c80b3ce4ac55ef.png",
     "static/media/rainbow-wallpaper copy.png": "/static/media/rainbow-wallpaper copy.8cb7b13a121562f331fc.png",
@@ -12,6 +13,7 @@
     "static/media/halo.png": "/static/media/halo.0fffd43000a72e98d875.png",
     "static/media/paper-wallpaper copy.png": "/static/media/paper-wallpaper copy.7dc87fd55d50f6ee39b9.png",
     "static/media/paper-wallpaper.png": "/static/media/paper-wallpaper.7dc87fd55d50f6ee39b9.png",
+    "static/media/Gears.png": "/static/media/Gears.2f28e5ff17ae8318e793.png",
     "static/media/vote.png": "/static/media/vote.88a22896679f9722937f.png",
     "static/media/leaf-wallpaper copy.png": "/static/media/leaf-wallpaper copy.2eb717959ff501248c40.png",
     "static/media/leaf-wallpaper.png": "/static/media/leaf-wallpaper.2eb717959ff501248c40.png",
@@ -70,6 +72,7 @@
     "static/media/Fugitives copy.jpg": "/static/media/Fugitives copy.13b053e6ffd00ec714af.jpg",
     "static/media/Fugitives.jpg": "/static/media/Fugitives.13b053e6ffd00ec714af.jpg",
     "static/media/hijab.png": "/static/media/hijab.ee618206eda8d4bd8522.png",
+    "static/media/thinking_bot.jpg": "/static/media/thinking_bot.41f3a6e2e6600bf3a209.jpg",
     "static/media/film-banner copy.png": "/static/media/film-banner copy.b3e34a72e2f631387925.png",
     "static/media/film-banner.png": "/static/media/film-banner.b3e34a72e2f631387925.png",
     "static/media/na-bg.jpg": "/static/media/na-bg.bca543ec2e71b2a8b1d3.jpg",
@@ -118,11 +121,11 @@
     "static/media/TLLogo.svg": "/static/media/TLLogo.bfbca0afa202c255b315.svg",
     "static/media/triangle copy.svg": "/static/media/triangle copy.5d61a7848efacd122c65.svg",
     "static/media/triangle.svg": "/static/media/triangle.5d61a7848efacd122c65.svg",
-    "main.4c0cae48.css.map": "/static/css/main.4c0cae48.css.map",
-    "main.dbefc979.js.map": "/static/js/main.dbefc979.js.map"
+    "main.910b53ff.css.map": "/static/css/main.910b53ff.css.map",
+    "main.b8960c96.js.map": "/static/js/main.b8960c96.js.map"
   },
   "entrypoints": [
-    "static/css/main.4c0cae48.css",
-    "static/js/main.dbefc979.js"
+    "static/css/main.910b53ff.css",
+    "static/js/main.b8960c96.js"
   ]
 }
