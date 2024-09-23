@@ -53,8 +53,10 @@ const ShoutOutCarousel = () => {
   return (
     <div style={{ position: "relative" }}>
       {/* Logo */}
-      <div className="shoutOut-logo">Shout Out</div>
-
+      <div className="shoutOut-logo d-xxl-none">Shout Out</div>
+      <div className="shoutOut-logo-xxl d-none d-xxl-block">
+        Shout Out
+      </div>
       {/* Carousel */}
       <Carousel activeIndex={activeIndex} next={next} previous={previous}>
         {slides}

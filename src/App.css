@@ -610,11 +610,12 @@ a {
   white-space: pre-wrap; /* Preserve whitespace and wrap text */
 }
 
-.shoutOut-logo {
+.shoutOut-logo,
+.shoutOut-logo-xxl {
   position: absolute;
   top: 2vh;
   left: 5.5vh;
-  width: 10.25vw;
+  width: clamp (9.5vw, 9.75vw, 10vw);
   aspect-ratio: 1/1; /* Maintain a 1:1 aspect ratio for a perfect circle */
   background-color: rgba(255, 255, 255, 0.7);
   border-radius: 50%;
@@ -630,6 +631,11 @@ a {
   text-align: center;
 }
 
+.shoutOut-logo-xxl {
+    top: 0vh;
+      width: clamp(7.75dvw, 8dvw, 8.25vw);
+
+}
 
 .card-body {
   background-color: transparent;
