@@ -27,21 +27,6 @@
   z-index: -10;
 }
 
-/* #programmingColor {
-  content: "";
-  background: 
-  radial-gradient(circle, #af7fdd 25%, rgb(255, 255, 255) 100%),
-  url("https://as1.ftcdn.net/v2/jpg/02/38/22/66/1000_F_238226669_2e3HdJV5zB9LKE2RWaWoDN692MLSnv4g.jpg");
-  background-size: 500px;
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  opacity: 0.75;
-  z-index: -10;
-} */
-
 #epicsColor {
   content: "";
   box-shadow: inset 0 0 0 1000px rgba(242, 255, 0, 0.658);
