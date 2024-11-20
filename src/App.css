@@ -3,10 +3,10 @@ body {
 }
 
 #root {
-    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)),
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)),
     radial-gradient(ellipse at top, #ffffff, transparent),
     radial-gradient(ellipse at bottom, #e7e3e3, transparent);
-      filter: brightness(0.85);
+  filter: brightness(0.85);
 
 }
 
@@ -24,8 +24,7 @@ img {
 }
 
 #Header {
-  background: url("https://image.shutterstock.com/image-vector/traditional-indian-paisley-pattern-on-600w-1726867504.jpg")
-      no-repeat,
+  background: url("https://image.shutterstock.com/image-vector/traditional-indian-paisley-pattern-on-600w-1726867504.jpg") no-repeat,
     linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)),
     radial-gradient(ellipse at top, #ec008c, transparent),
     radial-gradient(ellipse at bottom, #fc6767, transparent);
@@ -104,6 +103,7 @@ img {
 #pie {
   filter: grayscale(1);
 }
+
 #pie:hover {
   font-size: 3rem;
   transition: 0.1s;
@@ -116,8 +116,6 @@ img {
 #icon:active,
 #icon:hover {
   color: transparent;
-
-  /* color: red; */
 }
 
 .accordion-title:hover {
@@ -378,10 +376,8 @@ img {
 }
 
 #coldWarColor {
-  background: radial-gradient(
-      rgb(255, 255, 255) 40%,
-      rgba(239, 42, 3, 0.541) 100%
-    ),
+  background: radial-gradient(rgb(255, 255, 255) 40%,
+      rgba(239, 42, 3, 0.541) 100%),
     url("https://d1sxy7l4fhu207.cloudfront.net/uploads/392/conversions/Banner_2_Red_1579264170-1255x780.jpg");
   background-size: 600px;
 }
@@ -501,7 +497,7 @@ a {
   align-items: center;
   justify-content: center;
   --shoutOut-color: var(--body-bg);
-    text-align:center;
+  text-align: center;
 }
 
 .shoutOuts::before,
@@ -601,8 +597,10 @@ a {
 }
 
 .shoutOuts .card-text {
-  word-wrap: break-word; /* Ensure text wraps */
-  white-space: pre-wrap; /* Preserve whitespace and wrap text */
+  word-wrap: break-word;
+  /* Ensure text wraps */
+  white-space: pre-wrap;
+  /* Preserve whitespace and wrap text */
 }
 
 .shoutOut-logo,
@@ -611,7 +609,8 @@ a {
   top: 2vh;
   left: 5.5vh;
   width: clamp (9.5vw, 9.75vw, 10vw);
-  aspect-ratio: 1/1; /* Maintain a 1:1 aspect ratio for a perfect circle */
+  aspect-ratio: 1/1;
+  /* Maintain a 1:1 aspect ratio for a perfect circle */
   background-color: rgba(255, 255, 255, 0.7);
   border-radius: 50%;
   display: flex;
@@ -627,8 +626,8 @@ a {
 }
 
 .shoutOut-logo-xxl {
-    top: 0vh;
-      width: clamp(7.75dvw, 8dvw, 8.25vw);
+  top: 0vh;
+  width: clamp(7.75dvw, 8dvw, 8.25vw);
 
 }
 
