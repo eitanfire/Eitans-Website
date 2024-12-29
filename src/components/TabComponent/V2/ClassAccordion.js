@@ -9,7 +9,7 @@ import GovernmentImage from "../../../app/img/vote.png";
 
 const ClassAccordion = () => {
   const courses = [
-    { id: 19, image: WorldHistoryImage },
+    { id: 19, image: WorldHistoryImage, name: History },
     { id: 20, image: TechnologyImage, className: "tech-class-image" },
     { id: 10, image: GovernmentImage },
   ];
