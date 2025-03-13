@@ -57,7 +57,7 @@ const EitansIntro = () => {
                 Haley and I moved back to Colorado in
                 2010. I have been a classroom teacher for the last {year - 2010}{" "}
                 years. Our daughter, Bayla is {year - 2016}
-                {""} years old. During the week you will find me teaching social
+                {""} years old. During the week you will find me teaching computer science and social
                 studies at September High School. Thank you for welcoming me. I
                 look forward to learning more about you.
               </p>
