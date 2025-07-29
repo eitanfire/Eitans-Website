@@ -1,8 +1,8 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import { db } from "../../app/firebase.config";
 import { collection, getDocs } from "firebase/firestore";
-import { mapImageURL } from "../../utils/mapImageURL";
-import { baseUrl } from "../../app/shared/baseUrl";
+// import { mapImageURL } from "../../utils/mapImageURL";
+// import { baseUrl } from "../../app/shared/baseUrl";
 
 export const fetchCourses = createAsyncThunk(
   "courses/fetchCourses",
