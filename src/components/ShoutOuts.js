@@ -2,10 +2,6 @@ import {
   Container,
   Col,
   Row,
-  Card,
-  CardBody,
-  CardTitle,
-  CardText,
 } from "reactstrap";
 import ShoutOutCard from "../features/ShoutOutCard";
 import { shoutOuts } from "../utils/shoutOuts";
