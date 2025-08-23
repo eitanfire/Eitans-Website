@@ -1,6 +1,3 @@
-import { useEffect } from "react";
-import { fetchCourses } from "./features/courses/coursesSlice";
-import { useDispatch } from "react-redux";
 import "./App.css";
 import Header from "./components/Header";
 import React from "react";
