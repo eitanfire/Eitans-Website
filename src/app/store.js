@@ -4,7 +4,6 @@ import { coursesReducer } from "../features/courses/coursesSlice";
 // import { takesReducer } from "../features/takes/takesSlice";
 // import { rantsReducer } from "../features/rants/rantsSlice";
 // import { commentsReducer } from "../features/comments/commentsSlice";
-// import { userReducer } from "../features/user/userSlice";
 
 export const store = configureStore({
   reducer: {
