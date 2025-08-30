@@ -4,7 +4,6 @@ import Calendar from "../components/Calendar.js";
 import ShoutOuts from "../components/ShoutOuts.js";
 import Time from "../components/Time";
 import aDayBDay from "../utils/aDayBDay";
-// import Tabs from "../components/TabComponent/Tabs";
 import Fall2023ClassesAccordion from "../components/TabComponent/V2/Fall2023ClassesAccordion.js";
 import ShoutOutCarousel from "../features/ShoutOutCarousel";
 import ClassAccordion from '../components/TabComponent/V2/ClassAccordion.js';
