@@ -1,14 +1,14 @@
 import { Col, Row, Container } from "reactstrap";
 import EitanInfo from "../features/EitanInfo.js";
 import Calendar from "../components/Calendar.js";
-import ShoutOuts from "../components/ShoutOuts.js";
+// import ShoutOuts from "../components/ShoutOuts.js";
 import Time from "../components/Time";
 import aDayBDay from "../utils/aDayBDay";
-import Fall2023ClassesAccordion from "../components/TabComponent/V2/Fall2023ClassesAccordion.js";
+// import Fall2023ClassesAccordion from "../components/TabComponent/V2/Fall2023ClassesAccordion.js";
 import ShoutOutCarousel from "../features/ShoutOutCarousel";
 import ClassAccordion from '../components/TabComponent/V2/ClassAccordion.js';
-import ClassAccordionInterface from "../features/ClassAccordionInterface.js";
-import AnimatedAccordion from "../features/AnimatedAccordion.js";
+// import ClassAccordionInterface from "../features/ClassAccordionInterface.js";
+// import AnimatedAccordion from "../features/AnimatedAccordion.js";
 
 const HomePage = () => {
   return (
